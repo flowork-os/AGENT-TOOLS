@@ -1,0 +1,14 @@
+{
+  "category": "database",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "sqlite_inspector",
+      "name": "SQLite Inspector",
+      "category": "database",
+      "version": "1.0.0",
+      "description": "Inspect SQLite database schemas, query table stats, and integrity check.",
+      "shard": "index/sq/li/sqlite_inspector.json"
+    }
+  ]
+}
