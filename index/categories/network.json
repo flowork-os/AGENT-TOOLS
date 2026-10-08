@@ -1,0 +1,22 @@
+{
+  "category": "network",
+  "total_items": 2,
+  "items": [
+    {
+      "id": "dns_lookup",
+      "name": "DNS Lookup",
+      "category": "network",
+      "version": "1.0.0",
+      "description": "Resolve DNS records (A, AAAA, CNAME, MX, TXT, NS) with latency benchmarks.",
+      "shard": "index/dn/s_/dns_lookup.json"
+    },
+    {
+      "id": "port_scanner",
+      "name": "Port Scanner",
+      "category": "network",
+      "version": "1.0.0",
+      "description": "Rapid TCP port scanner and service banner grabber for local/remote hosts.",
+      "shard": "index/po/rt/port_scanner.json"
+    }
+  ]
+}
