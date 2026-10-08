@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="#-the-problem--solution">The Problem & Solution</a> •
-  <a href="#-tools-catalog">Tools Catalog</a> •
+  <a href="#-dynamic-discovery--search">Discovery</a> •
   <a href="#-nano-tool-architecture">Architecture</a> •
   <a href="#-tool-manifest-specification">Manifest Spec</a> •
   <a href="#-zero-api-installation">Installation</a> •
@@ -27,25 +27,39 @@
 ## 💡 The Problem & The Nano-Tool Solution
 
 ### The Bottleneck: Context Pollution & Process Overhead
-Modern LLMs and autonomous agents degrade in reasoning quality when bloated with dozens of static tool definitions in the system prompt. Furthermore, running heavy standalone MCP daemon servers for single-purpose utilities drains memory and increases latency.
+Modern LLMs and autonomous agents suffer performance degradation when bloated with dozens of static tool definitions in the system prompt. Furthermore, running heavy standalone MCP daemon servers for single-purpose utilities drains memory and increases execution latency.
 
 ### The Flowork OS Solution: Just-In-Time (JIT) Dynamic Tool Mounting
 Flowork OS decouples agent reasoning from tool definitions:
 1. **Anchor Tools (Permanent)**: The agent operates with only 8 foundational anchor tools (`run_command`, `view_file`, `write_to_file`, `replace_file_content`, `read_url_content`, `search_web`, `invoke_subagent`, `search_tools`).
-2. **Ephemeral Dynamic Tools (On-Demand)**: Domain-specific micro-tools are discovered dynamically via `search_tools` and mounted into the active turn only when needed.
+2. **Ephemeral Dynamic Tools (On-Demand)**: Domain-specific micro-tools are discovered dynamically via `search_tools` and mounted into the active turn only when required.
 3. **Instant De-Mounting**: After the goal is achieved, ephemeral tools are evicted from the LLM prompt context, preserving 100% of context capacity for user instructions and code synthesis.
 
 ---
 
-## 🧰 Verified Sovereign Micro-Tools Catalog
+## 🔍 Dynamic Discovery & Search
 
-| Icon | Tool ID | Version | Category | Description | Source & Shard |
-| :---: | :--- | :---: | :---: | :--- | :--- |
-| 🌐 | **`dns_lookup`** | `1.0.0` | `network` | Perform DNS A, AAAA, MX, and TXT record lookups natively with zero external dependencies. | [`tools/dn/dns_lookup`](tools/dn/dns_lookup) • [`shard`](index/dn/s_/dns_lookup.json) |
-| 🛡️ | **`port_scanner`** | `1.0.0` | `security` | High-speed asynchronous socket-based TCP port scanner and service prober. | [`tools/po/port_scanner`](tools/po/port_scanner) • [`shard`](index/po/rt/port_scanner.json) |
-| 🗄️ | **`sqlite_inspector`** | `1.0.0` | `database` | Inspect table schemas, indexes, row counts, and sample records in SQLite databases. | [`tools/sq/sqlite_inspector`](tools/sq/sqlite_inspector) • [`shard`](index/sq/li/sqlite_inspector.json) |
+To support thousands of tools without polluting repository files, all tools are indexed dynamically:
 
-*More micro-tools (Git diff visualizers, Redis inspectors, AWS STS auditors, Webhook listeners) are added weekly.*
+### 1. Agent Dynamic Tool Search
+Flowork AI agents discover and mount tools in real time using semantic keyword matching:
+```javascript
+// Dynamic search invoked directly by AI agent runtime
+await agent.callTool("search_tools", {
+  action: "search_remote",
+  query: "network port scanner"
+});
+```
+
+### 2. Edge Registry API
+Query tools via Edge Gateway API:
+```bash
+curl -s "https://plugins.floworkos.com/api/tools/search?q=dns"
+```
+
+### 3. Sharded File Registry
+Direct lookups via Crates.io-style sharded JSON metadata:
+`index/<aa>/<bb>/<tool_id>.json`
 
 ---
 
@@ -54,19 +68,11 @@ Flowork OS decouples agent reasoning from tool definitions:
 ```
 AGENT-TOOLS/
 ├── index/                        # O(1) Crates.io-style sharded lookup metadata
-│   ├── dn/s_/dns_lookup.json
-│   ├── po/rt/port_scanner.json
-│   └── sq/li/sqlite_inspector.json
+│   └── <aa>/<bb>/<tool_id>.json
 ├── tools/                        # Sovereign isolated tool directories
-│   ├── dn/dns_lookup/
-│   │   ├── manifest.json         # Parameter schemas & command runner
-│   │   └── index.js              # Standalone zero-dependency executable
-│   ├── po/port_scanner/
-│   │   ├── manifest.json
-│   │   └── index.js
-│   └── sq/sqlite_inspector/
-│       ├── manifest.json
-│       └── index.js
+│   └── <aa>/<tool_id>/
+│       ├── manifest.json         # Parameter schemas & command runner
+│       └── index.js              # Standalone zero-dependency executable
 ├── tools.json                    # Root registry index
 └── README.md
 ```
@@ -84,31 +90,27 @@ Every tool is strictly defined by an agnostic `manifest.json` conforming to Anth
 
 ```json
 {
-  "id": "dns_lookup",
-  "name": "DNS Lookup Tool",
+  "id": "sample_tool",
+  "name": "Sample Micro-Tool",
   "version": "1.0.0",
-  "category": "network",
-  "description": "Perform DNS A, AAAA, MX, and TXT record lookups with zero external dependencies",
+  "category": "utilities",
+  "description": "High-speed standalone utility with zero external dependencies",
   "command": "node index.js",
   "author": "Flowork OS",
   "keywords": [
-    "dns", "network", "resolve", "lookup", "ip", "domain", "mx", "txt", "ns", "nameserver",
-    "sovereign", "flowork", "diagnostics", "internet", "routing", "tcp", "udp", "query", "host", "infrastructure"
+    "utility", "microtool", "sovereign", "flowork", "mcp", "fast", "zero_dependency",
+    "automation", "agentic", "developer", "runtime", "cli", "lightweight", "performance",
+    "linux", "windows", "macos", "portable", "sandboxed", "execution"
   ],
   "parameters": {
     "type": "OBJECT",
     "properties": {
-      "domain": {
+      "target": {
         "type": "STRING",
-        "description": "Domain name to resolve (e.g. floworkos.com)"
-      },
-      "type": {
-        "type": "STRING",
-        "description": "DNS record type: A, AAAA, MX, TXT, or ALL",
-        "enum": ["A", "AAAA", "MX", "TXT", "ALL"]
+        "description": "Target address or argument"
       }
     },
-    "required": ["domain"]
+    "required": ["target"]
   }
 }
 ```
@@ -120,9 +122,11 @@ Every tool is strictly defined by an agnostic `manifest.json` conforming to Anth
 Mount tools directly via CDN streaming without consuming GitHub API rate limits:
 
 ```bash
-# Stream and extract micro-tool directly into active workspace
+TOOL_ID="dns_lookup"
+PREFIX="${TOOL_ID:0:2}"
+
 curl -sL "https://codeload.github.com/flowork-os/AGENT-TOOLS/tar.gz/main" | \
-  tar -xz --strip-components=3 -C ./.fl_bin/ "AGENT-TOOLS-main/tools/dn/dns_lookup"
+  tar -xz --strip-components=3 -C ./.fl_bin/ "AGENT-TOOLS-main/tools/${PREFIX}/${TOOL_ID}"
 ```
 
 ### Agent In-Session Dynamic Execution
@@ -144,9 +148,9 @@ We welcome community micro-tools! Follow these core doctrines:
 
 ```bash
 git checkout -b feature/add-new-tool
-# Add to tools/{prefix}/{tool_id}
+# Add to tools/{id[:2]}/{tool_id}
 git add tools/ index/ tools.json
-git commit -m "feat(tools): add <tool_id> micro-tool"
+git commit -m "feat(tools): publish <tool_id> micro-tool"
 git push origin feature/add-new-tool
 ```
 
