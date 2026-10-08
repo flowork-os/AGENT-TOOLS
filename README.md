@@ -11,7 +11,16 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/flowork-os/AGENT-TOOLS/pulls)
 
+<br />
+
+<a href="https://github.com/flowork-os/FLOWORK-AGENT">
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20DOWNLOAD%20FLOWORK%20AGENT-INSTALL%20NOW%20%E2%86%92-FF0055?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0D1117" alt="Download Flowork Agent" height="54" />
+</a>
+
+<br /><br />
+
 <p align="center">
+  <a href="#-get-the-flowork-agent">Download Agent</a> •
   <a href="#-the-problem--solution">The Problem & Solution</a> •
   <a href="#-dynamic-discovery--search">Discovery</a> •
   <a href="#-nano-tool-architecture">Architecture</a> •
@@ -23,6 +32,22 @@
 ---
 
 </div>
+
+## ⚡ Get the Flowork Agent
+
+To execute micro-tools dynamically, orchestrate autonomous multi-agent loops, and enjoy Just-In-Time tool mounting with zero prompt bloat, download the official **Flowork Agent Engine**:
+
+<div align="center">
+
+[![Download Flowork Agent](https://img.shields.io/badge/%E2%9A%A1%20DOWNLOAD%20FLOWORK%20AGENT-CLICK%20TO%20GET%20STARTED-FF0055?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/flowork-os/FLOWORK-AGENT)
+
+**[👉 https://github.com/flowork-os/FLOWORK-AGENT 👈](https://github.com/flowork-os/FLOWORK-AGENT)**
+
+*Native support for Linux (x86_64, AArch64) • Windows 10/11 • macOS*
+
+</div>
+
+---
 
 ## 💡 The Problem & The Nano-Tool Solution
 
