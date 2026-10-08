@@ -31,7 +31,9 @@
         "query",
         "host",
         "infrastructure"
-      ]
+      ],
+      "source_path": "tools/dn/dns_lookup",
+      "shard": "index/dn/s_/dns_lookup.json"
     },
     {
       "id": "port_scanner",
@@ -61,7 +63,9 @@
         "sovereign",
         "flowork",
         "pentest"
-      ]
+      ],
+      "source_path": "tools/po/port_scanner",
+      "shard": "index/po/rt/port_scanner.json"
     },
     {
       "id": "sqlite_inspector",
@@ -91,7 +95,9 @@
         "flowork",
         "relational",
         "b-tree"
-      ]
+      ],
+      "source_path": "tools/sq/sqlite_inspector",
+      "shard": "index/sq/li/sqlite_inspector.json"
     }
   ]
 }

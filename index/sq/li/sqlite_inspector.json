@@ -4,5 +4,6 @@
   "category": "database",
   "version": "1.0.0",
   "description": "Inspect SQLite database schemas, query table stats, and integrity check.",
-  "shard": "index/sq/li/sqlite_inspector.json"
+  "shard": "index/sq/li/sqlite_inspector.json",
+  "source_path": "tools/sq/sqlite_inspector"
 }

@@ -4,5 +4,6 @@
   "category": "network",
   "version": "1.0.0",
   "description": "Rapid TCP port scanner and service banner grabber for local/remote hosts.",
-  "shard": "index/po/rt/port_scanner.json"
+  "shard": "index/po/rt/port_scanner.json",
+  "source_path": "tools/po/port_scanner"
 }

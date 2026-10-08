@@ -4,5 +4,6 @@
   "category": "network",
   "version": "1.0.0",
   "description": "Resolve DNS records (A, AAAA, CNAME, MX, TXT, NS) with latency benchmarks.",
-  "shard": "index/dn/s_/dns_lookup.json"
+  "shard": "index/dn/s_/dns_lookup.json",
+  "source_path": "tools/dn/dns_lookup"
 }
