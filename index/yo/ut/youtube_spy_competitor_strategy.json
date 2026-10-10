@@ -1,0 +1,9 @@
+{
+  "id": "youtube_spy_competitor_strategy",
+  "name": "youtube_spy_competitor_strategy",
+  "category": "intelligence",
+  "version": "1.0.0",
+  "description": "Reverse-engineer competitor YouTube video strategy: extract 30-second hook formula, 5 high-CTR title variations, 5-act script structure, secret tags list, and monetization playbook.",
+  "shard": "index/yo/ut/youtube_spy_competitor_strategy.json",
+  "source_path": "tools/yo/youtube_spy_competitor_strategy"
+}

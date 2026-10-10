@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_native_api",
+  "name": "rea_inspect_native_api",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-native-api] Reconstruct one native function API boundary with evidence",
+  "shard": "index/re/a_/rea_inspect_native_api.json",
+  "source_path": "tools/re/rea_inspect_native_api"
+}

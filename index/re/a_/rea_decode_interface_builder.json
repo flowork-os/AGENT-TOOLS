@@ -1,0 +1,9 @@
+{
+  "id": "rea_decode_interface_builder",
+  "name": "rea_decode_interface_builder",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: decode-interface-builder] Decode compiled storyboard and nib archives from an app bundle",
+  "shard": "index/re/a_/rea_decode_interface_builder.json",
+  "source_path": "tools/re/rea_decode_interface_builder"
+}

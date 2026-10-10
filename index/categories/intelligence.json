@@ -1,0 +1,54 @@
+{
+  "category": "intelligence",
+  "total_items": 6,
+  "items": [
+    {
+      "id": "youtube_spy_channel",
+      "name": "youtube_spy_channel",
+      "category": "intelligence",
+      "version": "1.0.0",
+      "description": "YouTube Channel pulse: dissect channel profile, subscriber count, total video count, and top 12 performing videos.",
+      "shard": "index/yo/ut/youtube_spy_channel.json"
+    },
+    {
+      "id": "youtube_spy_comments",
+      "name": "youtube_spy_comments",
+      "category": "intelligence",
+      "version": "1.0.0",
+      "description": "Extract recent audience comments from a YouTube video for sentiment analysis and identification of top viewer questions.",
+      "shard": "index/yo/ut/youtube_spy_comments.json"
+    },
+    {
+      "id": "youtube_spy_competitor_strategy",
+      "name": "youtube_spy_competitor_strategy",
+      "category": "intelligence",
+      "version": "1.0.0",
+      "description": "Reverse-engineer competitor YouTube video strategy: extract 30-second hook formula, 5 high-CTR title variations, 5-act script structure, secret tags list, and monetization playbook.",
+      "shard": "index/yo/ut/youtube_spy_competitor_strategy.json"
+    },
+    {
+      "id": "youtube_spy_summary",
+      "name": "youtube_spy_summary",
+      "category": "intelligence",
+      "version": "1.0.0",
+      "description": "Generate executive AI summaries and key takeaways from YouTube transcripts or video content.",
+      "shard": "index/yo/ut/youtube_spy_summary.json"
+    },
+    {
+      "id": "youtube_spy_transcript",
+      "name": "youtube_spy_transcript",
+      "category": "intelligence",
+      "version": "1.0.0",
+      "description": "Extract full spoken transcripts and subtitles with timestamps [MM:SS] from YouTube videos across multiple languages.",
+      "shard": "index/yo/ut/youtube_spy_transcript.json"
+    },
+    {
+      "id": "youtube_spy_video",
+      "name": "youtube_spy_video",
+      "category": "intelligence",
+      "version": "1.0.0",
+      "description": "FBE V6 DeepScan for YouTube videos: extract competitor secret tags/keywords, monetization status (ad-breaks), exact view count, audio specs, technical specs, and algorithm synergy.",
+      "shard": "index/yo/ut/youtube_spy_video.json"
+    }
+  ]
+}

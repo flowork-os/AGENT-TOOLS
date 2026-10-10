@@ -1,0 +1,9 @@
+{
+  "id": "rea_analyze_javascript_application",
+  "name": "rea_analyze_javascript_application",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[REA Core: analyze-javascript-application] Statically reconstruct a local JavaScript/Electron application",
+  "shard": "index/re/a_/rea_analyze_javascript_application.json",
+  "source_path": "tools/re/rea_analyze_javascript_application"
+}

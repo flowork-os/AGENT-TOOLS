@@ -1,0 +1,9 @@
+{
+  "id": "rea_analyze",
+  "name": "rea_analyze",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: analyze] Get an overview of an app",
+  "shard": "index/re/a_/rea_analyze.json",
+  "source_path": "tools/re/rea_analyze"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_recover_javascript_sources",
+  "name": "rea_recover_javascript_sources",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: recover-javascript-sources] Recover readable JavaScript modules with source provenance and verified files",
+  "shard": "index/re/a_/rea_recover_javascript_sources.json",
+  "source_path": "tools/re/rea_recover_javascript_sources"
+}

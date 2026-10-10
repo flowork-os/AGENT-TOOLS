@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_artifact",
+  "name": "rea_inspect_artifact",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-artifact] Inspect one artifact and return all available observations and next probes",
+  "shard": "index/re/a_/rea_inspect_artifact.json",
+  "source_path": "tools/re/rea_inspect_artifact"
+}

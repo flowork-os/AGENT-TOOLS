@@ -1,0 +1,9 @@
+{
+  "id": "rea_project_android_application_graph",
+  "name": "rea_project_android_application_graph",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[REA Core: project-android-application-graph] Reverse engineering analysis tool for project android application graph.",
+  "shard": "index/re/a_/rea_project_android_application_graph.json",
+  "source_path": "tools/re/rea_project_android_application_graph"
+}

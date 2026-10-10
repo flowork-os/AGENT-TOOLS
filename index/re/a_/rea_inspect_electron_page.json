@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_electron_page",
+  "name": "rea_inspect_electron_page",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-electron-page] Passively inspect one Electron file page",
+  "shard": "index/re/a_/rea_inspect_electron_page.json",
+  "source_path": "tools/re/rea_inspect_electron_page"
+}

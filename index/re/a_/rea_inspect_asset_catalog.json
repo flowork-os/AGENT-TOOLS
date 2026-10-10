@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_asset_catalog",
+  "name": "rea_inspect_asset_catalog",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-asset-catalog] Inspect compiled Apple asset catalog metadata",
+  "shard": "index/re/a_/rea_inspect_asset_catalog.json",
+  "source_path": "tools/re/rea_inspect_asset_catalog"
+}

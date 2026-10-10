@@ -1,0 +1,9 @@
+{
+  "id": "rea_resolve_native_call_targets",
+  "name": "rea_resolve_native_call_targets",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: resolve-native-call-targets] Reverse engineering analysis tool for resolve native call targets.",
+  "shard": "index/re/a_/rea_resolve_native_call_targets.json",
+  "source_path": "tools/re/rea_resolve_native_call_targets"
+}

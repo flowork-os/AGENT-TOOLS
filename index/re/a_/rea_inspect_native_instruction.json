@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_native_instruction",
+  "name": "rea_inspect_native_instruction",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-native-instruction] Reverse engineering analysis tool for inspect native instruction.",
+  "shard": "index/re/a_/rea_inspect_native_instruction.json",
+  "source_path": "tools/re/rea_inspect_native_instruction"
+}

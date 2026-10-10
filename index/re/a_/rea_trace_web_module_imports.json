@@ -1,0 +1,9 @@
+{
+  "id": "rea_trace_web_module_imports",
+  "name": "rea_trace_web_module_imports",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: trace-web-module-imports] Trace one captured script's native imports to URLs and captured source candidates",
+  "shard": "index/re/a_/rea_trace_web_module_imports.json",
+  "source_path": "tools/re/rea_trace_web_module_imports"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare_web_screenshots",
+  "name": "rea_compare_web_screenshots",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: compare-web-screenshots] Compare two self-verifying PNG artifact JSON values",
+  "shard": "index/re/a_/rea_compare_web_screenshots.json",
+  "source_path": "tools/re/rea_compare_web_screenshots"
+}

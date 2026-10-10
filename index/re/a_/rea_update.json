@@ -1,0 +1,9 @@
+{
+  "id": "rea_update",
+  "name": "rea_update",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: update] Update this REA installation and verify the installed release",
+  "shard": "index/re/a_/rea_update.json",
+  "source_path": "tools/re/rea_update"
+}

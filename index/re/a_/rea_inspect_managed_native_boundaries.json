@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_managed_native_boundaries",
+  "name": "rea_inspect_managed_native_boundaries",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-managed-native-boundaries] Inspect PE/CLI PInvoke and native implementation boundary declarations without loading target code",
+  "shard": "index/re/a_/rea_inspect_managed_native_boundaries.json",
+  "source_path": "tools/re/rea_inspect_managed_native_boundaries"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_signature",
+  "name": "rea_inspect_signature",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-signature] Reverse engineering analysis tool for inspect signature.",
+  "shard": "index/re/a_/rea_inspect_signature.json",
+  "source_path": "tools/re/rea_inspect_signature"
+}

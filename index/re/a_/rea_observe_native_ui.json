@@ -1,0 +1,9 @@
+{
+  "id": "rea_observe_native_ui",
+  "name": "rea_observe_native_ui",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: observe-native-ui] Reverse engineering analysis tool for observe native ui.",
+  "shard": "index/re/a_/rea_observe_native_ui.json",
+  "source_path": "tools/re/rea_observe_native_ui"
+}

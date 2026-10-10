@@ -1,0 +1,9 @@
+{
+  "id": "fl_bin_inspect",
+  "name": "fl_bin_inspect",
+  "category": "reverse_engineering",
+  "version": "1.0.0",
+  "description": "Fast native binary layout and security mitigations triage for ELF, PE, and Mach-O binaries. Inspects architecture, headers, segments, dynamic symbols, dependencies, and security mitigations (NX/DEP, Stack Canary, PIE/ASLR, RELRO).",
+  "shard": "index/fl/_b/fl_bin_inspect.json",
+  "source_path": "tools/fl/fl_bin_inspect"
+}

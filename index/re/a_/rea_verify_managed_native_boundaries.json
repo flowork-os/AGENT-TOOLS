@@ -1,0 +1,9 @@
+{
+  "id": "rea_verify_managed_native_boundaries",
+  "name": "rea_verify_managed_native_boundaries",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[REA Core: verify-managed-native-boundaries] Verify managed P/Invoke declarations against authenticated native Evidence",
+  "shard": "index/re/a_/rea_verify_managed_native_boundaries.json",
+  "source_path": "tools/re/rea_verify_managed_native_boundaries"
+}

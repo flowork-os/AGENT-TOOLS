@@ -1,0 +1,9 @@
+{
+  "id": "audit_security",
+  "name": "audit_security",
+  "category": "security",
+  "version": "1.0.0",
+  "description": "Performs comprehensive multi-language security & vulnerability health audit. Scans code for SAST security antipatterns (Command Injection, Path Traversal, Hardcoded Secrets/Keys, Insecure Shell/Eval, Unsafe Blocks) across Rust, JS/TS, Python, Go, and Shell. Performs offline SCA dependency vulnerability audit against 283,000+ indexed advisories (CVE/GHSA/OSV) for Cargo.lock, package.json, requirements.txt, and go.mod. Evaluates runtime posture and returns health score.",
+  "shard": "index/au/di/audit_security.json",
+  "source_path": "tools/au/audit_security"
+}

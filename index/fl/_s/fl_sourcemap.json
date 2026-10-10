@@ -1,0 +1,9 @@
+{
+  "id": "fl_sourcemap",
+  "name": "fl_sourcemap",
+  "category": "reverse_engineering",
+  "version": "1.0.0",
+  "description": "Offline JavaScript/TypeScript source map resolver. Maps minified tokens, variable names, and line/column offsets back to original source files and source lines from .map files without requiring internet or browser.",
+  "shard": "index/fl/_s/fl_sourcemap.json",
+  "source_path": "tools/fl/fl_sourcemap"
+}

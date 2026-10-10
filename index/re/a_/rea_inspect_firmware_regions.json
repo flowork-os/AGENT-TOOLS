@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_firmware_regions",
+  "name": "rea_inspect_firmware_regions",
+  "category": "reverse_engineering_firmware",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-firmware-regions] Inspect firmware signature candidates without extracting them",
+  "shard": "index/re/a_/rea_inspect_firmware_regions.json",
+  "source_path": "tools/re/rea_inspect_firmware_regions"
+}

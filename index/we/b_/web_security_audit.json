@@ -1,0 +1,9 @@
+{
+  "id": "web_security_audit",
+  "name": "web_security_audit",
+  "category": "security",
+  "version": "1.0.0",
+  "description": "Comprehensive web security and defense posture audit: vulnerability analysis, HSTS/CSP/CORS headers, sensitive file leak detection (/.env, /.git), DOM client-side secrets hunter (API keys), DoH DNS Matrix, Certificate Transparency subdomains, and WHOIS/RDAP reconnaissance.",
+  "shard": "index/we/b_/web_security_audit.json",
+  "source_path": "tools/we/web_security_audit"
+}

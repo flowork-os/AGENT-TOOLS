@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare",
+  "name": "rea_compare",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[REA Core: compare] Reverse engineering analysis tool for compare.",
+  "shard": "index/re/a_/rea_compare.json",
+  "source_path": "tools/re/rea_compare"
+}

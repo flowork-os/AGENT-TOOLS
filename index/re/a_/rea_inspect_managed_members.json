@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_managed_members",
+  "name": "rea_inspect_managed_members",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-managed-members] Inspect PE/CLI metadata members, signatures, and CIL anchors without loading target code",
+  "shard": "index/re/a_/rea_inspect_managed_members.json",
+  "source_path": "tools/re/rea_inspect_managed_members"
+}

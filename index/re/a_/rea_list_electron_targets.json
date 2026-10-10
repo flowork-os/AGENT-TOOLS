@@ -1,0 +1,9 @@
+{
+  "id": "rea_list_electron_targets",
+  "name": "rea_list_electron_targets",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[REA Core: list-electron-targets] List local file pages exposed by the selected Electron CDP endpoint",
+  "shard": "index/re/a_/rea_list_electron_targets.json",
+  "source_path": "tools/re/rea_list_electron_targets"
+}

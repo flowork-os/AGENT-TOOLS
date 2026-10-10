@@ -1,0 +1,46 @@
+{
+  "category": "reverse_engineering_electron",
+  "total_items": 5,
+  "items": [
+    {
+      "id": "rea_analyze_javascript_application",
+      "name": "rea_analyze_javascript_application",
+      "category": "reverse_engineering_electron",
+      "version": "1.0.0",
+      "description": "[REA Core: analyze-javascript-application] Statically reconstruct a local JavaScript/Electron application",
+      "shard": "index/re/a_/rea_analyze_javascript_application.json"
+    },
+    {
+      "id": "rea_capture_electron_scenario",
+      "name": "rea_capture_electron_scenario",
+      "category": "reverse_engineering_electron",
+      "version": "1.0.0",
+      "description": "[REA Core: capture-electron-scenario] Run one owned Electron scenario with cancellable actions",
+      "shard": "index/re/a_/rea_capture_electron_scenario.json"
+    },
+    {
+      "id": "rea_inspect_electron_page",
+      "name": "rea_inspect_electron_page",
+      "category": "reverse_engineering_electron",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-electron-page] Passively inspect one Electron file page",
+      "shard": "index/re/a_/rea_inspect_electron_page.json"
+    },
+    {
+      "id": "rea_list_electron_targets",
+      "name": "rea_list_electron_targets",
+      "category": "reverse_engineering_electron",
+      "version": "1.0.0",
+      "description": "[REA Core: list-electron-targets] List local file pages exposed by the selected Electron CDP endpoint",
+      "shard": "index/re/a_/rea_list_electron_targets.json"
+    },
+    {
+      "id": "rea_reconcile_javascript_runtime",
+      "name": "rea_reconcile_javascript_runtime",
+      "category": "reverse_engineering_electron",
+      "version": "1.0.0",
+      "description": "[REA Core: reconcile-javascript-runtime] Reconcile static application and passive runtime Evidence JSON",
+      "shard": "index/re/a_/rea_reconcile_javascript_runtime.json"
+    }
+  ]
+}

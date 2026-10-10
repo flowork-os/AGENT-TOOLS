@@ -1,0 +1,9 @@
+{
+  "id": "rea_setup",
+  "name": "rea_setup",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: setup] Configure agent integrations and optional analysis providers",
+  "shard": "index/re/a_/rea_setup.json",
+  "source_path": "tools/re/rea_setup"
+}

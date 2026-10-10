@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare_application_versions",
+  "name": "rea_compare_application_versions",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[REA Core: compare-application-versions] Reverse engineering analysis tool for compare application versions.",
+  "shard": "index/re/a_/rea_compare_application_versions.json",
+  "source_path": "tools/re/rea_compare_application_versions"
+}

@@ -1,0 +1,30 @@
+{
+  "category": "reverse_engineering",
+  "total_items": 3,
+  "items": [
+    {
+      "id": "fl_asar",
+      "name": "fl_asar",
+      "category": "reverse_engineering",
+      "version": "1.0.0",
+      "description": "Extracts, inspects, and audits Electron ASAR archive packages. Verifies entry byte size integrity against header declarations, extracts package.json manifest, and maps security flags (nodeIntegration, contextIsolation, sandbox, preload).",
+      "shard": "index/fl/_a/fl_asar.json"
+    },
+    {
+      "id": "fl_bin_inspect",
+      "name": "fl_bin_inspect",
+      "category": "reverse_engineering",
+      "version": "1.0.0",
+      "description": "Fast native binary layout and security mitigations triage for ELF, PE, and Mach-O binaries. Inspects architecture, headers, segments, dynamic symbols, dependencies, and security mitigations (NX/DEP, Stack Canary, PIE/ASLR, RELRO).",
+      "shard": "index/fl/_b/fl_bin_inspect.json"
+    },
+    {
+      "id": "fl_sourcemap",
+      "name": "fl_sourcemap",
+      "category": "reverse_engineering",
+      "version": "1.0.0",
+      "description": "Offline JavaScript/TypeScript source map resolver. Maps minified tokens, variable names, and line/column offsets back to original source files and source lines from .map files without requiring internet or browser.",
+      "shard": "index/fl/_s/fl_sourcemap.json"
+    }
+  ]
+}

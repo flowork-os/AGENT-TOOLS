@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_native_data_type",
+  "name": "rea_inspect_native_data_type",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-native-data-type] Inspect one recovered database type or typed data object",
+  "shard": "index/re/a_/rea_inspect_native_data_type.json",
+  "source_path": "tools/re/rea_inspect_native_data_type"
+}

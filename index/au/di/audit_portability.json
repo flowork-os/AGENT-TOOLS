@@ -1,0 +1,9 @@
+{
+  "id": "audit_portability",
+  "name": "audit_portability",
+  "category": "audit",
+  "version": "1.0.0",
+  "description": "Alias for detect_hardcode. Scans workspace or specific directory across multiple programming languages for non-portable hardcoded absolute paths.",
+  "shard": "index/au/di/audit_portability.json",
+  "source_path": "tools/au/audit_portability"
+}

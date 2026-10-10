@@ -1,0 +1,54 @@
+{
+  "category": "reverse_engineering_android",
+  "total_items": 6,
+  "items": [
+    {
+      "id": "rea_inspect_android_class",
+      "name": "rea_inspect_android_class",
+      "category": "reverse_engineering_android",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-android-class] Inspect one exact APK class's member inventory",
+      "shard": "index/re/a_/rea_inspect_android_class.json"
+    },
+    {
+      "id": "rea_inspect_android_method",
+      "name": "rea_inspect_android_method",
+      "category": "reverse_engineering_android",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-android-method] Decompile one APK method with explicit overload selection",
+      "shard": "index/re/a_/rea_inspect_android_method.json"
+    },
+    {
+      "id": "rea_inspect_android_package",
+      "name": "rea_inspect_android_package",
+      "category": "reverse_engineering_android",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-android-package] Inspect APK declarations and decoded manifest without executing it",
+      "shard": "index/re/a_/rea_inspect_android_package.json"
+    },
+    {
+      "id": "rea_project_android_application_graph",
+      "name": "rea_project_android_application_graph",
+      "category": "reverse_engineering_android",
+      "version": "1.0.0",
+      "description": "[REA Core: project-android-application-graph] Reverse engineering analysis tool for project android application graph.",
+      "shard": "index/re/a_/rea_project_android_application_graph.json"
+    },
+    {
+      "id": "rea_search_android_classes",
+      "name": "rea_search_android_classes",
+      "category": "reverse_engineering_android",
+      "version": "1.0.0",
+      "description": "[REA Core: search-android-classes] Search APK class names; empty query inventories all classes",
+      "shard": "index/re/a_/rea_search_android_classes.json"
+    },
+    {
+      "id": "rea_trace_android_references",
+      "name": "rea_trace_android_references",
+      "category": "reverse_engineering_android",
+      "version": "1.0.0",
+      "description": "[REA Core: trace-android-references] Trace incoming APK class or unique-method references",
+      "shard": "index/re/a_/rea_trace_android_references.json"
+    }
+  ]
+}

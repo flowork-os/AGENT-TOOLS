@@ -1,0 +1,14 @@
+{
+  "category": "finance",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "crypto_scanner",
+      "name": "crypto_scanner",
+      "category": "finance",
+      "version": "1.0.0",
+      "description": "Scans cryptocurrency market metrics, 24h trading volume, price volatility, and liquidity depth for major spot and perpetual pairs.",
+      "shard": "index/cr/yp/crypto_scanner.json"
+    }
+  ]
+}

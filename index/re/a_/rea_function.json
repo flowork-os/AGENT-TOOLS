@@ -1,0 +1,9 @@
+{
+  "id": "rea_function",
+  "name": "rea_function",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: function] Analyze one complete function with evidence",
+  "shard": "index/re/a_/rea_function.json",
+  "source_path": "tools/re/rea_function"
+}

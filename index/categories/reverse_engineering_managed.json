@@ -1,0 +1,70 @@
+{
+  "category": "reverse_engineering_managed",
+  "total_items": 8,
+  "items": [
+    {
+      "id": "fl_cil_inspect",
+      "name": "fl_cil_inspect",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": ".NET Common Intermediate Language (CIL) and ECMA-335 bytecode inspector. Analyzes managed assemblies (DLL/EXE), extracts CLR runtime headers, metadata streams (#~, #Strings, #US, #GUID), module/type declarations, and disassembles CIL method bytecodes into mnemonic instructions.",
+      "shard": "index/fl/_c/fl_cil_inspect.json"
+    },
+    {
+      "id": "rea_compare_managed_members",
+      "name": "rea_compare_managed_members",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": "[REA Core: compare-managed-members] Compare managed PE/CLI member inventories by exact declared type, name, and signature; names alone never form a match",
+      "shard": "index/re/a_/rea_compare_managed_members.json"
+    },
+    {
+      "id": "rea_import_managed_reconstruction",
+      "name": "rea_import_managed_reconstruction",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": "[REA Core: import-managed-reconstruction] Import decompiler-produced managed reconstruction against exact static member evidence",
+      "shard": "index/re/a_/rea_import_managed_reconstruction.json"
+    },
+    {
+      "id": "rea_inspect_managed_artifact",
+      "name": "rea_inspect_managed_artifact",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-managed-artifact] Inspect PE/CLI identity without loading target code",
+      "shard": "index/re/a_/rea_inspect_managed_artifact.json"
+    },
+    {
+      "id": "rea_inspect_managed_members",
+      "name": "rea_inspect_managed_members",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-managed-members] Inspect PE/CLI metadata members, signatures, and CIL anchors without loading target code",
+      "shard": "index/re/a_/rea_inspect_managed_members.json"
+    },
+    {
+      "id": "rea_inspect_managed_native_boundaries",
+      "name": "rea_inspect_managed_native_boundaries",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-managed-native-boundaries] Inspect PE/CLI PInvoke and native implementation boundary declarations without loading target code",
+      "shard": "index/re/a_/rea_inspect_managed_native_boundaries.json"
+    },
+    {
+      "id": "rea_project_managed_application_graph",
+      "name": "rea_project_managed_application_graph",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": "[REA Core: project-managed-application-graph] Project authenticated managed static Evidence into an application graph",
+      "shard": "index/re/a_/rea_project_managed_application_graph.json"
+    },
+    {
+      "id": "rea_verify_managed_native_boundaries",
+      "name": "rea_verify_managed_native_boundaries",
+      "category": "reverse_engineering_managed",
+      "version": "1.0.0",
+      "description": "[REA Core: verify-managed-native-boundaries] Verify managed P/Invoke declarations against authenticated native Evidence",
+      "shard": "index/re/a_/rea_verify_managed_native_boundaries.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_trace_javascript_semantics",
+  "name": "rea_trace_javascript_semantics",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: trace-javascript-semantics] Reverse engineering analysis tool for trace javascript semantics.",
+  "shard": "index/re/a_/rea_trace_javascript_semantics.json",
+  "source_path": "tools/re/rea_trace_javascript_semantics"
+}

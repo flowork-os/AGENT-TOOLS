@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_web_network_capture",
+  "name": "rea_inspect_web_network_capture",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-web-network-capture] Inspect retained HAR or native mitmproxy records without fetching recorded URLs",
+  "shard": "index/re/a_/rea_inspect_web_network_capture.json",
+  "source_path": "tools/re/rea_inspect_web_network_capture"
+}

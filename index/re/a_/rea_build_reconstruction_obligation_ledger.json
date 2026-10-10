@@ -1,0 +1,9 @@
+{
+  "id": "rea_build_reconstruction_obligation_ledger",
+  "name": "rea_build_reconstruction_obligation_ledger",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[REA Core: build-reconstruction-obligation-ledger] Reverse engineering analysis tool for build reconstruction obligation ledger.",
+  "shard": "index/re/a_/rea_build_reconstruction_obligation_ledger.json",
+  "source_path": "tools/re/rea_build_reconstruction_obligation_ledger"
+}

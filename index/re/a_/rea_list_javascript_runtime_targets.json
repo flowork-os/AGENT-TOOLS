@@ -1,0 +1,9 @@
+{
+  "id": "rea_list_javascript_runtime_targets",
+  "name": "rea_list_javascript_runtime_targets",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: list-javascript-runtime-targets] Reverse engineering analysis tool for list javascript runtime targets.",
+  "shard": "index/re/a_/rea_list_javascript_runtime_targets.json",
+  "source_path": "tools/re/rea_list_javascript_runtime_targets"
+}

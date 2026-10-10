@@ -1,0 +1,9 @@
+{
+  "id": "website_intelligence",
+  "name": "website_intelligence",
+  "category": "osint",
+  "version": "1.0.0",
+  "description": "Target website intelligence extraction: monthly traffic estimation, global and country rankings, traffic channel distribution (SimilarWeb), web archive snapshot history (Wayback Machine CDX), and on-page technical SEO health (Meta tags, OpenGraph, Canonical, Headings, Robots.txt).",
+  "shard": "index/we/bs/website_intelligence.json",
+  "source_path": "tools/we/website_intelligence"
+}

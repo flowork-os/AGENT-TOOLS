@@ -1,0 +1,9 @@
+{
+  "id": "rea_import_managed_reconstruction",
+  "name": "rea_import_managed_reconstruction",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[REA Core: import-managed-reconstruction] Import decompiler-produced managed reconstruction against exact static member evidence",
+  "shard": "index/re/a_/rea_import_managed_reconstruction.json",
+  "source_path": "tools/re/rea_import_managed_reconstruction"
+}

@@ -1,0 +1,14 @@
+{
+  "category": "diagnostics",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "sys_health",
+      "name": "sys_health",
+      "category": "diagnostics",
+      "version": "1.0.0",
+      "description": "Inspect host system health, hardware resources, and runtime status. Reports platform, CPU architecture and load, RAM consumption, root disk space, and active listening ports natively with zero external shell dependencies.",
+      "shard": "index/sy/s_/sys_health.json"
+    }
+  ]
+}

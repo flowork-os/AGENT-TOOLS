@@ -1,0 +1,9 @@
+{
+  "id": "rea_uninstall",
+  "name": "rea_uninstall",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: uninstall] Remove REA-owned agent configuration and skill files",
+  "shard": "index/re/a_/rea_uninstall.json",
+  "source_path": "tools/re/rea_uninstall"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_extract_artifact",
+  "name": "rea_extract_artifact",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: extract-artifact] Extract all regular artifact contents safely",
+  "shard": "index/re/a_/rea_extract_artifact.json",
+  "source_path": "tools/re/rea_extract_artifact"
+}

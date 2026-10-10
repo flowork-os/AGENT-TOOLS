@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare_javascript_export_shapes",
+  "name": "rea_compare_javascript_export_shapes",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: compare-javascript-export-shapes] Reverse engineering analysis tool for compare javascript export shapes.",
+  "shard": "index/re/a_/rea_compare_javascript_export_shapes.json",
+  "source_path": "tools/re/rea_compare_javascript_export_shapes"
+}

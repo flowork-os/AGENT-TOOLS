@@ -1,0 +1,70 @@
+{
+  "category": "reverse_engineering_recon",
+  "total_items": 8,
+  "items": [
+    {
+      "id": "rea_build_reconstruction_obligation_ledger",
+      "name": "rea_build_reconstruction_obligation_ledger",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: build-reconstruction-obligation-ledger] Reverse engineering analysis tool for build reconstruction obligation ledger.",
+      "shard": "index/re/a_/rea_build_reconstruction_obligation_ledger.json"
+    },
+    {
+      "id": "rea_compare",
+      "name": "rea_compare",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: compare] Reverse engineering analysis tool for compare.",
+      "shard": "index/re/a_/rea_compare.json"
+    },
+    {
+      "id": "rea_compare_application_versions",
+      "name": "rea_compare_application_versions",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: compare-application-versions] Reverse engineering analysis tool for compare application versions.",
+      "shard": "index/re/a_/rea_compare_application_versions.json"
+    },
+    {
+      "id": "rea_compare_process_captures",
+      "name": "rea_compare_process_captures",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: compare-process-captures] Compare two process capture Evidence JSON files",
+      "shard": "index/re/a_/rea_compare_process_captures.json"
+    },
+    {
+      "id": "rea_compare_source_to_bundle",
+      "name": "rea_compare_source_to_bundle",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: compare-source-to-bundle] Reverse engineering analysis tool for compare source to bundle.",
+      "shard": "index/re/a_/rea_compare_source_to_bundle.json"
+    },
+    {
+      "id": "rea_evaluate_reconstruction_coverage",
+      "name": "rea_evaluate_reconstruction_coverage",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: evaluate-reconstruction-coverage] Reverse engineering analysis tool for evaluate reconstruction coverage.",
+      "shard": "index/re/a_/rea_evaluate_reconstruction_coverage.json"
+    },
+    {
+      "id": "rea_evidence_export",
+      "name": "rea_evidence_export",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: evidence-export] Reverse engineering analysis tool for evidence export.",
+      "shard": "index/re/a_/rea_evidence_export.json"
+    },
+    {
+      "id": "rea_evidence_import",
+      "name": "rea_evidence_import",
+      "category": "reverse_engineering_recon",
+      "version": "1.0.0",
+      "description": "[REA Core: evidence-import] Reverse engineering analysis tool for evidence import.",
+      "shard": "index/re/a_/rea_evidence_import.json"
+    }
+  ]
+}

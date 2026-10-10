@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_plist",
+  "name": "rea_inspect_plist",
+  "category": "reverse_engineering_macho",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-plist] Parse app plist metadata without launching Hopper",
+  "shard": "index/re/a_/rea_inspect_plist.json",
+  "source_path": "tools/re/rea_inspect_plist"
+}

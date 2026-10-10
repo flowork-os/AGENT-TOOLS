@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare_source_to_bundle",
+  "name": "rea_compare_source_to_bundle",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[REA Core: compare-source-to-bundle] Reverse engineering analysis tool for compare source to bundle.",
+  "shard": "index/re/a_/rea_compare_source_to_bundle.json",
+  "source_path": "tools/re/rea_compare_source_to_bundle"
+}

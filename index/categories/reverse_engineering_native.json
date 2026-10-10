@@ -1,0 +1,342 @@
+{
+  "category": "reverse_engineering_native",
+  "total_items": 42,
+  "items": [
+    {
+      "id": "rea_address_to_file_offset",
+      "name": "rea_address_to_file_offset",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: address-to-file-offset] Resolve an analysis address to its original file byte offset",
+      "shard": "index/re/a_/rea_address_to_file_offset.json"
+    },
+    {
+      "id": "rea_analyze",
+      "name": "rea_analyze",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: analyze] Get an overview of an app",
+      "shard": "index/re/a_/rea_analyze.json"
+    },
+    {
+      "id": "rea_annotate_native_function",
+      "name": "rea_annotate_native_function",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: annotate-native-function] Edit function annotations and return refreshed analysis",
+      "shard": "index/re/a_/rea_annotate_native_function.json"
+    },
+    {
+      "id": "rea_capabilities",
+      "name": "rea_capabilities",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: capabilities] Reverse engineering analysis tool for capabilities.",
+      "shard": "index/re/a_/rea_capabilities.json"
+    },
+    {
+      "id": "rea_capture_native_ui_scenario",
+      "name": "rea_capture_native_ui_scenario",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: capture-native-ui-scenario] Reverse engineering analysis tool for capture native ui scenario.",
+      "shard": "index/re/a_/rea_capture_native_ui_scenario.json"
+    },
+    {
+      "id": "rea_capture_process",
+      "name": "rea_capture_process",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: capture-process] Capture one caller-selected process scenario",
+      "shard": "index/re/a_/rea_capture_process.json"
+    },
+    {
+      "id": "rea_decode_interface_builder",
+      "name": "rea_decode_interface_builder",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: decode-interface-builder] Decode compiled storyboard and nib archives from an app bundle",
+      "shard": "index/re/a_/rea_decode_interface_builder.json"
+    },
+    {
+      "id": "rea_decompile",
+      "name": "rea_decompile",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: decompile] Read one part of an app as code",
+      "shard": "index/re/a_/rea_decompile.json"
+    },
+    {
+      "id": "rea_doctor",
+      "name": "rea_doctor",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: doctor] Check whether REA is ready",
+      "shard": "index/re/a_/rea_doctor.json"
+    },
+    {
+      "id": "rea_extract_artifact",
+      "name": "rea_extract_artifact",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: extract-artifact] Extract all regular artifact contents safely",
+      "shard": "index/re/a_/rea_extract_artifact.json"
+    },
+    {
+      "id": "rea_function",
+      "name": "rea_function",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: function] Analyze one complete function with evidence",
+      "shard": "index/re/a_/rea_function.json"
+    },
+    {
+      "id": "rea_import_reference_source",
+      "name": "rea_import_reference_source",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: import-reference-source] Import a source tree as historical reference only",
+      "shard": "index/re/a_/rea_import_reference_source.json"
+    },
+    {
+      "id": "rea_inspect",
+      "name": "rea_inspect",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect] Inspect an app overview with evidence",
+      "shard": "index/re/a_/rea_inspect.json"
+    },
+    {
+      "id": "rea_inspect_analysis_view",
+      "name": "rea_inspect_analysis_view",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-analysis-view] Project a selected view of completed layout, JavaScript application or native function Evidence JSON",
+      "shard": "index/re/a_/rea_inspect_analysis_view.json"
+    },
+    {
+      "id": "rea_inspect_artifact",
+      "name": "rea_inspect_artifact",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-artifact] Inspect one artifact and return all available observations and next probes",
+      "shard": "index/re/a_/rea_inspect_artifact.json"
+    },
+    {
+      "id": "rea_inspect_asset_catalog",
+      "name": "rea_inspect_asset_catalog",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-asset-catalog] Inspect compiled Apple asset catalog metadata",
+      "shard": "index/re/a_/rea_inspect_asset_catalog.json"
+    },
+    {
+      "id": "rea_inspect_binary_layout",
+      "name": "rea_inspect_binary_layout",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-binary-layout] Inspect binary file/linked layout without executing the selected object",
+      "shard": "index/re/a_/rea_inspect_binary_layout.json"
+    },
+    {
+      "id": "rea_inspect_keyed_archive",
+      "name": "rea_inspect_keyed_archive",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-keyed-archive] Inspect a Foundation keyed archive as an object-reference graph",
+      "shard": "index/re/a_/rea_inspect_keyed_archive.json"
+    },
+    {
+      "id": "rea_inspect_native_api",
+      "name": "rea_inspect_native_api",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-native-api] Reconstruct one native function API boundary with evidence",
+      "shard": "index/re/a_/rea_inspect_native_api.json"
+    },
+    {
+      "id": "rea_inspect_native_data_type",
+      "name": "rea_inspect_native_data_type",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-native-data-type] Inspect one recovered database type or typed data object",
+      "shard": "index/re/a_/rea_inspect_native_data_type.json"
+    },
+    {
+      "id": "rea_inspect_native_dispatch_metadata",
+      "name": "rea_inspect_native_dispatch_metadata",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-native-dispatch-metadata] Inspect typed Objective-C and Swift dispatch metadata",
+      "shard": "index/re/a_/rea_inspect_native_dispatch_metadata.json"
+    },
+    {
+      "id": "rea_inspect_native_instruction",
+      "name": "rea_inspect_native_instruction",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-native-instruction] Reverse engineering analysis tool for inspect native instruction.",
+      "shard": "index/re/a_/rea_inspect_native_instruction.json"
+    },
+    {
+      "id": "rea_inspect_native_load_image",
+      "name": "rea_inspect_native_load_image",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-native-load-image] Verify loaded native bytes, source mappings, relocations and entry",
+      "shard": "index/re/a_/rea_inspect_native_load_image.json"
+    },
+    {
+      "id": "rea_inspect_recorded_crash",
+      "name": "rea_inspect_recorded_crash",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-recorded-crash] Inspect supplied core registers/signals and optional debugger mapping evidence",
+      "shard": "index/re/a_/rea_inspect_recorded_crash.json"
+    },
+    {
+      "id": "rea_inspect_signature",
+      "name": "rea_inspect_signature",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-signature] Reverse engineering analysis tool for inspect signature.",
+      "shard": "index/re/a_/rea_inspect_signature.json"
+    },
+    {
+      "id": "rea_instructions",
+      "name": "rea_instructions",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: instructions] Read every raw instruction without decompiling",
+      "shard": "index/re/a_/rea_instructions.json"
+    },
+    {
+      "id": "rea_list_architectures",
+      "name": "rea_list_architectures",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: list-architectures] Reverse engineering analysis tool for list architectures.",
+      "shard": "index/re/a_/rea_list_architectures.json"
+    },
+    {
+      "id": "rea_observe_native_calls",
+      "name": "rea_observe_native_calls",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: observe-native-calls] Launch a Mach-O under LLDB and record entries into selected functions or Objective-C methods",
+      "shard": "index/re/a_/rea_observe_native_calls.json"
+    },
+    {
+      "id": "rea_observe_native_ui",
+      "name": "rea_observe_native_ui",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: observe-native-ui] Reverse engineering analysis tool for observe native ui.",
+      "shard": "index/re/a_/rea_observe_native_ui.json"
+    },
+    {
+      "id": "rea_providers",
+      "name": "rea_providers",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: providers] Reverse engineering analysis tool for providers.",
+      "shard": "index/re/a_/rea_providers.json"
+    },
+    {
+      "id": "rea_read_bytes",
+      "name": "rea_read_bytes",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: read-bytes] Read exact provider memory bytes at one analysis address",
+      "shard": "index/re/a_/rea_read_bytes.json"
+    },
+    {
+      "id": "rea_resolve_native_call_targets",
+      "name": "rea_resolve_native_call_targets",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: resolve-native-call-targets] Reverse engineering analysis tool for resolve native call targets.",
+      "shard": "index/re/a_/rea_resolve_native_call_targets.json"
+    },
+    {
+      "id": "rea_search",
+      "name": "rea_search",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: search] Search every analyzed string or procedure name",
+      "shard": "index/re/a_/rea_search.json"
+    },
+    {
+      "id": "rea_setup",
+      "name": "rea_setup",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: setup] Configure agent integrations and optional analysis providers",
+      "shard": "index/re/a_/rea_setup.json"
+    },
+    {
+      "id": "rea_trace",
+      "name": "rea_trace",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: trace] Trace a literal feature through analyzed references",
+      "shard": "index/re/a_/rea_trace.json"
+    },
+    {
+      "id": "rea_trace_application_feature",
+      "name": "rea_trace_application_feature",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: trace-application-feature] Reverse engineering analysis tool for trace application feature.",
+      "shard": "index/re/a_/rea_trace_application_feature.json"
+    },
+    {
+      "id": "rea_trace_dylib_resolution",
+      "name": "rea_trace_dylib_resolution",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: trace-dylib-resolution] Trace dyld load-path resolution for a Mach-O or every executable in an app bundle",
+      "shard": "index/re/a_/rea_trace_dylib_resolution.json"
+    },
+    {
+      "id": "rea_trace_native_ui_action",
+      "name": "rea_trace_native_ui_action",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: trace-native-ui-action] Trace a compiled UI action selector to its native handler and direct callees",
+      "shard": "index/re/a_/rea_trace_native_ui_action.json"
+    },
+    {
+      "id": "rea_trace_native_values",
+      "name": "rea_trace_native_values",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: trace-native-values] Trace bounded native def-use and call dependencies",
+      "shard": "index/re/a_/rea_trace_native_values.json"
+    },
+    {
+      "id": "rea_uninstall",
+      "name": "rea_uninstall",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: uninstall] Remove REA-owned agent configuration and skill files",
+      "shard": "index/re/a_/rea_uninstall.json"
+    },
+    {
+      "id": "rea_update",
+      "name": "rea_update",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: update] Update this REA installation and verify the installed release",
+      "shard": "index/re/a_/rea_update.json"
+    },
+    {
+      "id": "rea_xrefs",
+      "name": "rea_xrefs",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[REA Core: xrefs] List bounded references to an analyzed address",
+      "shard": "index/re/a_/rea_xrefs.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_native_load_image",
+  "name": "rea_inspect_native_load_image",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-native-load-image] Verify loaded native bytes, source mappings, relocations and entry",
+  "shard": "index/re/a_/rea_inspect_native_load_image.json",
+  "source_path": "tools/re/rea_inspect_native_load_image"
+}

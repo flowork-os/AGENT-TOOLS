@@ -1,0 +1,9 @@
+{
+  "id": "rea_providers",
+  "name": "rea_providers",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: providers] Reverse engineering analysis tool for providers.",
+  "shard": "index/re/a_/rea_providers.json",
+  "source_path": "tools/re/rea_providers"
+}

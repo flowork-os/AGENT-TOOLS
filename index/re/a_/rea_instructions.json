@@ -1,0 +1,9 @@
+{
+  "id": "rea_instructions",
+  "name": "rea_instructions",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: instructions] Read every raw instruction without decompiling",
+  "shard": "index/re/a_/rea_instructions.json",
+  "source_path": "tools/re/rea_instructions"
+}

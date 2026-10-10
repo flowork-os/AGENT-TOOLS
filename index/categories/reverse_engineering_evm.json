@@ -1,0 +1,14 @@
+{
+  "category": "reverse_engineering_evm",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "rea_inspect_evm_interface",
+      "name": "rea_inspect_evm_interface",
+      "category": "reverse_engineering_evm",
+      "version": "1.0.0",
+      "description": "[REA Core: inspect-evm-interface] Infer interface candidates from explicit local EVM bytecode",
+      "shard": "index/re/a_/rea_inspect_evm_interface.json"
+    }
+  ]
+}

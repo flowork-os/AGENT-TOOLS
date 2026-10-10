@@ -1,0 +1,9 @@
+{
+  "id": "rea_analyze_web_bundle",
+  "name": "rea_analyze_web_bundle",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: analyze-web-bundle] Capture and statically analyze a page bundle, defaulting to the selected target origin",
+  "shard": "index/re/a_/rea_analyze_web_bundle.json",
+  "source_path": "tools/re/rea_analyze_web_bundle"
+}

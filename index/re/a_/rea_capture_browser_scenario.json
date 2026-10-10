@@ -1,0 +1,9 @@
+{
+  "id": "rea_capture_browser_scenario",
+  "name": "rea_capture_browser_scenario",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: capture-browser-scenario] Reverse engineering analysis tool for capture browser scenario.",
+  "shard": "index/re/a_/rea_capture_browser_scenario.json",
+  "source_path": "tools/re/rea_capture_browser_scenario"
+}

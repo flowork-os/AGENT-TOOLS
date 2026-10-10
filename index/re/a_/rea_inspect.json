@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect",
+  "name": "rea_inspect",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect] Inspect an app overview with evidence",
+  "shard": "index/re/a_/rea_inspect.json",
+  "source_path": "tools/re/rea_inspect"
+}

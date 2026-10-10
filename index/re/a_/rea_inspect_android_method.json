@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_android_method",
+  "name": "rea_inspect_android_method",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-android-method] Decompile one APK method with explicit overload selection",
+  "shard": "index/re/a_/rea_inspect_android_method.json",
+  "source_path": "tools/re/rea_inspect_android_method"
+}

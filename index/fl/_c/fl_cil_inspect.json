@@ -1,0 +1,9 @@
+{
+  "id": "fl_cil_inspect",
+  "name": "fl_cil_inspect",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": ".NET Common Intermediate Language (CIL) and ECMA-335 bytecode inspector. Analyzes managed assemblies (DLL/EXE), extracts CLR runtime headers, metadata streams (#~, #Strings, #US, #GUID), module/type declarations, and disassembles CIL method bytecodes into mnemonic instructions.",
+  "shard": "index/fl/_c/fl_cil_inspect.json",
+  "source_path": "tools/fl/fl_cil_inspect"
+}

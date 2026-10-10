@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_keyed_archive",
+  "name": "rea_inspect_keyed_archive",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-keyed-archive] Inspect a Foundation keyed archive as an object-reference graph",
+  "shard": "index/re/a_/rea_inspect_keyed_archive.json",
+  "source_path": "tools/re/rea_inspect_keyed_archive"
+}

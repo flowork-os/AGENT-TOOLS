@@ -1,0 +1,9 @@
+{
+  "id": "rea_capture_electron_scenario",
+  "name": "rea_capture_electron_scenario",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[REA Core: capture-electron-scenario] Run one owned Electron scenario with cancellable actions",
+  "shard": "index/re/a_/rea_capture_electron_scenario.json",
+  "source_path": "tools/re/rea_capture_electron_scenario"
+}

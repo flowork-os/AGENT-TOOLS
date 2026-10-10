@@ -1,0 +1,9 @@
+{
+  "id": "detect_hardcode",
+  "name": "detect_hardcode",
+  "category": "audit",
+  "version": "1.0.0",
+  "description": "Scans workspace or specific file/directory across ALL file types (GUI/HTML/Svelte/Vue/JSX/TSX/CSS, JS/TS, Python, PHP, Go, Rust, C/C++, Shell, Batch, PowerShell, JSON, YAML, TOML, INI, ENV, SQL, Dockerfile) for non-portable hardcoded absolute host paths (e.g. /home/..., /Users/..., C:\\..., D:\\..., /root/..., /tmp/..., /etc/..., /var/..., /opt/...), non-portable path separators, and host-locked configurations. Provides exact file and line locations, matched code snippets, and language-specific cross-platform refactoring recommendations.",
+  "shard": "index/de/te/detect_hardcode.json",
+  "source_path": "tools/de/detect_hardcode"
+}

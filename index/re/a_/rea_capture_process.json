@@ -1,0 +1,9 @@
+{
+  "id": "rea_capture_process",
+  "name": "rea_capture_process",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: capture-process] Capture one caller-selected process scenario",
+  "shard": "index/re/a_/rea_capture_process.json",
+  "source_path": "tools/re/rea_capture_process"
+}

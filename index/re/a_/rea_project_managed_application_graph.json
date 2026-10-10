@@ -1,0 +1,9 @@
+{
+  "id": "rea_project_managed_application_graph",
+  "name": "rea_project_managed_application_graph",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[REA Core: project-managed-application-graph] Project authenticated managed static Evidence into an application graph",
+  "shard": "index/re/a_/rea_project_managed_application_graph.json",
+  "source_path": "tools/re/rea_project_managed_application_graph"
+}

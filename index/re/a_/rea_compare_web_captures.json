@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare_web_captures",
+  "name": "rea_compare_web_captures",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: compare-web-captures] Compare two normalized passive captures or recorded browser scenarios",
+  "shard": "index/re/a_/rea_compare_web_captures.json",
+  "source_path": "tools/re/rea_compare_web_captures"
+}

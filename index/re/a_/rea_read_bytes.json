@@ -1,0 +1,9 @@
+{
+  "id": "rea_read_bytes",
+  "name": "rea_read_bytes",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: read-bytes] Read exact provider memory bytes at one analysis address",
+  "shard": "index/re/a_/rea_read_bytes.json",
+  "source_path": "tools/re/rea_read_bytes"
+}

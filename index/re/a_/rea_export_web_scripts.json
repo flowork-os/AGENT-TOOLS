@@ -1,0 +1,9 @@
+{
+  "id": "rea_export_web_scripts",
+  "name": "rea_export_web_scripts",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: export-web-scripts] Export retained website scripts into an absent directory for static JavaScript analysis",
+  "shard": "index/re/a_/rea_export_web_scripts.json",
+  "source_path": "tools/re/rea_export_web_scripts"
+}

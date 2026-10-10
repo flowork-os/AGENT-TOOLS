@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_binary_layout",
+  "name": "rea_inspect_binary_layout",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-binary-layout] Inspect binary file/linked layout without executing the selected object",
+  "shard": "index/re/a_/rea_inspect_binary_layout.json",
+  "source_path": "tools/re/rea_inspect_binary_layout"
+}

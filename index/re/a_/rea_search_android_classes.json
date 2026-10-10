@@ -1,0 +1,9 @@
+{
+  "id": "rea_search_android_classes",
+  "name": "rea_search_android_classes",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[REA Core: search-android-classes] Search APK class names; empty query inventories all classes",
+  "shard": "index/re/a_/rea_search_android_classes.json",
+  "source_path": "tools/re/rea_search_android_classes"
+}

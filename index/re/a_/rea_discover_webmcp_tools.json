@@ -1,0 +1,9 @@
+{
+  "id": "rea_discover_webmcp_tools",
+  "name": "rea_discover_webmcp_tools",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: discover-webmcp-tools] Passively discover page-declared WebMCP tools",
+  "shard": "index/re/a_/rea_discover_webmcp_tools.json",
+  "source_path": "tools/re/rea_discover_webmcp_tools"
+}

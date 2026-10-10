@@ -1,0 +1,9 @@
+{
+  "id": "rea_observe_web_execution",
+  "name": "rea_observe_web_execution",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: observe-web-execution] Observe precise page execution; resets counters and temporarily disables optimization",
+  "shard": "index/re/a_/rea_observe_web_execution.json",
+  "source_path": "tools/re/rea_observe_web_execution"
+}

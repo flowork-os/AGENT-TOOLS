@@ -1,0 +1,9 @@
+{
+  "id": "rea_capabilities",
+  "name": "rea_capabilities",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: capabilities] Reverse engineering analysis tool for capabilities.",
+  "shard": "index/re/a_/rea_capabilities.json",
+  "source_path": "tools/re/rea_capabilities"
+}

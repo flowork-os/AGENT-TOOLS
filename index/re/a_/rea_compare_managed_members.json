@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare_managed_members",
+  "name": "rea_compare_managed_members",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[REA Core: compare-managed-members] Compare managed PE/CLI member inventories by exact declared type, name, and signature; names alone never form a match",
+  "shard": "index/re/a_/rea_compare_managed_members.json",
+  "source_path": "tools/re/rea_compare_managed_members"
+}

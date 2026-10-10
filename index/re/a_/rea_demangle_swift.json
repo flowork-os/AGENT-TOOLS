@@ -1,0 +1,9 @@
+{
+  "id": "rea_demangle_swift",
+  "name": "rea_demangle_swift",
+  "category": "reverse_engineering_macho",
+  "version": "1.0.0",
+  "description": "[REA Core: demangle-swift] Demangle Swift symbols without Hopper",
+  "shard": "index/re/a_/rea_demangle_swift.json",
+  "source_path": "tools/re/rea_demangle_swift"
+}

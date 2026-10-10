@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_native_dispatch_metadata",
+  "name": "rea_inspect_native_dispatch_metadata",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-native-dispatch-metadata] Inspect typed Objective-C and Swift dispatch metadata",
+  "shard": "index/re/a_/rea_inspect_native_dispatch_metadata.json",
+  "source_path": "tools/re/rea_inspect_native_dispatch_metadata"
+}

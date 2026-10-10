@@ -1,0 +1,9 @@
+{
+  "id": "youtube_spy_comments",
+  "name": "youtube_spy_comments",
+  "category": "intelligence",
+  "version": "1.0.0",
+  "description": "Extract recent audience comments from a YouTube video for sentiment analysis and identification of top viewer questions.",
+  "shard": "index/yo/ut/youtube_spy_comments.json",
+  "source_path": "tools/yo/youtube_spy_comments"
+}

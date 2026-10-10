@@ -1,0 +1,9 @@
+{
+  "id": "rea_import_reference_source",
+  "name": "rea_import_reference_source",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: import-reference-source] Import a source tree as historical reference only",
+  "shard": "index/re/a_/rea_import_reference_source.json",
+  "source_path": "tools/re/rea_import_reference_source"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_list_browser_targets",
+  "name": "rea_list_browser_targets",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: list-browser-targets] List page targets from a selected loopback CDP browser, optionally filtered by origin",
+  "shard": "index/re/a_/rea_list_browser_targets.json",
+  "source_path": "tools/re/rea_list_browser_targets"
+}

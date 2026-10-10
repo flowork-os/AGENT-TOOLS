@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_recorded_crash",
+  "name": "rea_inspect_recorded_crash",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-recorded-crash] Inspect supplied core registers/signals and optional debugger mapping evidence",
+  "shard": "index/re/a_/rea_inspect_recorded_crash.json",
+  "source_path": "tools/re/rea_inspect_recorded_crash"
+}

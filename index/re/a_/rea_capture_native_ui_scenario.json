@@ -1,0 +1,9 @@
+{
+  "id": "rea_capture_native_ui_scenario",
+  "name": "rea_capture_native_ui_scenario",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: capture-native-ui-scenario] Reverse engineering analysis tool for capture native ui scenario.",
+  "shard": "index/re/a_/rea_capture_native_ui_scenario.json",
+  "source_path": "tools/re/rea_capture_native_ui_scenario"
+}

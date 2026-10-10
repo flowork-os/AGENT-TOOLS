@@ -1,0 +1,9 @@
+{
+  "id": "fl_asar",
+  "name": "fl_asar",
+  "category": "reverse_engineering",
+  "version": "1.0.0",
+  "description": "Extracts, inspects, and audits Electron ASAR archive packages. Verifies entry byte size integrity against header declarations, extracts package.json manifest, and maps security flags (nodeIntegration, contextIsolation, sandbox, preload).",
+  "shard": "index/fl/_a/fl_asar.json",
+  "source_path": "tools/fl/fl_asar"
+}

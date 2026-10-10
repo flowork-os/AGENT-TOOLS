@@ -1,0 +1,9 @@
+{
+  "id": "rea_reconcile_javascript_runtime",
+  "name": "rea_reconcile_javascript_runtime",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[REA Core: reconcile-javascript-runtime] Reconcile static application and passive runtime Evidence JSON",
+  "shard": "index/re/a_/rea_reconcile_javascript_runtime.json",
+  "source_path": "tools/re/rea_reconcile_javascript_runtime"
+}

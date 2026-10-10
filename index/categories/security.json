@@ -1,0 +1,30 @@
+{
+  "category": "security",
+  "total_items": 3,
+  "items": [
+    {
+      "id": "audit_security",
+      "name": "audit_security",
+      "category": "security",
+      "version": "1.0.0",
+      "description": "Performs comprehensive multi-language security & vulnerability health audit. Scans code for SAST security antipatterns (Command Injection, Path Traversal, Hardcoded Secrets/Keys, Insecure Shell/Eval, Unsafe Blocks) across Rust, JS/TS, Python, Go, and Shell. Performs offline SCA dependency vulnerability audit against 283,000+ indexed advisories (CVE/GHSA/OSV) for Cargo.lock, package.json, requirements.txt, and go.mod. Evaluates runtime posture and returns health score.",
+      "shard": "index/au/di/audit_security.json"
+    },
+    {
+      "id": "port_scanner",
+      "name": "TCP Port Auditor",
+      "category": "security",
+      "version": "1.0.0",
+      "description": "Fast asynchronous socket-based TCP port scanner and service prober",
+      "shard": "index/po/rt/port_scanner.json"
+    },
+    {
+      "id": "web_security_audit",
+      "name": "web_security_audit",
+      "category": "security",
+      "version": "1.0.0",
+      "description": "Comprehensive web security and defense posture audit: vulnerability analysis, HSTS/CSP/CORS headers, sensitive file leak detection (/.env, /.git), DOM client-side secrets hunter (API keys), DoH DNS Matrix, Certificate Transparency subdomains, and WHOIS/RDAP reconnaissance.",
+      "shard": "index/we/b_/web_security_audit.json"
+    }
+  ]
+}

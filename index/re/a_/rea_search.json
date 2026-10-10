@@ -1,0 +1,9 @@
+{
+  "id": "rea_search",
+  "name": "rea_search",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: search] Search every analyzed string or procedure name",
+  "shard": "index/re/a_/rea_search.json",
+  "source_path": "tools/re/rea_search"
+}

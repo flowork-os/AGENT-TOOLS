@@ -1,0 +1,9 @@
+{
+  "id": "rea_address_to_file_offset",
+  "name": "rea_address_to_file_offset",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: address-to-file-offset] Resolve an analysis address to its original file byte offset",
+  "shard": "index/re/a_/rea_address_to_file_offset.json",
+  "source_path": "tools/re/rea_address_to_file_offset"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "youtube_spy_summary",
+  "name": "youtube_spy_summary",
+  "category": "intelligence",
+  "version": "1.0.0",
+  "description": "Generate executive AI summaries and key takeaways from YouTube transcripts or video content.",
+  "shard": "index/yo/ut/youtube_spy_summary.json",
+  "source_path": "tools/yo/youtube_spy_summary"
+}

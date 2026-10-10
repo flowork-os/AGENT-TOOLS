@@ -1,0 +1,9 @@
+{
+  "id": "rea_trace_android_references",
+  "name": "rea_trace_android_references",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[REA Core: trace-android-references] Trace incoming APK class or unique-method references",
+  "shard": "index/re/a_/rea_trace_android_references.json",
+  "source_path": "tools/re/rea_trace_android_references"
+}

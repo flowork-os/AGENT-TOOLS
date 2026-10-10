@@ -1,0 +1,9 @@
+{
+  "id": "rea_observe_native_calls",
+  "name": "rea_observe_native_calls",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: observe-native-calls] Launch a Mach-O under LLDB and record entries into selected functions or Objective-C methods",
+  "shard": "index/re/a_/rea_observe_native_calls.json",
+  "source_path": "tools/re/rea_observe_native_calls"
+}

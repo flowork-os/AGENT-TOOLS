@@ -1,0 +1,14 @@
+{
+  "category": "lifecycle",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "system_restart",
+      "name": "system_restart",
+      "category": "lifecycle",
+      "version": "1.0.0",
+      "description": "Autonomously restart the Flowork engine binary to apply self-evolution changes, code fixes, binary updates, or configuration reloads. Preserves chat session state and auto-resume prompts, then gracefully restarts.",
+      "shard": "index/sy/st/system_restart.json"
+    }
+  ]
+}

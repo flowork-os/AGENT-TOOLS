@@ -1,0 +1,9 @@
+{
+  "id": "render_visual",
+  "name": "render_visual",
+  "category": "visual",
+  "version": "1.0.0",
+  "description": "Render interactive visual widgets, charts, system pipelines, architecture diagrams, data tables, and KPI dashboards directly into the sovereign chat interface. Use this tool whenever presenting data visualizations, financial trading candles, portfolio donuts, server telemetry, system architectures, interactive tables, process logs, or multi-stage pipelines.",
+  "shard": "index/re/nd/render_visual.json",
+  "source_path": "tools/re/render_visual"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_annotate_native_function",
+  "name": "rea_annotate_native_function",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: annotate-native-function] Edit function annotations and return refreshed analysis",
+  "shard": "index/re/a_/rea_annotate_native_function.json",
+  "source_path": "tools/re/rea_annotate_native_function"
+}

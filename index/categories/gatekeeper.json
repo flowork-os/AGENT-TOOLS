@@ -1,0 +1,14 @@
+{
+  "category": "gatekeeper",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "request_publish_gatekeeper",
+      "name": "request_publish_gatekeeper",
+      "category": "gatekeeper",
+      "version": "1.0.0",
+      "description": "Trigger dedicated Security Gatekeeper Subagent to inspect and publish a tool, plugin, or skill to official Flowork registries. By doctrine, if violations exist, the Gatekeeper is FORBIDDEN from remediating files and will return a blocking Exit Code 1 report for the primary agent to fix.",
+      "shard": "index/re/qu/request_publish_gatekeeper.json"
+    }
+  ]
+}

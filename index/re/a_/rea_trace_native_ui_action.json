@@ -1,0 +1,9 @@
+{
+  "id": "rea_trace_native_ui_action",
+  "name": "rea_trace_native_ui_action",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: trace-native-ui-action] Trace a compiled UI action selector to its native handler and direct callees",
+  "shard": "index/re/a_/rea_trace_native_ui_action.json",
+  "source_path": "tools/re/rea_trace_native_ui_action"
+}

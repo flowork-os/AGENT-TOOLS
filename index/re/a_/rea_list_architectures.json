@@ -1,0 +1,9 @@
+{
+  "id": "rea_list_architectures",
+  "name": "rea_list_architectures",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: list-architectures] Reverse engineering analysis tool for list architectures.",
+  "shard": "index/re/a_/rea_list_architectures.json",
+  "source_path": "tools/re/rea_list_architectures"
+}

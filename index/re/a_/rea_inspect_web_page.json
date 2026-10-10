@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_web_page",
+  "name": "rea_inspect_web_page",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-web-page] Passively inspect one page through CDP, defaulting to its current origin",
+  "shard": "index/re/a_/rea_inspect_web_page.json",
+  "source_path": "tools/re/rea_inspect_web_page"
+}

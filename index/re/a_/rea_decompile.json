@@ -1,0 +1,9 @@
+{
+  "id": "rea_decompile",
+  "name": "rea_decompile",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: decompile] Read one part of an app as code",
+  "shard": "index/re/a_/rea_decompile.json",
+  "source_path": "tools/re/rea_decompile"
+}

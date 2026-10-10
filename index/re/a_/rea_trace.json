@@ -1,0 +1,9 @@
+{
+  "id": "rea_trace",
+  "name": "rea_trace",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: trace] Trace a literal feature through analyzed references",
+  "shard": "index/re/a_/rea_trace.json",
+  "source_path": "tools/re/rea_trace"
+}

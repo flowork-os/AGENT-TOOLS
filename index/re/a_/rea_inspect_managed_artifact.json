@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_managed_artifact",
+  "name": "rea_inspect_managed_artifact",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-managed-artifact] Inspect PE/CLI identity without loading target code",
+  "shard": "index/re/a_/rea_inspect_managed_artifact.json",
+  "source_path": "tools/re/rea_inspect_managed_artifact"
+}

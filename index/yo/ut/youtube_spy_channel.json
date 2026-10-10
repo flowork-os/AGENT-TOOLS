@@ -1,0 +1,9 @@
+{
+  "id": "youtube_spy_channel",
+  "name": "youtube_spy_channel",
+  "category": "intelligence",
+  "version": "1.0.0",
+  "description": "YouTube Channel pulse: dissect channel profile, subscriber count, total video count, and top 12 performing videos.",
+  "shard": "index/yo/ut/youtube_spy_channel.json",
+  "source_path": "tools/yo/youtube_spy_channel"
+}

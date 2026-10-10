@@ -1,0 +1,9 @@
+{
+  "id": "rea_observe_web_session",
+  "name": "rea_observe_web_session",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: observe-web-session] Observe user-driven page navigation during a chosen window",
+  "shard": "index/re/a_/rea_observe_web_session.json",
+  "source_path": "tools/re/rea_observe_web_session"
+}

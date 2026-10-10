@@ -4,10 +4,10 @@
   "items": [
     {
       "id": "sqlite_inspector",
-      "name": "SQLite Inspector",
+      "name": "SQLite Database Inspector",
       "category": "database",
       "version": "1.0.0",
-      "description": "Inspect SQLite database schemas, query table stats, and integrity check.",
+      "description": "Inspect table schemas, indexes, row counts, and sample records in SQLite databases",
       "shard": "index/sq/li/sqlite_inspector.json"
     }
   ]

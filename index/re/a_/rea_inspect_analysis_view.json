@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_analysis_view",
+  "name": "rea_inspect_analysis_view",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-analysis-view] Project a selected view of completed layout, JavaScript application or native function Evidence JSON",
+  "shard": "index/re/a_/rea_inspect_analysis_view.json",
+  "source_path": "tools/re/rea_inspect_analysis_view"
+}

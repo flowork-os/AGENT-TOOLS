@@ -1,0 +1,9 @@
+{
+  "id": "youtube_spy_video",
+  "name": "youtube_spy_video",
+  "category": "intelligence",
+  "version": "1.0.0",
+  "description": "FBE V6 DeepScan for YouTube videos: extract competitor secret tags/keywords, monetization status (ad-breaks), exact view count, audio specs, technical specs, and algorithm synergy.",
+  "shard": "index/yo/ut/youtube_spy_video.json",
+  "source_path": "tools/yo/youtube_spy_video"
+}

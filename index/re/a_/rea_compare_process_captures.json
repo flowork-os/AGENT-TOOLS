@@ -1,0 +1,9 @@
+{
+  "id": "rea_compare_process_captures",
+  "name": "rea_compare_process_captures",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[REA Core: compare-process-captures] Compare two process capture Evidence JSON files",
+  "shard": "index/re/a_/rea_compare_process_captures.json",
+  "source_path": "tools/re/rea_compare_process_captures"
+}

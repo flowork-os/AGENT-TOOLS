@@ -1,0 +1,9 @@
+{
+  "id": "youtube_spy_transcript",
+  "name": "youtube_spy_transcript",
+  "category": "intelligence",
+  "version": "1.0.0",
+  "description": "Extract full spoken transcripts and subtitles with timestamps [MM:SS] from YouTube videos across multiple languages.",
+  "shard": "index/yo/ut/youtube_spy_transcript.json",
+  "source_path": "tools/yo/youtube_spy_transcript"
+}

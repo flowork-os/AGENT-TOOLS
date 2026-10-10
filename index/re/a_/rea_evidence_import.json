@@ -1,0 +1,9 @@
+{
+  "id": "rea_evidence_import",
+  "name": "rea_evidence_import",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[REA Core: evidence-import] Reverse engineering analysis tool for evidence import.",
+  "shard": "index/re/a_/rea_evidence_import.json",
+  "source_path": "tools/re/rea_evidence_import"
+}

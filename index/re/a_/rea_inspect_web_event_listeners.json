@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_web_event_listeners",
+  "name": "rea_inspect_web_event_listeners",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-web-event-listeners] Inspect native listener source locations on the first main-document CSS match",
+  "shard": "index/re/a_/rea_inspect_web_event_listeners.json",
+  "source_path": "tools/re/rea_inspect_web_event_listeners"
+}

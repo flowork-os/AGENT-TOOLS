@@ -1,0 +1,9 @@
+{
+  "id": "rea_xrefs",
+  "name": "rea_xrefs",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: xrefs] List bounded references to an analyzed address",
+  "shard": "index/re/a_/rea_xrefs.json",
+  "source_path": "tools/re/rea_xrefs"
+}

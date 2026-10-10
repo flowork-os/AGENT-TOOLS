@@ -1,0 +1,9 @@
+{
+  "id": "rea_inspect_macho",
+  "name": "rea_inspect_macho",
+  "category": "reverse_engineering_macho",
+  "version": "1.0.0",
+  "description": "[REA Core: inspect-macho] Reverse engineering analysis tool for inspect macho.",
+  "shard": "index/re/a_/rea_inspect_macho.json",
+  "source_path": "tools/re/rea_inspect_macho"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rea_trace_application_feature",
+  "name": "rea_trace_application_feature",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: trace-application-feature] Reverse engineering analysis tool for trace application feature.",
+  "shard": "index/re/a_/rea_trace_application_feature.json",
+  "source_path": "tools/re/rea_trace_application_feature"
+}

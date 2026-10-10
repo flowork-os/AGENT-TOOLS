@@ -1,0 +1,9 @@
+{
+  "id": "rea_evaluate_reconstruction_coverage",
+  "name": "rea_evaluate_reconstruction_coverage",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[REA Core: evaluate-reconstruction-coverage] Reverse engineering analysis tool for evaluate reconstruction coverage.",
+  "shard": "index/re/a_/rea_evaluate_reconstruction_coverage.json",
+  "source_path": "tools/re/rea_evaluate_reconstruction_coverage"
+}

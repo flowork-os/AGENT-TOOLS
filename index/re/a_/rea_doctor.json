@@ -1,0 +1,9 @@
+{
+  "id": "rea_doctor",
+  "name": "rea_doctor",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[REA Core: doctor] Check whether REA is ready",
+  "shard": "index/re/a_/rea_doctor.json",
+  "source_path": "tools/re/rea_doctor"
+}

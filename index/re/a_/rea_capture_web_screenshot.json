@@ -1,0 +1,9 @@
+{
+  "id": "rea_capture_web_screenshot",
+  "name": "rea_capture_web_screenshot",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[REA Core: capture-web-screenshot] Capture one visible page viewport within the supplied origin scope",
+  "shard": "index/re/a_/rea_capture_web_screenshot.json",
+  "source_path": "tools/re/rea_capture_web_screenshot"
+}
