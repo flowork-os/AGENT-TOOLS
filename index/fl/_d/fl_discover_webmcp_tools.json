@@ -1,0 +1,9 @@
+{
+  "id": "fl_discover_webmcp_tools",
+  "name": "fl_discover_webmcp_tools",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: discover-webmcp-tools] Passively discover page-declared WebMCP tools",
+  "shard": "index/fl/_d/fl_discover_webmcp_tools.json",
+  "source_path": "tools/fl/fl_discover_webmcp_tools"
+}

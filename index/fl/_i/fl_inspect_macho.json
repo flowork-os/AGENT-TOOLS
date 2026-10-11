@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_macho",
+  "name": "fl_inspect_macho",
+  "category": "reverse_engineering_macho",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-macho] Reverse engineering analysis tool for inspect macho.",
+  "shard": "index/fl/_i/fl_inspect_macho.json",
+  "source_path": "tools/fl/fl_inspect_macho"
+}

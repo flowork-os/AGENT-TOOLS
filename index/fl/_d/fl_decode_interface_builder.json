@@ -1,0 +1,9 @@
+{
+  "id": "fl_decode_interface_builder",
+  "name": "fl_decode_interface_builder",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: decode-interface-builder] Decode compiled storyboard and nib archives from an app bundle",
+  "shard": "index/fl/_d/fl_decode_interface_builder.json",
+  "source_path": "tools/fl/fl_decode_interface_builder"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_plist",
+  "name": "fl_inspect_plist",
+  "category": "reverse_engineering_macho",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-plist] Parse app plist metadata without launching Hopper",
+  "shard": "index/fl/_i/fl_inspect_plist.json",
+  "source_path": "tools/fl/fl_inspect_plist"
+}

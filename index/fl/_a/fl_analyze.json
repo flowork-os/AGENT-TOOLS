@@ -1,0 +1,9 @@
+{
+  "id": "fl_analyze",
+  "name": "fl_analyze",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: analyze] Get an overview of an app",
+  "shard": "index/fl/_a/fl_analyze.json",
+  "source_path": "tools/fl/fl_analyze"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_managed_artifact",
+  "name": "fl_inspect_managed_artifact",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-managed-artifact] Inspect PE/CLI identity without loading target code",
+  "shard": "index/fl/_i/fl_inspect_managed_artifact.json",
+  "source_path": "tools/fl/fl_inspect_managed_artifact"
+}

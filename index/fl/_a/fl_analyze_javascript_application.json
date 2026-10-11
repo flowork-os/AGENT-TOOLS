@@ -1,0 +1,9 @@
+{
+  "id": "fl_analyze_javascript_application",
+  "name": "fl_analyze_javascript_application",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[Flowork RE: analyze-javascript-application] Statically reconstruct a local JavaScript/Electron application",
+  "shard": "index/fl/_a/fl_analyze_javascript_application.json",
+  "source_path": "tools/fl/fl_analyze_javascript_application"
+}

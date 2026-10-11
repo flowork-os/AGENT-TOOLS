@@ -1,0 +1,9 @@
+{
+  "id": "fl_read_bytes",
+  "name": "fl_read_bytes",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: read-bytes] Read exact provider memory bytes at one analysis address",
+  "shard": "index/fl/_r/fl_read_bytes.json",
+  "source_path": "tools/fl/fl_read_bytes"
+}

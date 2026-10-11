@@ -1,0 +1,9 @@
+{
+  "id": "fl_trace",
+  "name": "fl_trace",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: trace] Trace a literal feature through analyzed references",
+  "shard": "index/fl/_t/fl_trace.json",
+  "source_path": "tools/fl/fl_trace"
+}

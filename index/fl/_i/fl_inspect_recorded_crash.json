@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_recorded_crash",
+  "name": "fl_inspect_recorded_crash",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-recorded-crash] Inspect supplied core registers/signals and optional debugger mapping evidence",
+  "shard": "index/fl/_i/fl_inspect_recorded_crash.json",
+  "source_path": "tools/fl/fl_inspect_recorded_crash"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fl_observe_web_session",
+  "name": "fl_observe_web_session",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: observe-web-session] Observe user-driven page navigation during a chosen window",
+  "shard": "index/fl/_o/fl_observe_web_session.json",
+  "source_path": "tools/fl/fl_observe_web_session"
+}

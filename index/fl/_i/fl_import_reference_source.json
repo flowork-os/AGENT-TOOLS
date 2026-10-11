@@ -1,0 +1,9 @@
+{
+  "id": "fl_import_reference_source",
+  "name": "fl_import_reference_source",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: import-reference-source] Import a source tree as historical reference only",
+  "shard": "index/fl/_i/fl_import_reference_source.json",
+  "source_path": "tools/fl/fl_import_reference_source"
+}

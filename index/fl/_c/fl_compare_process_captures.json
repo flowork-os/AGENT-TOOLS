@@ -1,0 +1,9 @@
+{
+  "id": "fl_compare_process_captures",
+  "name": "fl_compare_process_captures",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[Flowork RE: compare-process-captures] Compare two process capture Evidence JSON files",
+  "shard": "index/fl/_c/fl_compare_process_captures.json",
+  "source_path": "tools/fl/fl_compare_process_captures"
+}

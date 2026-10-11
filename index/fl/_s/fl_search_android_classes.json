@@ -1,0 +1,9 @@
+{
+  "id": "fl_search_android_classes",
+  "name": "fl_search_android_classes",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[Flowork RE: search-android-classes] Search APK class names; empty query inventories all classes",
+  "shard": "index/fl/_s/fl_search_android_classes.json",
+  "source_path": "tools/fl/fl_search_android_classes"
+}

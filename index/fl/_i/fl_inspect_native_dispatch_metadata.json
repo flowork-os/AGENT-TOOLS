@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_native_dispatch_metadata",
+  "name": "fl_inspect_native_dispatch_metadata",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-native-dispatch-metadata] Inspect typed Objective-C and Swift dispatch metadata",
+  "shard": "index/fl/_i/fl_inspect_native_dispatch_metadata.json",
+  "source_path": "tools/fl/fl_inspect_native_dispatch_metadata"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fl_capture_native_ui_scenario",
+  "name": "fl_capture_native_ui_scenario",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: capture-native-ui-scenario] Reverse engineering analysis tool for capture native ui scenario.",
+  "shard": "index/fl/_c/fl_capture_native_ui_scenario.json",
+  "source_path": "tools/fl/fl_capture_native_ui_scenario"
+}

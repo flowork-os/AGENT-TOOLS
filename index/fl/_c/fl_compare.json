@@ -1,0 +1,9 @@
+{
+  "id": "fl_compare",
+  "name": "fl_compare",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[Flowork RE: compare] Reverse engineering analysis tool for compare.",
+  "shard": "index/fl/_c/fl_compare.json",
+  "source_path": "tools/fl/fl_compare"
+}

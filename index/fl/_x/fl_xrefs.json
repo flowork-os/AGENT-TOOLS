@@ -1,0 +1,9 @@
+{
+  "id": "fl_xrefs",
+  "name": "fl_xrefs",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: xrefs] List bounded references to an analyzed address",
+  "shard": "index/fl/_x/fl_xrefs.json",
+  "source_path": "tools/fl/fl_xrefs"
+}

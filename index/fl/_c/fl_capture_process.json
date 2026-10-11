@@ -1,0 +1,9 @@
+{
+  "id": "fl_capture_process",
+  "name": "fl_capture_process",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: capture-process] Capture one caller-selected process scenario",
+  "shard": "index/fl/_c/fl_capture_process.json",
+  "source_path": "tools/fl/fl_capture_process"
+}

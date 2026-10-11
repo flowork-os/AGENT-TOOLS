@@ -1,0 +1,9 @@
+{
+  "id": "fl_evidence_import",
+  "name": "fl_evidence_import",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[Flowork RE: evidence-import] Reverse engineering analysis tool for evidence import.",
+  "shard": "index/fl/_e/fl_evidence_import.json",
+  "source_path": "tools/fl/fl_evidence_import"
+}

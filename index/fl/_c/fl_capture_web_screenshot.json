@@ -1,0 +1,9 @@
+{
+  "id": "fl_capture_web_screenshot",
+  "name": "fl_capture_web_screenshot",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: capture-web-screenshot] Capture one visible page viewport within the supplied origin scope",
+  "shard": "index/fl/_c/fl_capture_web_screenshot.json",
+  "source_path": "tools/fl/fl_capture_web_screenshot"
+}

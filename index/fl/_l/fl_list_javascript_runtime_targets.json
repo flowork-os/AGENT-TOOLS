@@ -1,0 +1,9 @@
+{
+  "id": "fl_list_javascript_runtime_targets",
+  "name": "fl_list_javascript_runtime_targets",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: list-javascript-runtime-targets] Reverse engineering analysis tool for list javascript runtime targets.",
+  "shard": "index/fl/_l/fl_list_javascript_runtime_targets.json",
+  "source_path": "tools/fl/fl_list_javascript_runtime_targets"
+}

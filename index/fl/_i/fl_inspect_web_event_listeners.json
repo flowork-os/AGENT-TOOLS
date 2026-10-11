@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_web_event_listeners",
+  "name": "fl_inspect_web_event_listeners",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-web-event-listeners] Inspect native listener source locations on the first main-document CSS match",
+  "shard": "index/fl/_i/fl_inspect_web_event_listeners.json",
+  "source_path": "tools/fl/fl_inspect_web_event_listeners"
+}

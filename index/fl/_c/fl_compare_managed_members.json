@@ -1,0 +1,9 @@
+{
+  "id": "fl_compare_managed_members",
+  "name": "fl_compare_managed_members",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[Flowork RE: compare-managed-members] Compare managed PE/CLI member inventories by exact declared type, name, and signature; names alone never form a match",
+  "shard": "index/fl/_c/fl_compare_managed_members.json",
+  "source_path": "tools/fl/fl_compare_managed_members"
+}

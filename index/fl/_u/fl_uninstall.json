@@ -1,0 +1,9 @@
+{
+  "id": "fl_uninstall",
+  "name": "fl_uninstall",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: uninstall] Purge reverse engineering workspace configuration and cache files",
+  "shard": "index/fl/_u/fl_uninstall.json",
+  "source_path": "tools/fl/fl_uninstall"
+}

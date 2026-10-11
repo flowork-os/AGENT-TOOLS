@@ -1,0 +1,9 @@
+{
+  "id": "fl_setup",
+  "name": "fl_setup",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: setup] Configure agent integrations and optional analysis providers",
+  "shard": "index/fl/_s/fl_setup.json",
+  "source_path": "tools/fl/fl_setup"
+}

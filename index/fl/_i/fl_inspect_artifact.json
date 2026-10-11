@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_artifact",
+  "name": "fl_inspect_artifact",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-artifact] Inspect one artifact and return all available observations and next probes",
+  "shard": "index/fl/_i/fl_inspect_artifact.json",
+  "source_path": "tools/fl/fl_inspect_artifact"
+}

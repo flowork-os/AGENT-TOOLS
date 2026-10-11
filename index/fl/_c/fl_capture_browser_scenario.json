@@ -1,0 +1,9 @@
+{
+  "id": "fl_capture_browser_scenario",
+  "name": "fl_capture_browser_scenario",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: capture-browser-scenario] Reverse engineering analysis tool for capture browser scenario.",
+  "shard": "index/fl/_c/fl_capture_browser_scenario.json",
+  "source_path": "tools/fl/fl_capture_browser_scenario"
+}

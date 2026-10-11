@@ -1,0 +1,9 @@
+{
+  "id": "fl_export_web_scripts",
+  "name": "fl_export_web_scripts",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: export-web-scripts] Export retained website scripts into an absent directory for static JavaScript analysis",
+  "shard": "index/fl/_e/fl_export_web_scripts.json",
+  "source_path": "tools/fl/fl_export_web_scripts"
+}

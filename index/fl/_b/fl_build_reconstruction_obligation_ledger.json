@@ -1,0 +1,9 @@
+{
+  "id": "fl_build_reconstruction_obligation_ledger",
+  "name": "fl_build_reconstruction_obligation_ledger",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[Flowork RE: build-reconstruction-obligation-ledger] Reverse engineering analysis tool for build reconstruction obligation ledger.",
+  "shard": "index/fl/_b/fl_build_reconstruction_obligation_ledger.json",
+  "source_path": "tools/fl/fl_build_reconstruction_obligation_ledger"
+}

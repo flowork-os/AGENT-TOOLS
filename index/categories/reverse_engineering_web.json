@@ -3,164 +3,164 @@
   "total_items": 20,
   "items": [
     {
-      "id": "rea_analyze_web_bundle",
-      "name": "rea_analyze_web_bundle",
+      "id": "fl_analyze_web_bundle",
+      "name": "fl_analyze_web_bundle",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: analyze-web-bundle] Capture and statically analyze a page bundle, defaulting to the selected target origin",
-      "shard": "index/re/a_/rea_analyze_web_bundle.json"
+      "description": "[Flowork RE: analyze-web-bundle] Capture and statically analyze a page bundle, defaulting to the selected target origin",
+      "shard": "index/fl/_a/fl_analyze_web_bundle.json"
     },
     {
-      "id": "rea_capture_browser_scenario",
-      "name": "rea_capture_browser_scenario",
+      "id": "fl_capture_browser_scenario",
+      "name": "fl_capture_browser_scenario",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: capture-browser-scenario] Reverse engineering analysis tool for capture browser scenario.",
-      "shard": "index/re/a_/rea_capture_browser_scenario.json"
+      "description": "[Flowork RE: capture-browser-scenario] Reverse engineering analysis tool for capture browser scenario.",
+      "shard": "index/fl/_c/fl_capture_browser_scenario.json"
     },
     {
-      "id": "rea_capture_web_screenshot",
-      "name": "rea_capture_web_screenshot",
+      "id": "fl_capture_web_screenshot",
+      "name": "fl_capture_web_screenshot",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: capture-web-screenshot] Capture one visible page viewport within the supplied origin scope",
-      "shard": "index/re/a_/rea_capture_web_screenshot.json"
+      "description": "[Flowork RE: capture-web-screenshot] Capture one visible page viewport within the supplied origin scope",
+      "shard": "index/fl/_c/fl_capture_web_screenshot.json"
     },
     {
-      "id": "rea_compare_javascript_export_shapes",
-      "name": "rea_compare_javascript_export_shapes",
+      "id": "fl_compare_javascript_export_shapes",
+      "name": "fl_compare_javascript_export_shapes",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: compare-javascript-export-shapes] Reverse engineering analysis tool for compare javascript export shapes.",
-      "shard": "index/re/a_/rea_compare_javascript_export_shapes.json"
+      "description": "[Flowork RE: compare-javascript-export-shapes] Reverse engineering analysis tool for compare javascript export shapes.",
+      "shard": "index/fl/_c/fl_compare_javascript_export_shapes.json"
     },
     {
-      "id": "rea_compare_web_captures",
-      "name": "rea_compare_web_captures",
+      "id": "fl_compare_web_captures",
+      "name": "fl_compare_web_captures",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: compare-web-captures] Compare two normalized passive captures or recorded browser scenarios",
-      "shard": "index/re/a_/rea_compare_web_captures.json"
+      "description": "[Flowork RE: compare-web-captures] Compare two normalized passive captures or recorded browser scenarios",
+      "shard": "index/fl/_c/fl_compare_web_captures.json"
     },
     {
-      "id": "rea_compare_web_screenshots",
-      "name": "rea_compare_web_screenshots",
+      "id": "fl_compare_web_screenshots",
+      "name": "fl_compare_web_screenshots",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: compare-web-screenshots] Compare two self-verifying PNG artifact JSON values",
-      "shard": "index/re/a_/rea_compare_web_screenshots.json"
+      "description": "[Flowork RE: compare-web-screenshots] Compare two self-verifying PNG artifact JSON values",
+      "shard": "index/fl/_c/fl_compare_web_screenshots.json"
     },
     {
-      "id": "rea_discover_webmcp_tools",
-      "name": "rea_discover_webmcp_tools",
+      "id": "fl_discover_webmcp_tools",
+      "name": "fl_discover_webmcp_tools",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: discover-webmcp-tools] Passively discover page-declared WebMCP tools",
-      "shard": "index/re/a_/rea_discover_webmcp_tools.json"
+      "description": "[Flowork RE: discover-webmcp-tools] Passively discover page-declared WebMCP tools",
+      "shard": "index/fl/_d/fl_discover_webmcp_tools.json"
     },
     {
-      "id": "rea_export_web_scripts",
-      "name": "rea_export_web_scripts",
+      "id": "fl_export_web_scripts",
+      "name": "fl_export_web_scripts",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: export-web-scripts] Export retained website scripts into an absent directory for static JavaScript analysis",
-      "shard": "index/re/a_/rea_export_web_scripts.json"
+      "description": "[Flowork RE: export-web-scripts] Export retained website scripts into an absent directory for static JavaScript analysis",
+      "shard": "index/fl/_e/fl_export_web_scripts.json"
     },
     {
-      "id": "rea_inspect_web_event_listeners",
-      "name": "rea_inspect_web_event_listeners",
+      "id": "fl_inspect_web_event_listeners",
+      "name": "fl_inspect_web_event_listeners",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: inspect-web-event-listeners] Inspect native listener source locations on the first main-document CSS match",
-      "shard": "index/re/a_/rea_inspect_web_event_listeners.json"
+      "description": "[Flowork RE: inspect-web-event-listeners] Inspect native listener source locations on the first main-document CSS match",
+      "shard": "index/fl/_i/fl_inspect_web_event_listeners.json"
     },
     {
-      "id": "rea_inspect_web_network_capture",
-      "name": "rea_inspect_web_network_capture",
+      "id": "fl_inspect_web_network_capture",
+      "name": "fl_inspect_web_network_capture",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: inspect-web-network-capture] Inspect retained HAR or native mitmproxy records without fetching recorded URLs",
-      "shard": "index/re/a_/rea_inspect_web_network_capture.json"
+      "description": "[Flowork RE: inspect-web-network-capture] Inspect retained HAR or native mitmproxy records without fetching recorded URLs",
+      "shard": "index/fl/_i/fl_inspect_web_network_capture.json"
     },
     {
-      "id": "rea_inspect_web_page",
-      "name": "rea_inspect_web_page",
+      "id": "fl_inspect_web_page",
+      "name": "fl_inspect_web_page",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: inspect-web-page] Passively inspect one page through CDP, defaulting to its current origin",
-      "shard": "index/re/a_/rea_inspect_web_page.json"
+      "description": "[Flowork RE: inspect-web-page] Passively inspect one page through CDP, defaulting to its current origin",
+      "shard": "index/fl/_i/fl_inspect_web_page.json"
     },
     {
-      "id": "rea_list_browser_targets",
-      "name": "rea_list_browser_targets",
+      "id": "fl_list_browser_targets",
+      "name": "fl_list_browser_targets",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: list-browser-targets] List page targets from a selected loopback CDP browser, optionally filtered by origin",
-      "shard": "index/re/a_/rea_list_browser_targets.json"
+      "description": "[Flowork RE: list-browser-targets] List page targets from a selected loopback CDP browser, optionally filtered by origin",
+      "shard": "index/fl/_l/fl_list_browser_targets.json"
     },
     {
-      "id": "rea_list_javascript_runtime_targets",
-      "name": "rea_list_javascript_runtime_targets",
+      "id": "fl_list_javascript_runtime_targets",
+      "name": "fl_list_javascript_runtime_targets",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: list-javascript-runtime-targets] Reverse engineering analysis tool for list javascript runtime targets.",
-      "shard": "index/re/a_/rea_list_javascript_runtime_targets.json"
+      "description": "[Flowork RE: list-javascript-runtime-targets] Reverse engineering analysis tool for list javascript runtime targets.",
+      "shard": "index/fl/_l/fl_list_javascript_runtime_targets.json"
     },
     {
-      "id": "rea_observe_javascript_runtime",
-      "name": "rea_observe_javascript_runtime",
+      "id": "fl_observe_javascript_runtime",
+      "name": "fl_observe_javascript_runtime",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: observe-javascript-runtime] Reverse engineering analysis tool for observe javascript runtime.",
-      "shard": "index/re/a_/rea_observe_javascript_runtime.json"
+      "description": "[Flowork RE: observe-javascript-runtime] Reverse engineering analysis tool for observe javascript runtime.",
+      "shard": "index/fl/_o/fl_observe_javascript_runtime.json"
     },
     {
-      "id": "rea_observe_web_execution",
-      "name": "rea_observe_web_execution",
+      "id": "fl_observe_web_execution",
+      "name": "fl_observe_web_execution",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: observe-web-execution] Observe precise page execution; resets counters and temporarily disables optimization",
-      "shard": "index/re/a_/rea_observe_web_execution.json"
+      "description": "[Flowork RE: observe-web-execution] Observe precise page execution; resets counters and temporarily disables optimization",
+      "shard": "index/fl/_o/fl_observe_web_execution.json"
     },
     {
-      "id": "rea_observe_web_session",
-      "name": "rea_observe_web_session",
+      "id": "fl_observe_web_session",
+      "name": "fl_observe_web_session",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: observe-web-session] Observe user-driven page navigation during a chosen window",
-      "shard": "index/re/a_/rea_observe_web_session.json"
+      "description": "[Flowork RE: observe-web-session] Observe user-driven page navigation during a chosen window",
+      "shard": "index/fl/_o/fl_observe_web_session.json"
     },
     {
-      "id": "rea_recover_javascript_sources",
-      "name": "rea_recover_javascript_sources",
+      "id": "fl_recover_javascript_sources",
+      "name": "fl_recover_javascript_sources",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: recover-javascript-sources] Recover readable JavaScript modules with source provenance and verified files",
-      "shard": "index/re/a_/rea_recover_javascript_sources.json"
+      "description": "[Flowork RE: recover-javascript-sources] Recover readable JavaScript modules with source provenance and verified files",
+      "shard": "index/fl/_r/fl_recover_javascript_sources.json"
     },
     {
-      "id": "rea_trace_javascript_semantics",
-      "name": "rea_trace_javascript_semantics",
+      "id": "fl_trace_javascript_semantics",
+      "name": "fl_trace_javascript_semantics",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: trace-javascript-semantics] Reverse engineering analysis tool for trace javascript semantics.",
-      "shard": "index/re/a_/rea_trace_javascript_semantics.json"
+      "description": "[Flowork RE: trace-javascript-semantics] Reverse engineering analysis tool for trace javascript semantics.",
+      "shard": "index/fl/_t/fl_trace_javascript_semantics.json"
     },
     {
-      "id": "rea_trace_web_module_imports",
-      "name": "rea_trace_web_module_imports",
+      "id": "fl_trace_web_module_imports",
+      "name": "fl_trace_web_module_imports",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: trace-web-module-imports] Trace one captured script's native imports to URLs and captured source candidates",
-      "shard": "index/re/a_/rea_trace_web_module_imports.json"
+      "description": "[Flowork RE: trace-web-module-imports] Trace one captured script's native imports to URLs and captured source candidates",
+      "shard": "index/fl/_t/fl_trace_web_module_imports.json"
     },
     {
-      "id": "rea_trace_web_source_location",
-      "name": "rea_trace_web_source_location",
+      "id": "fl_trace_web_source_location",
+      "name": "fl_trace_web_source_location",
       "category": "reverse_engineering_web",
       "version": "1.0.0",
-      "description": "[REA Core: trace-web-source-location] Trace one retained script position through an explicitly selected local source map",
-      "shard": "index/re/a_/rea_trace_web_source_location.json"
+      "description": "[Flowork RE: trace-web-source-location] Trace one retained script position through an explicitly selected local source map",
+      "shard": "index/fl/_t/fl_trace_web_source_location.json"
     }
   ]
 }

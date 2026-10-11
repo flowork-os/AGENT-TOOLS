@@ -1,0 +1,9 @@
+{
+  "id": "fl_trace_web_module_imports",
+  "name": "fl_trace_web_module_imports",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: trace-web-module-imports] Trace one captured script's native imports to URLs and captured source candidates",
+  "shard": "index/fl/_t/fl_trace_web_module_imports.json",
+  "source_path": "tools/fl/fl_trace_web_module_imports"
+}

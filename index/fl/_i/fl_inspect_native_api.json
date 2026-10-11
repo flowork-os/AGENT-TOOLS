@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_native_api",
+  "name": "fl_inspect_native_api",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-native-api] Reconstruct one native function API boundary with evidence",
+  "shard": "index/fl/_i/fl_inspect_native_api.json",
+  "source_path": "tools/fl/fl_inspect_native_api"
+}

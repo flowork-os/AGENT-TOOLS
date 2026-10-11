@@ -1,0 +1,9 @@
+{
+  "id": "fl_list_electron_targets",
+  "name": "fl_list_electron_targets",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[Flowork RE: list-electron-targets] List local file pages exposed by the selected Electron CDP endpoint",
+  "shard": "index/fl/_l/fl_list_electron_targets.json",
+  "source_path": "tools/fl/fl_list_electron_targets"
+}

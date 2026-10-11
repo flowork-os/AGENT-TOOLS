@@ -1,0 +1,9 @@
+{
+  "id": "fl_update",
+  "name": "fl_update",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: update] Verify reverse engineering toolchain updates",
+  "shard": "index/fl/_u/fl_update.json",
+  "source_path": "tools/fl/fl_update"
+}

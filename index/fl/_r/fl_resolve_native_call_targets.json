@@ -1,0 +1,9 @@
+{
+  "id": "fl_resolve_native_call_targets",
+  "name": "fl_resolve_native_call_targets",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: resolve-native-call-targets] Reverse engineering analysis tool for resolve native call targets.",
+  "shard": "index/fl/_r/fl_resolve_native_call_targets.json",
+  "source_path": "tools/fl/fl_resolve_native_call_targets"
+}

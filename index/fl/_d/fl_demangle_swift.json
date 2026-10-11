@@ -1,0 +1,9 @@
+{
+  "id": "fl_demangle_swift",
+  "name": "fl_demangle_swift",
+  "category": "reverse_engineering_macho",
+  "version": "1.0.0",
+  "description": "[Flowork RE: demangle-swift] Demangle Swift symbols without Hopper",
+  "shard": "index/fl/_d/fl_demangle_swift.json",
+  "source_path": "tools/fl/fl_demangle_swift"
+}

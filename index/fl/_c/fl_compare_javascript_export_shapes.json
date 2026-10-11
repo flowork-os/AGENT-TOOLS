@@ -1,0 +1,9 @@
+{
+  "id": "fl_compare_javascript_export_shapes",
+  "name": "fl_compare_javascript_export_shapes",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: compare-javascript-export-shapes] Reverse engineering analysis tool for compare javascript export shapes.",
+  "shard": "index/fl/_c/fl_compare_javascript_export_shapes.json",
+  "source_path": "tools/fl/fl_compare_javascript_export_shapes"
+}

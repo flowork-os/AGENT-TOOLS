@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_managed_members",
+  "name": "fl_inspect_managed_members",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-managed-members] Inspect PE/CLI metadata members, signatures, and CIL anchors without loading target code",
+  "shard": "index/fl/_i/fl_inspect_managed_members.json",
+  "source_path": "tools/fl/fl_inspect_managed_members"
+}

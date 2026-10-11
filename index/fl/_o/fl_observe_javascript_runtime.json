@@ -1,0 +1,9 @@
+{
+  "id": "fl_observe_javascript_runtime",
+  "name": "fl_observe_javascript_runtime",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: observe-javascript-runtime] Reverse engineering analysis tool for observe javascript runtime.",
+  "shard": "index/fl/_o/fl_observe_javascript_runtime.json",
+  "source_path": "tools/fl/fl_observe_javascript_runtime"
+}

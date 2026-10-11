@@ -1,0 +1,9 @@
+{
+  "id": "fl_capabilities",
+  "name": "fl_capabilities",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: capabilities] Reverse engineering analysis tool for capabilities.",
+  "shard": "index/fl/_c/fl_capabilities.json",
+  "source_path": "tools/fl/fl_capabilities"
+}

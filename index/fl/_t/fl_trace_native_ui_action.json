@@ -1,0 +1,9 @@
+{
+  "id": "fl_trace_native_ui_action",
+  "name": "fl_trace_native_ui_action",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: trace-native-ui-action] Trace a compiled UI action selector to its native handler and direct callees",
+  "shard": "index/fl/_t/fl_trace_native_ui_action.json",
+  "source_path": "tools/fl/fl_trace_native_ui_action"
+}

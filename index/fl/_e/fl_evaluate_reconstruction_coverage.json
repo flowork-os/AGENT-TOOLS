@@ -1,0 +1,9 @@
+{
+  "id": "fl_evaluate_reconstruction_coverage",
+  "name": "fl_evaluate_reconstruction_coverage",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[Flowork RE: evaluate-reconstruction-coverage] Reverse engineering analysis tool for evaluate reconstruction coverage.",
+  "shard": "index/fl/_e/fl_evaluate_reconstruction_coverage.json",
+  "source_path": "tools/fl/fl_evaluate_reconstruction_coverage"
+}

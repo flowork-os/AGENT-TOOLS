@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_firmware_regions",
+  "name": "fl_inspect_firmware_regions",
+  "category": "reverse_engineering_firmware",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-firmware-regions] Inspect firmware signature candidates without extracting them",
+  "shard": "index/fl/_i/fl_inspect_firmware_regions.json",
+  "source_path": "tools/fl/fl_inspect_firmware_regions"
+}

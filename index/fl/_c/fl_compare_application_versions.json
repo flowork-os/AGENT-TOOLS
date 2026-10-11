@@ -1,0 +1,9 @@
+{
+  "id": "fl_compare_application_versions",
+  "name": "fl_compare_application_versions",
+  "category": "reverse_engineering_recon",
+  "version": "1.0.0",
+  "description": "[Flowork RE: compare-application-versions] Reverse engineering analysis tool for compare application versions.",
+  "shard": "index/fl/_c/fl_compare_application_versions.json",
+  "source_path": "tools/fl/fl_compare_application_versions"
+}

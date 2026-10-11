@@ -1,0 +1,9 @@
+{
+  "id": "fl_observe_web_execution",
+  "name": "fl_observe_web_execution",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: observe-web-execution] Observe precise page execution; resets counters and temporarily disables optimization",
+  "shard": "index/fl/_o/fl_observe_web_execution.json",
+  "source_path": "tools/fl/fl_observe_web_execution"
+}

@@ -3,20 +3,20 @@
   "total_items": 2,
   "items": [
     {
-      "id": "rea_extract_firmware",
-      "name": "rea_extract_firmware",
+      "id": "fl_extract_firmware",
+      "name": "fl_extract_firmware",
       "category": "reverse_engineering_firmware",
       "version": "1.0.0",
-      "description": "[REA Core: extract-firmware] Extract selected firmware bytes and return verified files and provenance",
-      "shard": "index/re/a_/rea_extract_firmware.json"
+      "description": "[Flowork RE: extract-firmware] Extract selected firmware bytes and return verified files and provenance",
+      "shard": "index/fl/_e/fl_extract_firmware.json"
     },
     {
-      "id": "rea_inspect_firmware_regions",
-      "name": "rea_inspect_firmware_regions",
+      "id": "fl_inspect_firmware_regions",
+      "name": "fl_inspect_firmware_regions",
       "category": "reverse_engineering_firmware",
       "version": "1.0.0",
-      "description": "[REA Core: inspect-firmware-regions] Inspect firmware signature candidates without extracting them",
-      "shard": "index/re/a_/rea_inspect_firmware_regions.json"
+      "description": "[Flowork RE: inspect-firmware-regions] Inspect firmware signature candidates without extracting them",
+      "shard": "index/fl/_i/fl_inspect_firmware_regions.json"
     }
   ]
 }

@@ -3,36 +3,36 @@
   "total_items": 4,
   "items": [
     {
-      "id": "rea_demangle_swift",
-      "name": "rea_demangle_swift",
+      "id": "fl_demangle_swift",
+      "name": "fl_demangle_swift",
       "category": "reverse_engineering_macho",
       "version": "1.0.0",
-      "description": "[REA Core: demangle-swift] Demangle Swift symbols without Hopper",
-      "shard": "index/re/a_/rea_demangle_swift.json"
+      "description": "[Flowork RE: demangle-swift] Demangle Swift symbols without Hopper",
+      "shard": "index/fl/_d/fl_demangle_swift.json"
     },
     {
-      "id": "rea_inspect_macho",
-      "name": "rea_inspect_macho",
+      "id": "fl_inspect_macho",
+      "name": "fl_inspect_macho",
       "category": "reverse_engineering_macho",
       "version": "1.0.0",
-      "description": "[REA Core: inspect-macho] Reverse engineering analysis tool for inspect macho.",
-      "shard": "index/re/a_/rea_inspect_macho.json"
+      "description": "[Flowork RE: inspect-macho] Reverse engineering analysis tool for inspect macho.",
+      "shard": "index/fl/_i/fl_inspect_macho.json"
     },
     {
-      "id": "rea_inspect_plist",
-      "name": "rea_inspect_plist",
+      "id": "fl_inspect_plist",
+      "name": "fl_inspect_plist",
       "category": "reverse_engineering_macho",
       "version": "1.0.0",
-      "description": "[REA Core: inspect-plist] Parse app plist metadata without launching Hopper",
-      "shard": "index/re/a_/rea_inspect_plist.json"
+      "description": "[Flowork RE: inspect-plist] Parse app plist metadata without launching Hopper",
+      "shard": "index/fl/_i/fl_inspect_plist.json"
     },
     {
-      "id": "rea_project_apple_application_graph",
-      "name": "rea_project_apple_application_graph",
+      "id": "fl_project_apple_application_graph",
+      "name": "fl_project_apple_application_graph",
       "category": "reverse_engineering_macho",
       "version": "1.0.0",
-      "description": "[REA Core: project-apple-application-graph] Reverse engineering analysis tool for project apple application graph.",
-      "shard": "index/re/a_/rea_project_apple_application_graph.json"
+      "description": "[Flowork RE: project-apple-application-graph] Reverse engineering analysis tool for project apple application graph.",
+      "shard": "index/fl/_p/fl_project_apple_application_graph.json"
     }
   ]
 }

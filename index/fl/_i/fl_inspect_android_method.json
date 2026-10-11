@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_android_method",
+  "name": "fl_inspect_android_method",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-android-method] Decompile one APK method with explicit overload selection",
+  "shard": "index/fl/_i/fl_inspect_android_method.json",
+  "source_path": "tools/fl/fl_inspect_android_method"
+}

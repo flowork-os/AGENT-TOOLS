@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_electron_page",
+  "name": "fl_inspect_electron_page",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-electron-page] Passively inspect one Electron file page",
+  "shard": "index/fl/_i/fl_inspect_electron_page.json",
+  "source_path": "tools/fl/fl_inspect_electron_page"
+}

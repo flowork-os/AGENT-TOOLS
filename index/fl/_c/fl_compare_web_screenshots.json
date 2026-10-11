@@ -1,0 +1,9 @@
+{
+  "id": "fl_compare_web_screenshots",
+  "name": "fl_compare_web_screenshots",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: compare-web-screenshots] Compare two self-verifying PNG artifact JSON values",
+  "shard": "index/fl/_c/fl_compare_web_screenshots.json",
+  "source_path": "tools/fl/fl_compare_web_screenshots"
+}

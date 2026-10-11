@@ -1,0 +1,9 @@
+{
+  "id": "fl_search",
+  "name": "fl_search",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: search] Search every analyzed string or procedure name",
+  "shard": "index/fl/_s/fl_search.json",
+  "source_path": "tools/fl/fl_search"
+}

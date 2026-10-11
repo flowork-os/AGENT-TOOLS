@@ -1,0 +1,9 @@
+{
+  "id": "fl_decompile",
+  "name": "fl_decompile",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: decompile] Read one part of an app as code",
+  "shard": "index/fl/_d/fl_decompile.json",
+  "source_path": "tools/fl/fl_decompile"
+}

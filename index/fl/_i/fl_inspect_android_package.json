@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_android_package",
+  "name": "fl_inspect_android_package",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-android-package] Inspect APK declarations and decoded manifest without executing it",
+  "shard": "index/fl/_i/fl_inspect_android_package.json",
+  "source_path": "tools/fl/fl_inspect_android_package"
+}

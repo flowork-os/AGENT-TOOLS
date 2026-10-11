@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_native_load_image",
+  "name": "fl_inspect_native_load_image",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-native-load-image] Verify loaded native bytes, source mappings, relocations and entry",
+  "shard": "index/fl/_i/fl_inspect_native_load_image.json",
+  "source_path": "tools/fl/fl_inspect_native_load_image"
+}

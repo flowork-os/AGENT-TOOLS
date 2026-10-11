@@ -1,0 +1,9 @@
+{
+  "id": "fl_project_android_application_graph",
+  "name": "fl_project_android_application_graph",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[Flowork RE: project-android-application-graph] Reverse engineering analysis tool for project android application graph.",
+  "shard": "index/fl/_p/fl_project_android_application_graph.json",
+  "source_path": "tools/fl/fl_project_android_application_graph"
+}

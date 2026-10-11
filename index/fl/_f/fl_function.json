@@ -1,0 +1,9 @@
+{
+  "id": "fl_function",
+  "name": "fl_function",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: function] Analyze one complete function with evidence",
+  "shard": "index/fl/_f/fl_function.json",
+  "source_path": "tools/fl/fl_function"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_keyed_archive",
+  "name": "fl_inspect_keyed_archive",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-keyed-archive] Inspect a Foundation keyed archive as an object-reference graph",
+  "shard": "index/fl/_i/fl_inspect_keyed_archive.json",
+  "source_path": "tools/fl/fl_inspect_keyed_archive"
+}

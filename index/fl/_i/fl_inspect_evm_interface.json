@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_evm_interface",
+  "name": "fl_inspect_evm_interface",
+  "category": "reverse_engineering_evm",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-evm-interface] Infer interface candidates from explicit local EVM bytecode",
+  "shard": "index/fl/_i/fl_inspect_evm_interface.json",
+  "source_path": "tools/fl/fl_inspect_evm_interface"
+}

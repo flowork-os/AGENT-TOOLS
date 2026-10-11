@@ -1,0 +1,9 @@
+{
+  "id": "fl_analyze_web_bundle",
+  "name": "fl_analyze_web_bundle",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: analyze-web-bundle] Capture and statically analyze a page bundle, defaulting to the selected target origin",
+  "shard": "index/fl/_a/fl_analyze_web_bundle.json",
+  "source_path": "tools/fl/fl_analyze_web_bundle"
+}

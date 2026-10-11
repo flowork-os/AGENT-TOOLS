@@ -1,0 +1,9 @@
+{
+  "id": "fl_trace_native_values",
+  "name": "fl_trace_native_values",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: trace-native-values] Trace bounded native def-use and call dependencies",
+  "shard": "index/fl/_t/fl_trace_native_values.json",
+  "source_path": "tools/fl/fl_trace_native_values"
+}

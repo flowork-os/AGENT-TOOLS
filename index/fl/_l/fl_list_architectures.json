@@ -1,0 +1,9 @@
+{
+  "id": "fl_list_architectures",
+  "name": "fl_list_architectures",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: list-architectures] Reverse engineering analysis tool for list architectures.",
+  "shard": "index/fl/_l/fl_list_architectures.json",
+  "source_path": "tools/fl/fl_list_architectures"
+}

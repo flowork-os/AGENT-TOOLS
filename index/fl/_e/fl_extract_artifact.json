@@ -1,0 +1,9 @@
+{
+  "id": "fl_extract_artifact",
+  "name": "fl_extract_artifact",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: extract-artifact] Extract all regular artifact contents safely",
+  "shard": "index/fl/_e/fl_extract_artifact.json",
+  "source_path": "tools/fl/fl_extract_artifact"
+}

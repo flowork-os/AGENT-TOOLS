@@ -1,0 +1,9 @@
+{
+  "id": "fl_inspect_android_class",
+  "name": "fl_inspect_android_class",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[Flowork RE: inspect-android-class] Inspect one exact APK class's member inventory",
+  "shard": "index/fl/_i/fl_inspect_android_class.json",
+  "source_path": "tools/fl/fl_inspect_android_class"
+}

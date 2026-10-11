@@ -1,0 +1,9 @@
+{
+  "id": "fl_trace_android_references",
+  "name": "fl_trace_android_references",
+  "category": "reverse_engineering_android",
+  "version": "1.0.0",
+  "description": "[Flowork RE: trace-android-references] Trace incoming APK class or unique-method references",
+  "shard": "index/fl/_t/fl_trace_android_references.json",
+  "source_path": "tools/fl/fl_trace_android_references"
+}

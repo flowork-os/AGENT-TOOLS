@@ -1,0 +1,9 @@
+{
+  "id": "fl_import_managed_reconstruction",
+  "name": "fl_import_managed_reconstruction",
+  "category": "reverse_engineering_managed",
+  "version": "1.0.0",
+  "description": "[Flowork RE: import-managed-reconstruction] Import decompiler-produced managed reconstruction against exact static member evidence",
+  "shard": "index/fl/_i/fl_import_managed_reconstruction.json",
+  "source_path": "tools/fl/fl_import_managed_reconstruction"
+}

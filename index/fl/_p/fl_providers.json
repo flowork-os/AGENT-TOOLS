@@ -1,0 +1,9 @@
+{
+  "id": "fl_providers",
+  "name": "fl_providers",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: providers] Reverse engineering analysis tool for providers.",
+  "shard": "index/fl/_p/fl_providers.json",
+  "source_path": "tools/fl/fl_providers"
+}

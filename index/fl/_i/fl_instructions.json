@@ -1,0 +1,9 @@
+{
+  "id": "fl_instructions",
+  "name": "fl_instructions",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: instructions] Read every raw instruction without decompiling",
+  "shard": "index/fl/_i/fl_instructions.json",
+  "source_path": "tools/fl/fl_instructions"
+}

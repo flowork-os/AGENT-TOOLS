@@ -1,0 +1,9 @@
+{
+  "id": "fl_capture_electron_scenario",
+  "name": "fl_capture_electron_scenario",
+  "category": "reverse_engineering_electron",
+  "version": "1.0.0",
+  "description": "[Flowork RE: capture-electron-scenario] Run one owned Electron scenario with cancellable actions",
+  "shard": "index/fl/_c/fl_capture_electron_scenario.json",
+  "source_path": "tools/fl/fl_capture_electron_scenario"
+}

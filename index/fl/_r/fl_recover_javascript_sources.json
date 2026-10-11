@@ -1,0 +1,9 @@
+{
+  "id": "fl_recover_javascript_sources",
+  "name": "fl_recover_javascript_sources",
+  "category": "reverse_engineering_web",
+  "version": "1.0.0",
+  "description": "[Flowork RE: recover-javascript-sources] Recover readable JavaScript modules with source provenance and verified files",
+  "shard": "index/fl/_r/fl_recover_javascript_sources.json",
+  "source_path": "tools/fl/fl_recover_javascript_sources"
+}

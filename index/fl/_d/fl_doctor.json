@@ -1,0 +1,9 @@
+{
+  "id": "fl_doctor",
+  "name": "fl_doctor",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: doctor] Check reverse engineering toolchain dependencies",
+  "shard": "index/fl/_d/fl_doctor.json",
+  "source_path": "tools/fl/fl_doctor"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "fl_trace_dylib_resolution",
+  "name": "fl_trace_dylib_resolution",
+  "category": "reverse_engineering_native",
+  "version": "1.0.0",
+  "description": "[Flowork RE: trace-dylib-resolution] Trace dyld load-path resolution for a Mach-O or every executable in an app bundle",
+  "shard": "index/fl/_t/fl_trace_dylib_resolution.json",
+  "source_path": "tools/fl/fl_trace_dylib_resolution"
+}
