@@ -64,6 +64,5 @@
       "description": "MANDATORY ON EVERY TOOL CALL: Clear technical rationale.",
       "type": "STRING"
     }
-  },
-  "id": "fl_inspect"
+  }
 }
