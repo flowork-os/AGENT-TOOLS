@@ -1,9 +1,11 @@
 {
   "id": "fl_capabilities",
   "name": "fl_capabilities",
-  "category": "reverse_engineering_native",
   "version": "1.0.0",
+  "author": "Flowork Sovereign Core",
   "description": "[Flowork RE: capabilities] Reverse engineering analysis tool for capabilities.",
+  "category": "reverse_engineering_native",
   "shard": "index/fl/_c/fl_capabilities.json",
-  "source_path": "tools/fl/fl_capabilities"
+  "source_path": "tools/fl/fl_capabilities",
+  "updated_at": "2026-10-11T15:16:51.760Z"
 }
