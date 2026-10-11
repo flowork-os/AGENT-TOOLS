@@ -454,11 +454,13 @@
     {
       "id": "fl_inspect",
       "name": "fl_inspect",
-      "category": "reverse_engineering_native",
       "version": "1.0.0",
+      "author": "Flowork Sovereign Core",
       "description": "[Flowork RE: inspect] Inspect an app overview with evidence",
+      "category": "reverse_engineering_native",
       "shard": "index/fl/_i/fl_inspect.json",
-      "source_path": "tools/fl/fl_inspect"
+      "source_path": "tools/fl/fl_inspect",
+      "updated_at": "2026-10-11T16:14:58.097Z"
     },
     {
       "id": "fl_inspect_analysis_view",
@@ -1218,5 +1220,5 @@
       "source_path": "tools/yo/youtube_spy_video"
     }
   ],
-  "updated_at": "2026-10-11T15:55:59.025Z"
+  "updated_at": "2026-10-11T16:14:58.097Z"
 }
