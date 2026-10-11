@@ -1,0 +1,9 @@
+{
+  "id": "fl_code_review",
+  "name": "fl_code_review",
+  "category": "code_quality",
+  "version": "1.0.0",
+  "description": "Two-axis independent code review engine evaluating changes along Axis 1 (Standards compliance & Fowler code smells like high complexity, long functions, primitive obsession, duplicate hunks) and Axis 2 (Spec and requirement conformance, detecting scope creep and missing acceptance criteria).",
+  "shard": "index/fl/_c/fl_code_review.json",
+  "source_path": "tools/fl/fl_code_review"
+}

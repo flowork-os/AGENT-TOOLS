@@ -1,0 +1,9 @@
+{
+  "id": "fl_seam_inspector",
+  "name": "fl_seam_inspector",
+  "category": "architecture",
+  "version": "1.0.0",
+  "description": "Ousterhout Deep Module and architectural seam analyzer. Calculates depth ratio (implementation complexity vs interface surface), detects shallow pass-through abstractions, audits adapter counts per seam, and evaluates the Deletion Test.",
+  "shard": "index/fl/_s/fl_seam_inspector.json",
+  "source_path": "tools/fl/fl_seam_inspector"
+}

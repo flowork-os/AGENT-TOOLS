@@ -1,0 +1,9 @@
+{
+  "id": "fl_domain_adr_manager",
+  "name": "fl_domain_adr_manager",
+  "category": "architecture",
+  "version": "1.0.0",
+  "description": "Domain vocabulary and 3-Gate Architectural Decision Record (ADR) governor. Evaluates decisions against the 3 Gates (reversibility, surprisingness, trade-offs), manages GLOSSARY.md alignment, and logs out-of-scope rejections to prevent cyclic discussions.",
+  "shard": "index/fl/_d/fl_domain_adr_manager.json",
+  "source_path": "tools/fl/fl_domain_adr_manager"
+}

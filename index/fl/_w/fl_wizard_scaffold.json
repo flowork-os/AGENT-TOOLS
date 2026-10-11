@@ -1,0 +1,9 @@
+{
+  "id": "fl_wizard_scaffold",
+  "name": "fl_wizard_scaffold",
+  "category": "tooling",
+  "version": "1.0.0",
+  "description": "Interactive Human-in-the-Loop Bash Wizard generator. Scaffolds self-contained, frozen-core terminal wizards for human-only operations (OAuth setup, cloud secrets, interactive environment provisioning) with silent input, .env upsert, and GitHub secret injection.",
+  "shard": "index/fl/_w/fl_wizard_scaffold.json",
+  "source_path": "tools/fl/fl_wizard_scaffold"
+}

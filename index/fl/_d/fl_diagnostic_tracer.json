@@ -1,0 +1,9 @@
+{
+  "id": "fl_diagnostic_tracer",
+  "name": "fl_diagnostic_tracer",
+  "category": "debugging",
+  "version": "1.0.0",
+  "description": "Empirical red-loop diagnostic engine. Validates deterministic test reproduction commands (failing before fix), manages non-invasive [DEBUG-xxxx] log probe injection, and provides zero-residue atomic probe cleanup across target files.",
+  "shard": "index/fl/_d/fl_diagnostic_tracer.json",
+  "source_path": "tools/fl/fl_diagnostic_tracer"
+}

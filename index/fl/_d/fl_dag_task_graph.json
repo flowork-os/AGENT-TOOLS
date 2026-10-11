@@ -1,0 +1,9 @@
+{
+  "id": "fl_dag_task_graph",
+  "name": "fl_dag_task_graph",
+  "category": "project_management",
+  "version": "1.0.0",
+  "description": "Directed Acyclic Graph (DAG) task graph and frontier scheduler for multi-step engineering initiatives. Validates task graphs against cycles, calculates topological execution order, identifies the active unblocked frontier for parallel agent execution, and renders Mermaid dependency diagrams.",
+  "shard": "index/fl/_d/fl_dag_task_graph.json",
+  "source_path": "tools/fl/fl_dag_task_graph"
+}
