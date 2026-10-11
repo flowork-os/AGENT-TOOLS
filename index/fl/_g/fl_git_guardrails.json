@@ -1,0 +1,9 @@
+{
+  "id": "fl_git_guardrails",
+  "name": "fl_git_guardrails",
+  "category": "security",
+  "version": "1.0.0",
+  "description": "Git guardrails and safety policy enforcer. Scans proposed git commands or sets up hooks to intercept and block destructive operations (push --force, reset --hard, clean -fd, branch -D, unauthorized main checkout) preserving repository integrity.",
+  "shard": "index/fl/_g/fl_git_guardrails.json",
+  "source_path": "tools/fl/fl_git_guardrails"
+}

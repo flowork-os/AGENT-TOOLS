@@ -1,7 +1,7 @@
 {
   "format_version": "2.0.0",
   "description": "Flowork OS Sovereign Agent Tools Registry",
-  "total_tools": 125,
+  "total_tools": 127,
   "tools": [
     {
       "id": "audit_portability",
@@ -423,6 +423,15 @@
       "source_path": "tools/fl/fl_function"
     },
     {
+      "id": "fl_git_guardrails",
+      "name": "fl_git_guardrails",
+      "category": "security",
+      "version": "1.0.0",
+      "description": "Git guardrails and safety policy enforcer. Scans proposed git commands or sets up hooks to intercept and block destructive operations (push --force, reset --hard, clean -fd, branch -D, unauthorized main checkout) preserving repository integrity.",
+      "shard": "index/fl/_g/fl_git_guardrails.json",
+      "source_path": "tools/fl/fl_git_guardrails"
+    },
+    {
       "id": "fl_import_managed_reconstruction",
       "name": "fl_import_managed_reconstruction",
       "category": "reverse_engineering_managed",
@@ -799,6 +808,15 @@
       "description": "[Flowork RE: project-managed-application-graph] Project authenticated managed static Evidence into an application graph",
       "shard": "index/fl/_p/fl_project_managed_application_graph.json",
       "source_path": "tools/fl/fl_project_managed_application_graph"
+    },
+    {
+      "id": "fl_prototype_harness",
+      "name": "fl_prototype_harness",
+      "category": "prototyping",
+      "version": "1.0.0",
+      "description": "Throwaway logic and UI spike harness generator. Generates zero-dependency single-file HTML/JS interactive harnesses with in-memory state reducers, real-time state inspection panels, and floating variant switcher pills for rapid hypothesis testing without polluting production code.",
+      "shard": "index/fl/_p/fl_prototype_harness.json",
+      "source_path": "tools/fl/fl_prototype_harness"
     },
     {
       "id": "fl_providers",

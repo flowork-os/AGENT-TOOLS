@@ -1,0 +1,9 @@
+{
+  "id": "fl_prototype_harness",
+  "name": "fl_prototype_harness",
+  "category": "prototyping",
+  "version": "1.0.0",
+  "description": "Throwaway logic and UI spike harness generator. Generates zero-dependency single-file HTML/JS interactive harnesses with in-memory state reducers, real-time state inspection panels, and floating variant switcher pills for rapid hypothesis testing without polluting production code.",
+  "shard": "index/fl/_p/fl_prototype_harness.json",
+  "source_path": "tools/fl/fl_prototype_harness"
+}
