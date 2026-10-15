@@ -1,51 +1,48 @@
 {
-  "format_version": "2.0.0",
   "description": "Flowork OS Sovereign Agent Tools Registry",
-  "total_tools": 127,
+  "format_version": "2.0.0",
   "tools": [
     {
+      "category": "audit",
+      "description": "Alias for detect_hardcode. Scans workspace or specific directory across multiple programming languages for non-portable hardcoded absolute paths.",
       "id": "audit_portability",
       "name": "audit_portability",
-      "category": "audit",
-      "version": "1.0.0",
-      "description": "Alias for detect_hardcode. Scans workspace or specific directory across multiple programming languages for non-portable hardcoded absolute paths.",
       "shard": "index/au/di/audit_portability.json",
-      "source_path": "tools/au/audit_portability"
+      "source_path": "tools/au/audit_portability",
+      "version": "1.0.0"
     },
     {
+      "category": "security",
+      "description": "Performs comprehensive multi-language security & vulnerability health audit. Scans code for SAST security antipatterns (Command Injection, Path Traversal, Hardcoded Secrets/Keys, Insecure Shell/Eval, Unsafe Blocks) across Rust, JS/TS, Python, Go, and Shell. Performs offline SCA dependency vulnerability audit against 283,000+ indexed advisories (CVE/GHSA/OSV) for Cargo.lock, package.json, requirements.txt, and go.mod. Evaluates runtime posture and returns health score.",
       "id": "audit_security",
       "name": "audit_security",
-      "category": "security",
-      "version": "1.0.0",
-      "description": "Performs comprehensive multi-language security & vulnerability health audit. Scans code for SAST security antipatterns (Command Injection, Path Traversal, Hardcoded Secrets/Keys, Insecure Shell/Eval, Unsafe Blocks) across Rust, JS/TS, Python, Go, and Shell. Performs offline SCA dependency vulnerability audit against 283,000+ indexed advisories (CVE/GHSA/OSV) for Cargo.lock, package.json, requirements.txt, and go.mod. Evaluates runtime posture and returns health score.",
       "shard": "index/au/di/audit_security.json",
-      "source_path": "tools/au/audit_security"
+      "source_path": "tools/au/audit_security",
+      "version": "1.0.0"
     },
     {
+      "category": "finance",
+      "description": "Scans cryptocurrency market metrics, 24h trading volume, price volatility, and liquidity depth for major spot and perpetual pairs.",
       "id": "crypto_scanner",
       "name": "crypto_scanner",
-      "category": "finance",
-      "version": "1.0.0",
-      "description": "Scans cryptocurrency market metrics, 24h trading volume, price volatility, and liquidity depth for major spot and perpetual pairs.",
       "shard": "index/cr/yp/crypto_scanner.json",
-      "source_path": "tools/cr/crypto_scanner"
+      "source_path": "tools/cr/crypto_scanner",
+      "version": "1.0.0"
     },
     {
+      "category": "audit",
+      "description": "Scans workspace or specific file/directory across ALL file types (GUI/HTML/Svelte/Vue/JSX/TSX/CSS, JS/TS, Python, PHP, Go, Rust, C/C++, Shell, Batch, PowerShell, JSON, YAML, TOML, INI, ENV, SQL, Dockerfile) for non-portable hardcoded absolute host paths (e.g. /home/..., /Users/..., C:\\..., D:\\..., /root/..., /tmp/..., /etc/..., /var/..., /opt/...), non-portable path separators, and host-locked configurations. Provides exact file and line locations, matched code snippets, and language-specific cross-platform refactoring recommendations.",
       "id": "detect_hardcode",
       "name": "detect_hardcode",
-      "category": "audit",
-      "version": "1.0.0",
-      "description": "Scans workspace or specific file/directory across ALL file types (GUI/HTML/Svelte/Vue/JSX/TSX/CSS, JS/TS, Python, PHP, Go, Rust, C/C++, Shell, Batch, PowerShell, JSON, YAML, TOML, INI, ENV, SQL, Dockerfile) for non-portable hardcoded absolute host paths (e.g. /home/..., /Users/..., C:\\..., D:\\..., /root/..., /tmp/..., /etc/..., /var/..., /opt/...), non-portable path separators, and host-locked configurations. Provides exact file and line locations, matched code snippets, and language-specific cross-platform refactoring recommendations.",
       "shard": "index/de/te/detect_hardcode.json",
-      "source_path": "tools/de/detect_hardcode"
+      "source_path": "tools/de/detect_hardcode",
+      "version": "1.0.0"
     },
     {
-      "id": "dns_lookup",
-      "name": "DNS Lookup Tool",
-      "version": "1.0.0",
+      "author": "Flowork OS",
       "category": "network",
       "description": "Perform DNS A, AAAA, MX, and TXT record lookups natively",
-      "author": "Flowork OS",
+      "id": "dns_lookup",
       "keywords": [
         "dns",
         "network",
@@ -68,992 +65,992 @@
         "host",
         "infrastructure"
       ],
+      "name": "DNS Lookup Tool",
+      "shard": "index/dn/s_/dns_lookup.json",
       "source_path": "tools/dn/dns_lookup",
-      "shard": "index/dn/s_/dns_lookup.json"
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: address-to-file-offset] Resolve an analysis address to its original file byte offset",
       "id": "fl_address_to_file_offset",
       "name": "fl_address_to_file_offset",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: address-to-file-offset] Resolve an analysis address to its original file byte offset",
       "shard": "index/fl/_a/fl_address_to_file_offset.json",
-      "source_path": "tools/fl/fl_address_to_file_offset"
+      "source_path": "tools/fl/fl_address_to_file_offset",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: analyze] Get an overview of an app",
       "id": "fl_analyze",
       "name": "fl_analyze",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: analyze] Get an overview of an app",
       "shard": "index/fl/_a/fl_analyze.json",
-      "source_path": "tools/fl/fl_analyze"
+      "source_path": "tools/fl/fl_analyze",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_electron",
+      "description": "[Flowork RE: analyze-javascript-application] Statically reconstruct a local JavaScript/Electron application",
       "id": "fl_analyze_javascript_application",
       "name": "fl_analyze_javascript_application",
-      "category": "reverse_engineering_electron",
-      "version": "1.0.0",
-      "description": "[Flowork RE: analyze-javascript-application] Statically reconstruct a local JavaScript/Electron application",
       "shard": "index/fl/_a/fl_analyze_javascript_application.json",
-      "source_path": "tools/fl/fl_analyze_javascript_application"
+      "source_path": "tools/fl/fl_analyze_javascript_application",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: analyze-web-bundle] Capture and statically analyze a page bundle, defaulting to the selected target origin",
       "id": "fl_analyze_web_bundle",
       "name": "fl_analyze_web_bundle",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: analyze-web-bundle] Capture and statically analyze a page bundle, defaulting to the selected target origin",
       "shard": "index/fl/_a/fl_analyze_web_bundle.json",
-      "source_path": "tools/fl/fl_analyze_web_bundle"
+      "source_path": "tools/fl/fl_analyze_web_bundle",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: annotate-native-function] Edit function annotations and return refreshed analysis",
       "id": "fl_annotate_native_function",
       "name": "fl_annotate_native_function",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: annotate-native-function] Edit function annotations and return refreshed analysis",
       "shard": "index/fl/_a/fl_annotate_native_function.json",
-      "source_path": "tools/fl/fl_annotate_native_function"
+      "source_path": "tools/fl/fl_annotate_native_function",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering",
+      "description": "Extracts, inspects, and audits Electron ASAR archive packages. Verifies entry byte size integrity against header declarations, extracts package.json manifest, and maps security flags (nodeIntegration, contextIsolation, sandbox, preload).",
       "id": "fl_asar",
       "name": "fl_asar",
-      "category": "reverse_engineering",
-      "version": "1.0.0",
-      "description": "Extracts, inspects, and audits Electron ASAR archive packages. Verifies entry byte size integrity against header declarations, extracts package.json manifest, and maps security flags (nodeIntegration, contextIsolation, sandbox, preload).",
       "shard": "index/fl/_a/fl_asar.json",
-      "source_path": "tools/fl/fl_asar"
+      "source_path": "tools/fl/fl_asar",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering",
+      "description": "Fast native binary layout and security mitigations triage for ELF, PE, and Mach-O binaries. Inspects architecture, headers, segments, dynamic symbols, dependencies, and security mitigations (NX/DEP, Stack Canary, PIE/ASLR, RELRO).",
       "id": "fl_bin_inspect",
       "name": "fl_bin_inspect",
-      "category": "reverse_engineering",
-      "version": "1.0.0",
-      "description": "Fast native binary layout and security mitigations triage for ELF, PE, and Mach-O binaries. Inspects architecture, headers, segments, dynamic symbols, dependencies, and security mitigations (NX/DEP, Stack Canary, PIE/ASLR, RELRO).",
       "shard": "index/fl/_b/fl_bin_inspect.json",
-      "source_path": "tools/fl/fl_bin_inspect"
+      "source_path": "tools/fl/fl_bin_inspect",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: build-reconstruction-obligation-ledger] Reverse engineering analysis tool for build reconstruction obligation ledger.",
       "id": "fl_build_reconstruction_obligation_ledger",
       "name": "fl_build_reconstruction_obligation_ledger",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: build-reconstruction-obligation-ledger] Reverse engineering analysis tool for build reconstruction obligation ledger.",
       "shard": "index/fl/_b/fl_build_reconstruction_obligation_ledger.json",
-      "source_path": "tools/fl/fl_build_reconstruction_obligation_ledger"
+      "source_path": "tools/fl/fl_build_reconstruction_obligation_ledger",
+      "version": "1.0.0"
     },
     {
+      "author": "Flowork Sovereign Core",
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: capabilities] Reverse engineering analysis tool for capabilities.",
       "id": "fl_capabilities",
       "name": "fl_capabilities",
-      "version": "1.0.0",
-      "author": "Flowork Sovereign Core",
-      "description": "[Flowork RE: capabilities] Reverse engineering analysis tool for capabilities.",
-      "category": "reverse_engineering_native",
       "shard": "index/fl/_c/fl_capabilities.json",
       "source_path": "tools/fl/fl_capabilities",
-      "updated_at": "2026-10-11T16:15:03.109Z"
+      "updated_at": "2026-10-11T16:15:03.109Z",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: capture-browser-scenario] Reverse engineering analysis tool for capture browser scenario.",
       "id": "fl_capture_browser_scenario",
       "name": "fl_capture_browser_scenario",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: capture-browser-scenario] Reverse engineering analysis tool for capture browser scenario.",
       "shard": "index/fl/_c/fl_capture_browser_scenario.json",
-      "source_path": "tools/fl/fl_capture_browser_scenario"
+      "source_path": "tools/fl/fl_capture_browser_scenario",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_electron",
+      "description": "[Flowork RE: capture-electron-scenario] Run one owned Electron scenario with cancellable actions",
       "id": "fl_capture_electron_scenario",
       "name": "fl_capture_electron_scenario",
-      "category": "reverse_engineering_electron",
-      "version": "1.0.0",
-      "description": "[Flowork RE: capture-electron-scenario] Run one owned Electron scenario with cancellable actions",
       "shard": "index/fl/_c/fl_capture_electron_scenario.json",
-      "source_path": "tools/fl/fl_capture_electron_scenario"
+      "source_path": "tools/fl/fl_capture_electron_scenario",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: capture-native-ui-scenario] Reverse engineering analysis tool for capture native ui scenario.",
       "id": "fl_capture_native_ui_scenario",
       "name": "fl_capture_native_ui_scenario",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: capture-native-ui-scenario] Reverse engineering analysis tool for capture native ui scenario.",
       "shard": "index/fl/_c/fl_capture_native_ui_scenario.json",
-      "source_path": "tools/fl/fl_capture_native_ui_scenario"
+      "source_path": "tools/fl/fl_capture_native_ui_scenario",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: capture-process] Capture one caller-selected process scenario",
       "id": "fl_capture_process",
       "name": "fl_capture_process",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: capture-process] Capture one caller-selected process scenario",
       "shard": "index/fl/_c/fl_capture_process.json",
-      "source_path": "tools/fl/fl_capture_process"
+      "source_path": "tools/fl/fl_capture_process",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: capture-web-screenshot] Capture one visible page viewport within the supplied origin scope",
       "id": "fl_capture_web_screenshot",
       "name": "fl_capture_web_screenshot",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: capture-web-screenshot] Capture one visible page viewport within the supplied origin scope",
       "shard": "index/fl/_c/fl_capture_web_screenshot.json",
-      "source_path": "tools/fl/fl_capture_web_screenshot"
+      "source_path": "tools/fl/fl_capture_web_screenshot",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": ".NET Common Intermediate Language (CIL) and ECMA-335 bytecode inspector. Analyzes managed assemblies (DLL/EXE), extracts CLR runtime headers, metadata streams (#~, #Strings, #US, #GUID), module/type declarations, and disassembles CIL method bytecodes into mnemonic instructions.",
       "id": "fl_cil_inspect",
       "name": "fl_cil_inspect",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": ".NET Common Intermediate Language (CIL) and ECMA-335 bytecode inspector. Analyzes managed assemblies (DLL/EXE), extracts CLR runtime headers, metadata streams (#~, #Strings, #US, #GUID), module/type declarations, and disassembles CIL method bytecodes into mnemonic instructions.",
       "shard": "index/fl/_c/fl_cil_inspect.json",
-      "source_path": "tools/fl/fl_cil_inspect"
+      "source_path": "tools/fl/fl_cil_inspect",
+      "version": "1.0.0"
     },
     {
+      "category": "code_quality",
+      "description": "Two-axis independent code review engine evaluating changes along Axis 1 (Standards compliance & Fowler code smells like high complexity, long functions, primitive obsession, duplicate hunks) and Axis 2 (Spec and requirement conformance, detecting scope creep and missing acceptance criteria).",
       "id": "fl_code_review",
       "name": "fl_code_review",
-      "category": "code_quality",
-      "version": "1.0.0",
-      "description": "Two-axis independent code review engine evaluating changes along Axis 1 (Standards compliance & Fowler code smells like high complexity, long functions, primitive obsession, duplicate hunks) and Axis 2 (Spec and requirement conformance, detecting scope creep and missing acceptance criteria).",
       "shard": "index/fl/_c/fl_code_review.json",
-      "source_path": "tools/fl/fl_code_review"
+      "source_path": "tools/fl/fl_code_review",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: compare] Reverse engineering analysis tool for compare.",
       "id": "fl_compare",
       "name": "fl_compare",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare] Reverse engineering analysis tool for compare.",
       "shard": "index/fl/_c/fl_compare.json",
-      "source_path": "tools/fl/fl_compare"
+      "source_path": "tools/fl/fl_compare",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: compare-application-versions] Reverse engineering analysis tool for compare application versions.",
       "id": "fl_compare_application_versions",
       "name": "fl_compare_application_versions",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare-application-versions] Reverse engineering analysis tool for compare application versions.",
       "shard": "index/fl/_c/fl_compare_application_versions.json",
-      "source_path": "tools/fl/fl_compare_application_versions"
+      "source_path": "tools/fl/fl_compare_application_versions",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: compare-javascript-export-shapes] Reverse engineering analysis tool for compare javascript export shapes.",
       "id": "fl_compare_javascript_export_shapes",
       "name": "fl_compare_javascript_export_shapes",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare-javascript-export-shapes] Reverse engineering analysis tool for compare javascript export shapes.",
       "shard": "index/fl/_c/fl_compare_javascript_export_shapes.json",
-      "source_path": "tools/fl/fl_compare_javascript_export_shapes"
+      "source_path": "tools/fl/fl_compare_javascript_export_shapes",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": "[Flowork RE: compare-managed-members] Compare managed PE/CLI member inventories by exact declared type, name, and signature; names alone never form a match",
       "id": "fl_compare_managed_members",
       "name": "fl_compare_managed_members",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare-managed-members] Compare managed PE/CLI member inventories by exact declared type, name, and signature; names alone never form a match",
       "shard": "index/fl/_c/fl_compare_managed_members.json",
-      "source_path": "tools/fl/fl_compare_managed_members"
+      "source_path": "tools/fl/fl_compare_managed_members",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: compare-process-captures] Compare two process capture Evidence JSON files",
       "id": "fl_compare_process_captures",
       "name": "fl_compare_process_captures",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare-process-captures] Compare two process capture Evidence JSON files",
       "shard": "index/fl/_c/fl_compare_process_captures.json",
-      "source_path": "tools/fl/fl_compare_process_captures"
+      "source_path": "tools/fl/fl_compare_process_captures",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: compare-source-to-bundle] Reverse engineering analysis tool for compare source to bundle.",
       "id": "fl_compare_source_to_bundle",
       "name": "fl_compare_source_to_bundle",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare-source-to-bundle] Reverse engineering analysis tool for compare source to bundle.",
       "shard": "index/fl/_c/fl_compare_source_to_bundle.json",
-      "source_path": "tools/fl/fl_compare_source_to_bundle"
+      "source_path": "tools/fl/fl_compare_source_to_bundle",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: compare-web-captures] Compare two normalized passive captures or recorded browser scenarios",
       "id": "fl_compare_web_captures",
       "name": "fl_compare_web_captures",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare-web-captures] Compare two normalized passive captures or recorded browser scenarios",
       "shard": "index/fl/_c/fl_compare_web_captures.json",
-      "source_path": "tools/fl/fl_compare_web_captures"
+      "source_path": "tools/fl/fl_compare_web_captures",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: compare-web-screenshots] Compare two self-verifying PNG artifact JSON values",
       "id": "fl_compare_web_screenshots",
       "name": "fl_compare_web_screenshots",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: compare-web-screenshots] Compare two self-verifying PNG artifact JSON values",
       "shard": "index/fl/_c/fl_compare_web_screenshots.json",
-      "source_path": "tools/fl/fl_compare_web_screenshots"
+      "source_path": "tools/fl/fl_compare_web_screenshots",
+      "version": "1.0.0"
     },
     {
+      "category": "project_management",
+      "description": "Directed Acyclic Graph (DAG) task graph and frontier scheduler for multi-step engineering initiatives. Validates task graphs against cycles, calculates topological execution order, identifies the active unblocked frontier for parallel agent execution, and renders Mermaid dependency diagrams.",
       "id": "fl_dag_task_graph",
       "name": "fl_dag_task_graph",
-      "category": "project_management",
-      "version": "1.0.0",
-      "description": "Directed Acyclic Graph (DAG) task graph and frontier scheduler for multi-step engineering initiatives. Validates task graphs against cycles, calculates topological execution order, identifies the active unblocked frontier for parallel agent execution, and renders Mermaid dependency diagrams.",
       "shard": "index/fl/_d/fl_dag_task_graph.json",
-      "source_path": "tools/fl/fl_dag_task_graph"
+      "source_path": "tools/fl/fl_dag_task_graph",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: decode-interface-builder] Decode compiled storyboard and nib archives from an app bundle",
       "id": "fl_decode_interface_builder",
       "name": "fl_decode_interface_builder",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: decode-interface-builder] Decode compiled storyboard and nib archives from an app bundle",
       "shard": "index/fl/_d/fl_decode_interface_builder.json",
-      "source_path": "tools/fl/fl_decode_interface_builder"
+      "source_path": "tools/fl/fl_decode_interface_builder",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: decompile] Read one part of an app as code",
       "id": "fl_decompile",
       "name": "fl_decompile",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: decompile] Read one part of an app as code",
       "shard": "index/fl/_d/fl_decompile.json",
-      "source_path": "tools/fl/fl_decompile"
+      "source_path": "tools/fl/fl_decompile",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_macho",
+      "description": "[Flowork RE: demangle-swift] Demangle Swift symbols without Hopper",
       "id": "fl_demangle_swift",
       "name": "fl_demangle_swift",
-      "category": "reverse_engineering_macho",
-      "version": "1.0.0",
-      "description": "[Flowork RE: demangle-swift] Demangle Swift symbols without Hopper",
       "shard": "index/fl/_d/fl_demangle_swift.json",
-      "source_path": "tools/fl/fl_demangle_swift"
+      "source_path": "tools/fl/fl_demangle_swift",
+      "version": "1.0.0"
     },
     {
+      "category": "debugging",
+      "description": "Empirical red-loop diagnostic engine. Validates deterministic test reproduction commands (failing before fix), manages non-invasive [DEBUG-xxxx] log probe injection, and provides zero-residue atomic probe cleanup across target files.",
       "id": "fl_diagnostic_tracer",
       "name": "fl_diagnostic_tracer",
-      "category": "debugging",
-      "version": "1.0.0",
-      "description": "Empirical red-loop diagnostic engine. Validates deterministic test reproduction commands (failing before fix), manages non-invasive [DEBUG-xxxx] log probe injection, and provides zero-residue atomic probe cleanup across target files.",
       "shard": "index/fl/_d/fl_diagnostic_tracer.json",
-      "source_path": "tools/fl/fl_diagnostic_tracer"
+      "source_path": "tools/fl/fl_diagnostic_tracer",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: discover-webmcp-tools] Passively discover page-declared WebMCP tools",
       "id": "fl_discover_webmcp_tools",
       "name": "fl_discover_webmcp_tools",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: discover-webmcp-tools] Passively discover page-declared WebMCP tools",
       "shard": "index/fl/_d/fl_discover_webmcp_tools.json",
-      "source_path": "tools/fl/fl_discover_webmcp_tools"
+      "source_path": "tools/fl/fl_discover_webmcp_tools",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: doctor] Check reverse engineering toolchain dependencies",
       "id": "fl_doctor",
       "name": "fl_doctor",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: doctor] Check reverse engineering toolchain dependencies",
       "shard": "index/fl/_d/fl_doctor.json",
-      "source_path": "tools/fl/fl_doctor"
+      "source_path": "tools/fl/fl_doctor",
+      "version": "1.0.0"
     },
     {
+      "category": "architecture",
+      "description": "Domain vocabulary and 3-Gate Architectural Decision Record (ADR) governor. Evaluates decisions against the 3 Gates (reversibility, surprisingness, trade-offs), manages GLOSSARY.md alignment, and logs out-of-scope rejections to prevent cyclic discussions.",
       "id": "fl_domain_adr_manager",
       "name": "fl_domain_adr_manager",
-      "category": "architecture",
-      "version": "1.0.0",
-      "description": "Domain vocabulary and 3-Gate Architectural Decision Record (ADR) governor. Evaluates decisions against the 3 Gates (reversibility, surprisingness, trade-offs), manages GLOSSARY.md alignment, and logs out-of-scope rejections to prevent cyclic discussions.",
       "shard": "index/fl/_d/fl_domain_adr_manager.json",
-      "source_path": "tools/fl/fl_domain_adr_manager"
+      "source_path": "tools/fl/fl_domain_adr_manager",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: evaluate-reconstruction-coverage] Reverse engineering analysis tool for evaluate reconstruction coverage.",
       "id": "fl_evaluate_reconstruction_coverage",
       "name": "fl_evaluate_reconstruction_coverage",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: evaluate-reconstruction-coverage] Reverse engineering analysis tool for evaluate reconstruction coverage.",
       "shard": "index/fl/_e/fl_evaluate_reconstruction_coverage.json",
-      "source_path": "tools/fl/fl_evaluate_reconstruction_coverage"
+      "source_path": "tools/fl/fl_evaluate_reconstruction_coverage",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: evidence-export] Reverse engineering analysis tool for evidence export.",
       "id": "fl_evidence_export",
       "name": "fl_evidence_export",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: evidence-export] Reverse engineering analysis tool for evidence export.",
       "shard": "index/fl/_e/fl_evidence_export.json",
-      "source_path": "tools/fl/fl_evidence_export"
+      "source_path": "tools/fl/fl_evidence_export",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_recon",
+      "description": "[Flowork RE: evidence-import] Reverse engineering analysis tool for evidence import.",
       "id": "fl_evidence_import",
       "name": "fl_evidence_import",
-      "category": "reverse_engineering_recon",
-      "version": "1.0.0",
-      "description": "[Flowork RE: evidence-import] Reverse engineering analysis tool for evidence import.",
       "shard": "index/fl/_e/fl_evidence_import.json",
-      "source_path": "tools/fl/fl_evidence_import"
+      "source_path": "tools/fl/fl_evidence_import",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: export-web-scripts] Export retained website scripts into an absent directory for static JavaScript analysis",
       "id": "fl_export_web_scripts",
       "name": "fl_export_web_scripts",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: export-web-scripts] Export retained website scripts into an absent directory for static JavaScript analysis",
       "shard": "index/fl/_e/fl_export_web_scripts.json",
-      "source_path": "tools/fl/fl_export_web_scripts"
+      "source_path": "tools/fl/fl_export_web_scripts",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: extract-artifact] Extract all regular artifact contents safely",
       "id": "fl_extract_artifact",
       "name": "fl_extract_artifact",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: extract-artifact] Extract all regular artifact contents safely",
       "shard": "index/fl/_e/fl_extract_artifact.json",
-      "source_path": "tools/fl/fl_extract_artifact"
+      "source_path": "tools/fl/fl_extract_artifact",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_firmware",
+      "description": "[Flowork RE: extract-firmware] Extract selected firmware bytes and return verified files and provenance",
       "id": "fl_extract_firmware",
       "name": "fl_extract_firmware",
-      "category": "reverse_engineering_firmware",
-      "version": "1.0.0",
-      "description": "[Flowork RE: extract-firmware] Extract selected firmware bytes and return verified files and provenance",
       "shard": "index/fl/_e/fl_extract_firmware.json",
-      "source_path": "tools/fl/fl_extract_firmware"
+      "source_path": "tools/fl/fl_extract_firmware",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: function] Analyze one complete function with evidence",
       "id": "fl_function",
       "name": "fl_function",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: function] Analyze one complete function with evidence",
       "shard": "index/fl/_f/fl_function.json",
-      "source_path": "tools/fl/fl_function"
+      "source_path": "tools/fl/fl_function",
+      "version": "1.0.0"
     },
     {
+      "category": "security",
+      "description": "Git guardrails and safety policy enforcer. Scans proposed git commands or sets up hooks to intercept and block destructive operations (push --force, reset --hard, clean -fd, branch -D, unauthorized main checkout) preserving repository integrity.",
       "id": "fl_git_guardrails",
       "name": "fl_git_guardrails",
-      "category": "security",
-      "version": "1.0.0",
-      "description": "Git guardrails and safety policy enforcer. Scans proposed git commands or sets up hooks to intercept and block destructive operations (push --force, reset --hard, clean -fd, branch -D, unauthorized main checkout) preserving repository integrity.",
       "shard": "index/fl/_g/fl_git_guardrails.json",
-      "source_path": "tools/fl/fl_git_guardrails"
+      "source_path": "tools/fl/fl_git_guardrails",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": "[Flowork RE: import-managed-reconstruction] Import decompiler-produced managed reconstruction against exact static member evidence",
       "id": "fl_import_managed_reconstruction",
       "name": "fl_import_managed_reconstruction",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": "[Flowork RE: import-managed-reconstruction] Import decompiler-produced managed reconstruction against exact static member evidence",
       "shard": "index/fl/_i/fl_import_managed_reconstruction.json",
-      "source_path": "tools/fl/fl_import_managed_reconstruction"
+      "source_path": "tools/fl/fl_import_managed_reconstruction",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: import-reference-source] Import a source tree as historical reference only",
       "id": "fl_import_reference_source",
       "name": "fl_import_reference_source",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: import-reference-source] Import a source tree as historical reference only",
       "shard": "index/fl/_i/fl_import_reference_source.json",
-      "source_path": "tools/fl/fl_import_reference_source"
+      "source_path": "tools/fl/fl_import_reference_source",
+      "version": "1.0.0"
     },
     {
+      "author": "Flowork Sovereign Core",
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect] Inspect an app overview with evidence",
       "id": "fl_inspect",
       "name": "fl_inspect",
-      "version": "1.0.0",
-      "author": "Flowork Sovereign Core",
-      "description": "[Flowork RE: inspect] Inspect an app overview with evidence",
-      "category": "reverse_engineering_native",
       "shard": "index/fl/_i/fl_inspect.json",
       "source_path": "tools/fl/fl_inspect",
-      "updated_at": "2026-10-11T22:32:53.068Z"
+      "updated_at": "2026-10-11T22:32:53.068Z",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-analysis-view] Project a selected view of completed layout, JavaScript application or native function Evidence JSON",
       "id": "fl_inspect_analysis_view",
       "name": "fl_inspect_analysis_view",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-analysis-view] Project a selected view of completed layout, JavaScript application or native function Evidence JSON",
       "shard": "index/fl/_i/fl_inspect_analysis_view.json",
-      "source_path": "tools/fl/fl_inspect_analysis_view"
+      "source_path": "tools/fl/fl_inspect_analysis_view",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_android",
+      "description": "[Flowork RE: inspect-android-class] Inspect one exact APK class's member inventory",
       "id": "fl_inspect_android_class",
       "name": "fl_inspect_android_class",
-      "category": "reverse_engineering_android",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-android-class] Inspect one exact APK class's member inventory",
       "shard": "index/fl/_i/fl_inspect_android_class.json",
-      "source_path": "tools/fl/fl_inspect_android_class"
+      "source_path": "tools/fl/fl_inspect_android_class",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_android",
+      "description": "[Flowork RE: inspect-android-method] Decompile one APK method with explicit overload selection",
       "id": "fl_inspect_android_method",
       "name": "fl_inspect_android_method",
-      "category": "reverse_engineering_android",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-android-method] Decompile one APK method with explicit overload selection",
       "shard": "index/fl/_i/fl_inspect_android_method.json",
-      "source_path": "tools/fl/fl_inspect_android_method"
+      "source_path": "tools/fl/fl_inspect_android_method",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_android",
+      "description": "[Flowork RE: inspect-android-package] Inspect APK declarations and decoded manifest without executing it",
       "id": "fl_inspect_android_package",
       "name": "fl_inspect_android_package",
-      "category": "reverse_engineering_android",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-android-package] Inspect APK declarations and decoded manifest without executing it",
       "shard": "index/fl/_i/fl_inspect_android_package.json",
-      "source_path": "tools/fl/fl_inspect_android_package"
+      "source_path": "tools/fl/fl_inspect_android_package",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-artifact] Inspect one artifact and return all available observations and next probes",
       "id": "fl_inspect_artifact",
       "name": "fl_inspect_artifact",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-artifact] Inspect one artifact and return all available observations and next probes",
       "shard": "index/fl/_i/fl_inspect_artifact.json",
-      "source_path": "tools/fl/fl_inspect_artifact"
+      "source_path": "tools/fl/fl_inspect_artifact",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-asset-catalog] Inspect compiled Apple asset catalog metadata",
       "id": "fl_inspect_asset_catalog",
       "name": "fl_inspect_asset_catalog",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-asset-catalog] Inspect compiled Apple asset catalog metadata",
       "shard": "index/fl/_i/fl_inspect_asset_catalog.json",
-      "source_path": "tools/fl/fl_inspect_asset_catalog"
+      "source_path": "tools/fl/fl_inspect_asset_catalog",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-binary-layout] Inspect binary file/linked layout without executing the selected object",
       "id": "fl_inspect_binary_layout",
       "name": "fl_inspect_binary_layout",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-binary-layout] Inspect binary file/linked layout without executing the selected object",
       "shard": "index/fl/_i/fl_inspect_binary_layout.json",
-      "source_path": "tools/fl/fl_inspect_binary_layout"
+      "source_path": "tools/fl/fl_inspect_binary_layout",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_electron",
+      "description": "[Flowork RE: inspect-electron-page] Passively inspect one Electron file page",
       "id": "fl_inspect_electron_page",
       "name": "fl_inspect_electron_page",
-      "category": "reverse_engineering_electron",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-electron-page] Passively inspect one Electron file page",
       "shard": "index/fl/_i/fl_inspect_electron_page.json",
-      "source_path": "tools/fl/fl_inspect_electron_page"
+      "source_path": "tools/fl/fl_inspect_electron_page",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_evm",
+      "description": "[Flowork RE: inspect-evm-interface] Infer interface candidates from explicit local EVM bytecode",
       "id": "fl_inspect_evm_interface",
       "name": "fl_inspect_evm_interface",
-      "category": "reverse_engineering_evm",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-evm-interface] Infer interface candidates from explicit local EVM bytecode",
       "shard": "index/fl/_i/fl_inspect_evm_interface.json",
-      "source_path": "tools/fl/fl_inspect_evm_interface"
+      "source_path": "tools/fl/fl_inspect_evm_interface",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_firmware",
+      "description": "[Flowork RE: inspect-firmware-regions] Inspect firmware signature candidates without extracting them",
       "id": "fl_inspect_firmware_regions",
       "name": "fl_inspect_firmware_regions",
-      "category": "reverse_engineering_firmware",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-firmware-regions] Inspect firmware signature candidates without extracting them",
       "shard": "index/fl/_i/fl_inspect_firmware_regions.json",
-      "source_path": "tools/fl/fl_inspect_firmware_regions"
+      "source_path": "tools/fl/fl_inspect_firmware_regions",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-keyed-archive] Inspect a Foundation keyed archive as an object-reference graph",
       "id": "fl_inspect_keyed_archive",
       "name": "fl_inspect_keyed_archive",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-keyed-archive] Inspect a Foundation keyed archive as an object-reference graph",
       "shard": "index/fl/_i/fl_inspect_keyed_archive.json",
-      "source_path": "tools/fl/fl_inspect_keyed_archive"
+      "source_path": "tools/fl/fl_inspect_keyed_archive",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_macho",
+      "description": "[Flowork RE: inspect-macho] Reverse engineering analysis tool for inspect macho.",
       "id": "fl_inspect_macho",
       "name": "fl_inspect_macho",
-      "category": "reverse_engineering_macho",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-macho] Reverse engineering analysis tool for inspect macho.",
       "shard": "index/fl/_i/fl_inspect_macho.json",
-      "source_path": "tools/fl/fl_inspect_macho"
+      "source_path": "tools/fl/fl_inspect_macho",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": "[Flowork RE: inspect-managed-artifact] Inspect PE/CLI identity without loading target code",
       "id": "fl_inspect_managed_artifact",
       "name": "fl_inspect_managed_artifact",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-managed-artifact] Inspect PE/CLI identity without loading target code",
       "shard": "index/fl/_i/fl_inspect_managed_artifact.json",
-      "source_path": "tools/fl/fl_inspect_managed_artifact"
+      "source_path": "tools/fl/fl_inspect_managed_artifact",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": "[Flowork RE: inspect-managed-members] Inspect PE/CLI metadata members, signatures, and CIL anchors without loading target code",
       "id": "fl_inspect_managed_members",
       "name": "fl_inspect_managed_members",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-managed-members] Inspect PE/CLI metadata members, signatures, and CIL anchors without loading target code",
       "shard": "index/fl/_i/fl_inspect_managed_members.json",
-      "source_path": "tools/fl/fl_inspect_managed_members"
+      "source_path": "tools/fl/fl_inspect_managed_members",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": "[Flowork RE: inspect-managed-native-boundaries] Inspect PE/CLI PInvoke and native implementation boundary declarations without loading target code",
       "id": "fl_inspect_managed_native_boundaries",
       "name": "fl_inspect_managed_native_boundaries",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-managed-native-boundaries] Inspect PE/CLI PInvoke and native implementation boundary declarations without loading target code",
       "shard": "index/fl/_i/fl_inspect_managed_native_boundaries.json",
-      "source_path": "tools/fl/fl_inspect_managed_native_boundaries"
+      "source_path": "tools/fl/fl_inspect_managed_native_boundaries",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-native-api] Reconstruct one native function API boundary with evidence",
       "id": "fl_inspect_native_api",
       "name": "fl_inspect_native_api",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-native-api] Reconstruct one native function API boundary with evidence",
       "shard": "index/fl/_i/fl_inspect_native_api.json",
-      "source_path": "tools/fl/fl_inspect_native_api"
+      "source_path": "tools/fl/fl_inspect_native_api",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-native-data-type] Inspect one recovered database type or typed data object",
       "id": "fl_inspect_native_data_type",
       "name": "fl_inspect_native_data_type",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-native-data-type] Inspect one recovered database type or typed data object",
       "shard": "index/fl/_i/fl_inspect_native_data_type.json",
-      "source_path": "tools/fl/fl_inspect_native_data_type"
+      "source_path": "tools/fl/fl_inspect_native_data_type",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-native-dispatch-metadata] Inspect typed Objective-C and Swift dispatch metadata",
       "id": "fl_inspect_native_dispatch_metadata",
       "name": "fl_inspect_native_dispatch_metadata",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-native-dispatch-metadata] Inspect typed Objective-C and Swift dispatch metadata",
       "shard": "index/fl/_i/fl_inspect_native_dispatch_metadata.json",
-      "source_path": "tools/fl/fl_inspect_native_dispatch_metadata"
+      "source_path": "tools/fl/fl_inspect_native_dispatch_metadata",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-native-instruction] Reverse engineering analysis tool for inspect native instruction.",
       "id": "fl_inspect_native_instruction",
       "name": "fl_inspect_native_instruction",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-native-instruction] Reverse engineering analysis tool for inspect native instruction.",
       "shard": "index/fl/_i/fl_inspect_native_instruction.json",
-      "source_path": "tools/fl/fl_inspect_native_instruction"
+      "source_path": "tools/fl/fl_inspect_native_instruction",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-native-load-image] Verify loaded native bytes, source mappings, relocations and entry",
       "id": "fl_inspect_native_load_image",
       "name": "fl_inspect_native_load_image",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-native-load-image] Verify loaded native bytes, source mappings, relocations and entry",
       "shard": "index/fl/_i/fl_inspect_native_load_image.json",
-      "source_path": "tools/fl/fl_inspect_native_load_image"
+      "source_path": "tools/fl/fl_inspect_native_load_image",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_macho",
+      "description": "[Flowork RE: inspect-plist] Parse app plist metadata without launching Hopper",
       "id": "fl_inspect_plist",
       "name": "fl_inspect_plist",
-      "category": "reverse_engineering_macho",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-plist] Parse app plist metadata without launching Hopper",
       "shard": "index/fl/_i/fl_inspect_plist.json",
-      "source_path": "tools/fl/fl_inspect_plist"
+      "source_path": "tools/fl/fl_inspect_plist",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-recorded-crash] Inspect supplied core registers/signals and optional debugger mapping evidence",
       "id": "fl_inspect_recorded_crash",
       "name": "fl_inspect_recorded_crash",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-recorded-crash] Inspect supplied core registers/signals and optional debugger mapping evidence",
       "shard": "index/fl/_i/fl_inspect_recorded_crash.json",
-      "source_path": "tools/fl/fl_inspect_recorded_crash"
+      "source_path": "tools/fl/fl_inspect_recorded_crash",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: inspect-signature] Reverse engineering analysis tool for inspect signature.",
       "id": "fl_inspect_signature",
       "name": "fl_inspect_signature",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-signature] Reverse engineering analysis tool for inspect signature.",
       "shard": "index/fl/_i/fl_inspect_signature.json",
-      "source_path": "tools/fl/fl_inspect_signature"
+      "source_path": "tools/fl/fl_inspect_signature",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: inspect-web-event-listeners] Inspect native listener source locations on the first main-document CSS match",
       "id": "fl_inspect_web_event_listeners",
       "name": "fl_inspect_web_event_listeners",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-web-event-listeners] Inspect native listener source locations on the first main-document CSS match",
       "shard": "index/fl/_i/fl_inspect_web_event_listeners.json",
-      "source_path": "tools/fl/fl_inspect_web_event_listeners"
+      "source_path": "tools/fl/fl_inspect_web_event_listeners",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: inspect-web-network-capture] Inspect retained HAR or native mitmproxy records without fetching recorded URLs",
       "id": "fl_inspect_web_network_capture",
       "name": "fl_inspect_web_network_capture",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-web-network-capture] Inspect retained HAR or native mitmproxy records without fetching recorded URLs",
       "shard": "index/fl/_i/fl_inspect_web_network_capture.json",
-      "source_path": "tools/fl/fl_inspect_web_network_capture"
+      "source_path": "tools/fl/fl_inspect_web_network_capture",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: inspect-web-page] Passively inspect one page through CDP, defaulting to its current origin",
       "id": "fl_inspect_web_page",
       "name": "fl_inspect_web_page",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: inspect-web-page] Passively inspect one page through CDP, defaulting to its current origin",
       "shard": "index/fl/_i/fl_inspect_web_page.json",
-      "source_path": "tools/fl/fl_inspect_web_page"
+      "source_path": "tools/fl/fl_inspect_web_page",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: instructions] Read every raw instruction without decompiling",
       "id": "fl_instructions",
       "name": "fl_instructions",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: instructions] Read every raw instruction without decompiling",
       "shard": "index/fl/_i/fl_instructions.json",
-      "source_path": "tools/fl/fl_instructions"
+      "source_path": "tools/fl/fl_instructions",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: list-architectures] Reverse engineering analysis tool for list architectures.",
       "id": "fl_list_architectures",
       "name": "fl_list_architectures",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: list-architectures] Reverse engineering analysis tool for list architectures.",
       "shard": "index/fl/_l/fl_list_architectures.json",
-      "source_path": "tools/fl/fl_list_architectures"
+      "source_path": "tools/fl/fl_list_architectures",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: list-browser-targets] List page targets from a selected loopback CDP browser, optionally filtered by origin",
       "id": "fl_list_browser_targets",
       "name": "fl_list_browser_targets",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: list-browser-targets] List page targets from a selected loopback CDP browser, optionally filtered by origin",
       "shard": "index/fl/_l/fl_list_browser_targets.json",
-      "source_path": "tools/fl/fl_list_browser_targets"
+      "source_path": "tools/fl/fl_list_browser_targets",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_electron",
+      "description": "[Flowork RE: list-electron-targets] List local file pages exposed by the selected Electron CDP endpoint",
       "id": "fl_list_electron_targets",
       "name": "fl_list_electron_targets",
-      "category": "reverse_engineering_electron",
-      "version": "1.0.0",
-      "description": "[Flowork RE: list-electron-targets] List local file pages exposed by the selected Electron CDP endpoint",
       "shard": "index/fl/_l/fl_list_electron_targets.json",
-      "source_path": "tools/fl/fl_list_electron_targets"
+      "source_path": "tools/fl/fl_list_electron_targets",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: list-javascript-runtime-targets] Reverse engineering analysis tool for list javascript runtime targets.",
       "id": "fl_list_javascript_runtime_targets",
       "name": "fl_list_javascript_runtime_targets",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: list-javascript-runtime-targets] Reverse engineering analysis tool for list javascript runtime targets.",
       "shard": "index/fl/_l/fl_list_javascript_runtime_targets.json",
-      "source_path": "tools/fl/fl_list_javascript_runtime_targets"
+      "source_path": "tools/fl/fl_list_javascript_runtime_targets",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: observe-javascript-runtime] Reverse engineering analysis tool for observe javascript runtime.",
       "id": "fl_observe_javascript_runtime",
       "name": "fl_observe_javascript_runtime",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: observe-javascript-runtime] Reverse engineering analysis tool for observe javascript runtime.",
       "shard": "index/fl/_o/fl_observe_javascript_runtime.json",
-      "source_path": "tools/fl/fl_observe_javascript_runtime"
+      "source_path": "tools/fl/fl_observe_javascript_runtime",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: observe-native-calls] Launch a Mach-O under LLDB and record entries into selected functions or Objective-C methods",
       "id": "fl_observe_native_calls",
       "name": "fl_observe_native_calls",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: observe-native-calls] Launch a Mach-O under LLDB and record entries into selected functions or Objective-C methods",
       "shard": "index/fl/_o/fl_observe_native_calls.json",
-      "source_path": "tools/fl/fl_observe_native_calls"
+      "source_path": "tools/fl/fl_observe_native_calls",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: observe-native-ui] Reverse engineering analysis tool for observe native ui.",
       "id": "fl_observe_native_ui",
       "name": "fl_observe_native_ui",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: observe-native-ui] Reverse engineering analysis tool for observe native ui.",
       "shard": "index/fl/_o/fl_observe_native_ui.json",
-      "source_path": "tools/fl/fl_observe_native_ui"
+      "source_path": "tools/fl/fl_observe_native_ui",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: observe-web-execution] Observe precise page execution; resets counters and temporarily disables optimization",
       "id": "fl_observe_web_execution",
       "name": "fl_observe_web_execution",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: observe-web-execution] Observe precise page execution; resets counters and temporarily disables optimization",
       "shard": "index/fl/_o/fl_observe_web_execution.json",
-      "source_path": "tools/fl/fl_observe_web_execution"
+      "source_path": "tools/fl/fl_observe_web_execution",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: observe-web-session] Observe user-driven page navigation during a chosen window",
       "id": "fl_observe_web_session",
       "name": "fl_observe_web_session",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: observe-web-session] Observe user-driven page navigation during a chosen window",
       "shard": "index/fl/_o/fl_observe_web_session.json",
-      "source_path": "tools/fl/fl_observe_web_session"
+      "source_path": "tools/fl/fl_observe_web_session",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_android",
+      "description": "[Flowork RE: project-android-application-graph] Reverse engineering analysis tool for project android application graph.",
       "id": "fl_project_android_application_graph",
       "name": "fl_project_android_application_graph",
-      "category": "reverse_engineering_android",
-      "version": "1.0.0",
-      "description": "[Flowork RE: project-android-application-graph] Reverse engineering analysis tool for project android application graph.",
       "shard": "index/fl/_p/fl_project_android_application_graph.json",
-      "source_path": "tools/fl/fl_project_android_application_graph"
+      "source_path": "tools/fl/fl_project_android_application_graph",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_macho",
+      "description": "[Flowork RE: project-apple-application-graph] Reverse engineering analysis tool for project apple application graph.",
       "id": "fl_project_apple_application_graph",
       "name": "fl_project_apple_application_graph",
-      "category": "reverse_engineering_macho",
-      "version": "1.0.0",
-      "description": "[Flowork RE: project-apple-application-graph] Reverse engineering analysis tool for project apple application graph.",
       "shard": "index/fl/_p/fl_project_apple_application_graph.json",
-      "source_path": "tools/fl/fl_project_apple_application_graph"
+      "source_path": "tools/fl/fl_project_apple_application_graph",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": "[Flowork RE: project-managed-application-graph] Project authenticated managed static Evidence into an application graph",
       "id": "fl_project_managed_application_graph",
       "name": "fl_project_managed_application_graph",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": "[Flowork RE: project-managed-application-graph] Project authenticated managed static Evidence into an application graph",
       "shard": "index/fl/_p/fl_project_managed_application_graph.json",
-      "source_path": "tools/fl/fl_project_managed_application_graph"
+      "source_path": "tools/fl/fl_project_managed_application_graph",
+      "version": "1.0.0"
     },
     {
+      "category": "prototyping",
+      "description": "Throwaway logic and UI spike harness generator. Generates zero-dependency single-file HTML/JS interactive harnesses with in-memory state reducers, real-time state inspection panels, and floating variant switcher pills for rapid hypothesis testing without polluting production code.",
       "id": "fl_prototype_harness",
       "name": "fl_prototype_harness",
-      "category": "prototyping",
-      "version": "1.0.0",
-      "description": "Throwaway logic and UI spike harness generator. Generates zero-dependency single-file HTML/JS interactive harnesses with in-memory state reducers, real-time state inspection panels, and floating variant switcher pills for rapid hypothesis testing without polluting production code.",
       "shard": "index/fl/_p/fl_prototype_harness.json",
-      "source_path": "tools/fl/fl_prototype_harness"
+      "source_path": "tools/fl/fl_prototype_harness",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: providers] Reverse engineering analysis tool for providers.",
       "id": "fl_providers",
       "name": "fl_providers",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: providers] Reverse engineering analysis tool for providers.",
       "shard": "index/fl/_p/fl_providers.json",
-      "source_path": "tools/fl/fl_providers"
+      "source_path": "tools/fl/fl_providers",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: read-bytes] Read exact provider memory bytes at one analysis address",
       "id": "fl_read_bytes",
       "name": "fl_read_bytes",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: read-bytes] Read exact provider memory bytes at one analysis address",
       "shard": "index/fl/_r/fl_read_bytes.json",
-      "source_path": "tools/fl/fl_read_bytes"
+      "source_path": "tools/fl/fl_read_bytes",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_electron",
+      "description": "[Flowork RE: reconcile-javascript-runtime] Reconcile static application and passive runtime Evidence JSON",
       "id": "fl_reconcile_javascript_runtime",
       "name": "fl_reconcile_javascript_runtime",
-      "category": "reverse_engineering_electron",
-      "version": "1.0.0",
-      "description": "[Flowork RE: reconcile-javascript-runtime] Reconcile static application and passive runtime Evidence JSON",
       "shard": "index/fl/_r/fl_reconcile_javascript_runtime.json",
-      "source_path": "tools/fl/fl_reconcile_javascript_runtime"
+      "source_path": "tools/fl/fl_reconcile_javascript_runtime",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: recover-javascript-sources] Recover readable JavaScript modules with source provenance and verified files",
       "id": "fl_recover_javascript_sources",
       "name": "fl_recover_javascript_sources",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: recover-javascript-sources] Recover readable JavaScript modules with source provenance and verified files",
       "shard": "index/fl/_r/fl_recover_javascript_sources.json",
-      "source_path": "tools/fl/fl_recover_javascript_sources"
+      "source_path": "tools/fl/fl_recover_javascript_sources",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: resolve-native-call-targets] Reverse engineering analysis tool for resolve native call targets.",
       "id": "fl_resolve_native_call_targets",
       "name": "fl_resolve_native_call_targets",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: resolve-native-call-targets] Reverse engineering analysis tool for resolve native call targets.",
       "shard": "index/fl/_r/fl_resolve_native_call_targets.json",
-      "source_path": "tools/fl/fl_resolve_native_call_targets"
+      "source_path": "tools/fl/fl_resolve_native_call_targets",
+      "version": "1.0.0"
     },
     {
+      "category": "architecture",
+      "description": "Ousterhout Deep Module and architectural seam analyzer. Calculates depth ratio (implementation complexity vs interface surface), detects shallow pass-through abstractions, audits adapter counts per seam, and evaluates the Deletion Test.",
       "id": "fl_seam_inspector",
       "name": "fl_seam_inspector",
-      "category": "architecture",
-      "version": "1.0.0",
-      "description": "Ousterhout Deep Module and architectural seam analyzer. Calculates depth ratio (implementation complexity vs interface surface), detects shallow pass-through abstractions, audits adapter counts per seam, and evaluates the Deletion Test.",
       "shard": "index/fl/_s/fl_seam_inspector.json",
-      "source_path": "tools/fl/fl_seam_inspector"
+      "source_path": "tools/fl/fl_seam_inspector",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: search] Search every analyzed string or procedure name",
       "id": "fl_search",
       "name": "fl_search",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: search] Search every analyzed string or procedure name",
       "shard": "index/fl/_s/fl_search.json",
-      "source_path": "tools/fl/fl_search"
+      "source_path": "tools/fl/fl_search",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_android",
+      "description": "[Flowork RE: search-android-classes] Search APK class names; empty query inventories all classes",
       "id": "fl_search_android_classes",
       "name": "fl_search_android_classes",
-      "category": "reverse_engineering_android",
-      "version": "1.0.0",
-      "description": "[Flowork RE: search-android-classes] Search APK class names; empty query inventories all classes",
       "shard": "index/fl/_s/fl_search_android_classes.json",
-      "source_path": "tools/fl/fl_search_android_classes"
+      "source_path": "tools/fl/fl_search_android_classes",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: setup] Configure agent integrations and optional analysis providers",
       "id": "fl_setup",
       "name": "fl_setup",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: setup] Configure agent integrations and optional analysis providers",
       "shard": "index/fl/_s/fl_setup.json",
-      "source_path": "tools/fl/fl_setup"
+      "source_path": "tools/fl/fl_setup",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering",
+      "description": "Offline JavaScript/TypeScript source map resolver. Maps minified tokens, variable names, and line/column offsets back to original source files and source lines from .map files without requiring internet or browser.",
       "id": "fl_sourcemap",
       "name": "fl_sourcemap",
-      "category": "reverse_engineering",
-      "version": "1.0.0",
-      "description": "Offline JavaScript/TypeScript source map resolver. Maps minified tokens, variable names, and line/column offsets back to original source files and source lines from .map files without requiring internet or browser.",
       "shard": "index/fl/_s/fl_sourcemap.json",
-      "source_path": "tools/fl/fl_sourcemap"
+      "source_path": "tools/fl/fl_sourcemap",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: trace] Trace a literal feature through analyzed references",
       "id": "fl_trace",
       "name": "fl_trace",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace] Trace a literal feature through analyzed references",
       "shard": "index/fl/_t/fl_trace.json",
-      "source_path": "tools/fl/fl_trace"
+      "source_path": "tools/fl/fl_trace",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_android",
+      "description": "[Flowork RE: trace-android-references] Trace incoming APK class or unique-method references",
       "id": "fl_trace_android_references",
       "name": "fl_trace_android_references",
-      "category": "reverse_engineering_android",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-android-references] Trace incoming APK class or unique-method references",
       "shard": "index/fl/_t/fl_trace_android_references.json",
-      "source_path": "tools/fl/fl_trace_android_references"
+      "source_path": "tools/fl/fl_trace_android_references",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: trace-application-feature] Reverse engineering analysis tool for trace application feature.",
       "id": "fl_trace_application_feature",
       "name": "fl_trace_application_feature",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-application-feature] Reverse engineering analysis tool for trace application feature.",
       "shard": "index/fl/_t/fl_trace_application_feature.json",
-      "source_path": "tools/fl/fl_trace_application_feature"
+      "source_path": "tools/fl/fl_trace_application_feature",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: trace-dylib-resolution] Trace dyld load-path resolution for a Mach-O or every executable in an app bundle",
       "id": "fl_trace_dylib_resolution",
       "name": "fl_trace_dylib_resolution",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-dylib-resolution] Trace dyld load-path resolution for a Mach-O or every executable in an app bundle",
       "shard": "index/fl/_t/fl_trace_dylib_resolution.json",
-      "source_path": "tools/fl/fl_trace_dylib_resolution"
+      "source_path": "tools/fl/fl_trace_dylib_resolution",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: trace-javascript-semantics] Reverse engineering analysis tool for trace javascript semantics.",
       "id": "fl_trace_javascript_semantics",
       "name": "fl_trace_javascript_semantics",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-javascript-semantics] Reverse engineering analysis tool for trace javascript semantics.",
       "shard": "index/fl/_t/fl_trace_javascript_semantics.json",
-      "source_path": "tools/fl/fl_trace_javascript_semantics"
+      "source_path": "tools/fl/fl_trace_javascript_semantics",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: trace-native-ui-action] Trace a compiled UI action selector to its native handler and direct callees",
       "id": "fl_trace_native_ui_action",
       "name": "fl_trace_native_ui_action",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-native-ui-action] Trace a compiled UI action selector to its native handler and direct callees",
       "shard": "index/fl/_t/fl_trace_native_ui_action.json",
-      "source_path": "tools/fl/fl_trace_native_ui_action"
+      "source_path": "tools/fl/fl_trace_native_ui_action",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: trace-native-values] Trace bounded native def-use and call dependencies",
       "id": "fl_trace_native_values",
       "name": "fl_trace_native_values",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-native-values] Trace bounded native def-use and call dependencies",
       "shard": "index/fl/_t/fl_trace_native_values.json",
-      "source_path": "tools/fl/fl_trace_native_values"
+      "source_path": "tools/fl/fl_trace_native_values",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: trace-web-module-imports] Trace one captured script's native imports to URLs and captured source candidates",
       "id": "fl_trace_web_module_imports",
       "name": "fl_trace_web_module_imports",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-web-module-imports] Trace one captured script's native imports to URLs and captured source candidates",
       "shard": "index/fl/_t/fl_trace_web_module_imports.json",
-      "source_path": "tools/fl/fl_trace_web_module_imports"
+      "source_path": "tools/fl/fl_trace_web_module_imports",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_web",
+      "description": "[Flowork RE: trace-web-source-location] Trace one retained script position through an explicitly selected local source map",
       "id": "fl_trace_web_source_location",
       "name": "fl_trace_web_source_location",
-      "category": "reverse_engineering_web",
-      "version": "1.0.0",
-      "description": "[Flowork RE: trace-web-source-location] Trace one retained script position through an explicitly selected local source map",
       "shard": "index/fl/_t/fl_trace_web_source_location.json",
-      "source_path": "tools/fl/fl_trace_web_source_location"
+      "source_path": "tools/fl/fl_trace_web_source_location",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: uninstall] Purge reverse engineering workspace configuration and cache files",
       "id": "fl_uninstall",
       "name": "fl_uninstall",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: uninstall] Purge reverse engineering workspace configuration and cache files",
       "shard": "index/fl/_u/fl_uninstall.json",
-      "source_path": "tools/fl/fl_uninstall"
+      "source_path": "tools/fl/fl_uninstall",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: update] Verify reverse engineering toolchain updates",
       "id": "fl_update",
       "name": "fl_update",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: update] Verify reverse engineering toolchain updates",
       "shard": "index/fl/_u/fl_update.json",
-      "source_path": "tools/fl/fl_update"
+      "source_path": "tools/fl/fl_update",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_managed",
+      "description": "[Flowork RE: verify-managed-native-boundaries] Verify managed P/Invoke declarations against authenticated native Evidence",
       "id": "fl_verify_managed_native_boundaries",
       "name": "fl_verify_managed_native_boundaries",
-      "category": "reverse_engineering_managed",
-      "version": "1.0.0",
-      "description": "[Flowork RE: verify-managed-native-boundaries] Verify managed P/Invoke declarations against authenticated native Evidence",
       "shard": "index/fl/_v/fl_verify_managed_native_boundaries.json",
-      "source_path": "tools/fl/fl_verify_managed_native_boundaries"
+      "source_path": "tools/fl/fl_verify_managed_native_boundaries",
+      "version": "1.0.0"
     },
     {
+      "category": "tooling",
+      "description": "Interactive Human-in-the-Loop Bash Wizard generator. Scaffolds self-contained, frozen-core terminal wizards for human-only operations (OAuth setup, cloud secrets, interactive environment provisioning) with silent input, .env upsert, and GitHub secret injection.",
       "id": "fl_wizard_scaffold",
       "name": "fl_wizard_scaffold",
-      "category": "tooling",
-      "version": "1.0.0",
-      "description": "Interactive Human-in-the-Loop Bash Wizard generator. Scaffolds self-contained, frozen-core terminal wizards for human-only operations (OAuth setup, cloud secrets, interactive environment provisioning) with silent input, .env upsert, and GitHub secret injection.",
       "shard": "index/fl/_w/fl_wizard_scaffold.json",
-      "source_path": "tools/fl/fl_wizard_scaffold"
+      "source_path": "tools/fl/fl_wizard_scaffold",
+      "version": "1.0.0"
     },
     {
+      "category": "reverse_engineering_native",
+      "description": "[Flowork RE: xrefs] List bounded references to an analyzed address",
       "id": "fl_xrefs",
       "name": "fl_xrefs",
-      "category": "reverse_engineering_native",
-      "version": "1.0.0",
-      "description": "[Flowork RE: xrefs] List bounded references to an analyzed address",
       "shard": "index/fl/_x/fl_xrefs.json",
-      "source_path": "tools/fl/fl_xrefs"
+      "source_path": "tools/fl/fl_xrefs",
+      "version": "1.0.0"
     },
     {
+      "category": "visual",
+      "description": "Generate an image or edit existing images based on a text prompt. The resulting image will be saved as an artifact for use. You can use this tool to generate user interfaces and iterate on a design with the USER for an application or website that you are building. When creating UI designs, generate only the interface itself without surrounding device frames (laptops, phones, tablets, etc.) unless the user explicitly requests them. You can also use this tool to generate assets for use in an application or website.",
       "id": "generate_image",
       "name": "generate_image",
-      "category": "visual",
-      "version": "1.0.0",
-      "description": "Generate an image or edit existing images based on a text prompt. The resulting image will be saved as an artifact for use. You can use this tool to generate user interfaces and iterate on a design with the USER for an application or website that you are building. When creating UI designs, generate only the interface itself without surrounding device frames (laptops, phones, tablets, etc.) unless the user explicitly requests them. You can also use this tool to generate assets for use in an application or website.",
       "shard": "index/ge/ne/generate_image.json",
-      "source_path": "tools/ge/generate_image"
+      "source_path": "tools/ge/generate_image",
+      "version": "1.0.0"
     },
     {
-      "id": "port_scanner",
-      "name": "TCP Port Auditor",
-      "version": "1.0.0",
+      "author": "Flowork OS",
       "category": "security",
       "description": "Fast asynchronous socket-based TCP port scanner and service prober",
-      "author": "Flowork OS",
+      "id": "port_scanner",
       "keywords": [
         "port",
         "scanner",
@@ -1076,34 +1073,34 @@
         "flowork",
         "pentest"
       ],
+      "name": "TCP Port Auditor",
+      "shard": "index/po/rt/port_scanner.json",
       "source_path": "tools/po/port_scanner",
-      "shard": "index/po/rt/port_scanner.json"
+      "version": "1.0.0"
     },
     {
+      "category": "visual",
+      "description": "Render interactive visual widgets, charts, system pipelines, architecture diagrams, data tables, and KPI dashboards directly into the sovereign chat interface. Use this tool whenever presenting data visualizations, financial trading candles, portfolio donuts, server telemetry, system architectures, interactive tables, process logs, or multi-stage pipelines.",
       "id": "render_visual",
       "name": "render_visual",
-      "category": "visual",
-      "version": "1.0.0",
-      "description": "Render interactive visual widgets, charts, system pipelines, architecture diagrams, data tables, and KPI dashboards directly into the sovereign chat interface. Use this tool whenever presenting data visualizations, financial trading candles, portfolio donuts, server telemetry, system architectures, interactive tables, process logs, or multi-stage pipelines.",
       "shard": "index/re/nd/render_visual.json",
-      "source_path": "tools/re/render_visual"
+      "source_path": "tools/re/render_visual",
+      "version": "1.0.0"
     },
     {
+      "category": "gatekeeper",
+      "description": "Trigger dedicated Security Gatekeeper Subagent to inspect and publish a tool, plugin, or skill to official Flowork registries. By doctrine, if violations exist, the Gatekeeper is FORBIDDEN from remediating files and will return a blocking Exit Code 1 report for the primary agent to fix.",
       "id": "request_publish_gatekeeper",
       "name": "request_publish_gatekeeper",
-      "category": "gatekeeper",
-      "version": "1.0.0",
-      "description": "Trigger dedicated Security Gatekeeper Subagent to inspect and publish a tool, plugin, or skill to official Flowork registries. By doctrine, if violations exist, the Gatekeeper is FORBIDDEN from remediating files and will return a blocking Exit Code 1 report for the primary agent to fix.",
       "shard": "index/re/qu/request_publish_gatekeeper.json",
-      "source_path": "tools/re/request_publish_gatekeeper"
+      "source_path": "tools/re/request_publish_gatekeeper",
+      "version": "1.0.0"
     },
     {
-      "id": "sqlite_inspector",
-      "name": "SQLite Database Inspector",
-      "version": "1.0.0",
+      "author": "Flowork OS",
       "category": "database",
       "description": "Inspect table schemas, indexes, row counts, and sample records in SQLite databases",
-      "author": "Flowork OS",
+      "id": "sqlite_inspector",
       "keywords": [
         "sqlite",
         "database",
@@ -1126,99 +1123,189 @@
         "relational",
         "b-tree"
       ],
+      "name": "SQLite Database Inspector",
+      "shard": "index/sq/li/sqlite_inspector.json",
       "source_path": "tools/sq/sqlite_inspector",
-      "shard": "index/sq/li/sqlite_inspector.json"
+      "version": "1.0.0"
     },
     {
+      "category": "diagnostics",
+      "description": "Inspect host system health, hardware resources, and runtime status. Reports platform, CPU architecture and load, RAM consumption, root disk space, and active listening ports natively with zero external shell dependencies.",
       "id": "sys_health",
       "name": "sys_health",
-      "category": "diagnostics",
-      "version": "1.0.0",
-      "description": "Inspect host system health, hardware resources, and runtime status. Reports platform, CPU architecture and load, RAM consumption, root disk space, and active listening ports natively with zero external shell dependencies.",
       "shard": "index/sy/s_/sys_health.json",
-      "source_path": "tools/sy/sys_health"
+      "source_path": "tools/sy/sys_health",
+      "version": "1.0.0"
     },
     {
+      "category": "lifecycle",
+      "description": "Autonomously restart the Flowork engine binary to apply self-evolution changes, code fixes, binary updates, or configuration reloads. Preserves chat session state and auto-resume prompts, then gracefully restarts.",
       "id": "system_restart",
       "name": "system_restart",
-      "category": "lifecycle",
-      "version": "1.0.0",
-      "description": "Autonomously restart the Flowork engine binary to apply self-evolution changes, code fixes, binary updates, or configuration reloads. Preserves chat session state and auto-resume prompts, then gracefully restarts.",
       "shard": "index/sy/st/system_restart.json",
-      "source_path": "tools/sy/system_restart"
+      "source_path": "tools/sy/system_restart",
+      "version": "1.0.0"
     },
     {
+      "category": "security",
+      "description": "Comprehensive web security and defense posture audit: vulnerability analysis, HSTS/CSP/CORS headers, sensitive file leak detection (/.env, /.git), DOM client-side secrets hunter (API keys), DoH DNS Matrix, Certificate Transparency subdomains, and WHOIS/RDAP reconnaissance.",
       "id": "web_security_audit",
       "name": "web_security_audit",
-      "category": "security",
-      "version": "1.0.0",
-      "description": "Comprehensive web security and defense posture audit: vulnerability analysis, HSTS/CSP/CORS headers, sensitive file leak detection (/.env, /.git), DOM client-side secrets hunter (API keys), DoH DNS Matrix, Certificate Transparency subdomains, and WHOIS/RDAP reconnaissance.",
       "shard": "index/we/b_/web_security_audit.json",
-      "source_path": "tools/we/web_security_audit"
+      "source_path": "tools/we/web_security_audit",
+      "version": "1.0.0"
     },
     {
+      "category": "osint",
+      "description": "Target website intelligence extraction: monthly traffic estimation, global and country rankings, traffic channel distribution (SimilarWeb), web archive snapshot history (Wayback Machine CDX), and on-page technical SEO health (Meta tags, OpenGraph, Canonical, Headings, Robots.txt).",
       "id": "website_intelligence",
       "name": "website_intelligence",
-      "category": "osint",
-      "version": "1.0.0",
-      "description": "Target website intelligence extraction: monthly traffic estimation, global and country rankings, traffic channel distribution (SimilarWeb), web archive snapshot history (Wayback Machine CDX), and on-page technical SEO health (Meta tags, OpenGraph, Canonical, Headings, Robots.txt).",
       "shard": "index/we/bs/website_intelligence.json",
-      "source_path": "tools/we/website_intelligence"
+      "source_path": "tools/we/website_intelligence",
+      "version": "1.0.0"
     },
     {
+      "category": "intelligence",
+      "description": "YouTube Channel pulse: dissect channel profile, subscriber count, total video count, and top 12 performing videos.",
       "id": "youtube_spy_channel",
       "name": "youtube_spy_channel",
-      "category": "intelligence",
-      "version": "1.0.0",
-      "description": "YouTube Channel pulse: dissect channel profile, subscriber count, total video count, and top 12 performing videos.",
       "shard": "index/yo/ut/youtube_spy_channel.json",
-      "source_path": "tools/yo/youtube_spy_channel"
+      "source_path": "tools/yo/youtube_spy_channel",
+      "version": "1.0.0"
     },
     {
+      "category": "intelligence",
+      "description": "Extract recent audience comments from a YouTube video for sentiment analysis and identification of top viewer questions.",
       "id": "youtube_spy_comments",
       "name": "youtube_spy_comments",
-      "category": "intelligence",
-      "version": "1.0.0",
-      "description": "Extract recent audience comments from a YouTube video for sentiment analysis and identification of top viewer questions.",
       "shard": "index/yo/ut/youtube_spy_comments.json",
-      "source_path": "tools/yo/youtube_spy_comments"
+      "source_path": "tools/yo/youtube_spy_comments",
+      "version": "1.0.0"
     },
     {
+      "category": "intelligence",
+      "description": "Reverse-engineer competitor YouTube video strategy: extract 30-second hook formula, 5 high-CTR title variations, 5-act script structure, secret tags list, and monetization playbook.",
       "id": "youtube_spy_competitor_strategy",
       "name": "youtube_spy_competitor_strategy",
-      "category": "intelligence",
-      "version": "1.0.0",
-      "description": "Reverse-engineer competitor YouTube video strategy: extract 30-second hook formula, 5 high-CTR title variations, 5-act script structure, secret tags list, and monetization playbook.",
       "shard": "index/yo/ut/youtube_spy_competitor_strategy.json",
-      "source_path": "tools/yo/youtube_spy_competitor_strategy"
+      "source_path": "tools/yo/youtube_spy_competitor_strategy",
+      "version": "1.0.0"
     },
     {
+      "category": "intelligence",
+      "description": "Generate executive AI summaries and key takeaways from YouTube transcripts or video content.",
       "id": "youtube_spy_summary",
       "name": "youtube_spy_summary",
-      "category": "intelligence",
-      "version": "1.0.0",
-      "description": "Generate executive AI summaries and key takeaways from YouTube transcripts or video content.",
       "shard": "index/yo/ut/youtube_spy_summary.json",
-      "source_path": "tools/yo/youtube_spy_summary"
+      "source_path": "tools/yo/youtube_spy_summary",
+      "version": "1.0.0"
     },
     {
+      "category": "intelligence",
+      "description": "Extract full spoken transcripts and subtitles with timestamps [MM:SS] from YouTube videos across multiple languages.",
       "id": "youtube_spy_transcript",
       "name": "youtube_spy_transcript",
-      "category": "intelligence",
-      "version": "1.0.0",
-      "description": "Extract full spoken transcripts and subtitles with timestamps [MM:SS] from YouTube videos across multiple languages.",
       "shard": "index/yo/ut/youtube_spy_transcript.json",
-      "source_path": "tools/yo/youtube_spy_transcript"
+      "source_path": "tools/yo/youtube_spy_transcript",
+      "version": "1.0.0"
     },
     {
+      "category": "intelligence",
+      "description": "FBE V6 DeepScan for YouTube videos: extract competitor secret tags/keywords, monetization status (ad-breaks), exact view count, audio specs, technical specs, and algorithm synergy.",
       "id": "youtube_spy_video",
       "name": "youtube_spy_video",
-      "category": "intelligence",
-      "version": "1.0.0",
-      "description": "FBE V6 DeepScan for YouTube videos: extract competitor secret tags/keywords, monetization status (ad-breaks), exact view count, audio specs, technical specs, and algorithm synergy.",
       "shard": "index/yo/ut/youtube_spy_video.json",
-      "source_path": "tools/yo/youtube_spy_video"
+      "source_path": "tools/yo/youtube_spy_video",
+      "version": "1.0.0"
+    },
+    {
+      "category": "multimedia",
+      "description": "Automated broadcast-grade audio mixing and mastering for YouTube. Features auto-ducking sidechain compression to smoothly attenuate background music (-12dB to -18dB) when speech occurs, vocal conditioning (80Hz high-pass filter, 3.5kHz clarity EQ, dynamic leveler), precise YouTube loudness normalization (-14 LUFS, -1.0 dBTP True Peak), and direct video multiplexing without re-encoding.",
+      "id": "youtube_audio_mixer",
+      "manifest": {
+        "author": "Flowork Sovereign Core",
+        "category": "multimedia",
+        "command": "node tools/youtube_audio_mixer/main.mjs",
+        "description": "Automated broadcast-grade audio mixing and mastering for YouTube. Features auto-ducking sidechain compression to smoothly attenuate background music (-12dB to -18dB) when speech occurs, vocal conditioning (80Hz high-pass filter, 3.5kHz clarity EQ, dynamic leveler), precise YouTube loudness normalization (-14 LUFS, -1.0 dBTP True Peak), and direct video multiplexing without re-encoding.",
+        "entry": "main.mjs",
+        "exclude_keywords": [
+          "image",
+          "pdf",
+          "git"
+        ],
+        "keywords": [
+          "audio mixing",
+          "youtube audio",
+          "auto ducking",
+          "sidechain compression",
+          "loudnorm",
+          "lufs normalization",
+          "podcast mixing",
+          "vocal mastering",
+          "audio leveler",
+          "ffmpeg audio",
+          "youtube_audio_mixer"
+        ],
+        "name": "youtube_audio_mixer",
+        "parameters": {
+          "bgm_file": {
+            "description": "Path to the background music audio file to be ducked under the voice (e.g. 'bgm.mp3', 'soundtrack.wav').",
+            "type": "STRING"
+          },
+          "ducking_depth": {
+            "description": "Sidechain ducking intensity: 'mild' (-10dB attenuation), 'standard' (-14dB attenuation, recommended), or 'deep' (-18dB attenuation for heavy podcasts).",
+            "type": "STRING"
+          },
+          "enable_vocal_eq": {
+            "description": "Enable vocal conditioning chain: 80Hz high-pass filter and 3.5kHz clarity boost (default: true).",
+            "type": "BOOLEAN"
+          },
+          "keywords": {
+            "description": "Mandatory on the first tool call of a turn: Comma-separated technical domain keywords in English.",
+            "type": "STRING"
+          },
+          "output_file": {
+            "description": "Destination file path for the mixed master audio or video (e.g. 'master_youtube.wav', 'final.mp3', 'video_mux.mp4').",
+            "type": "STRING"
+          },
+          "reason": {
+            "description": "MANDATORY ON EVERY TOOL CALL: Clear, concise technical rationale explaining why this tool is called.",
+            "type": "STRING"
+          },
+          "target_lufs": {
+            "description": "Target integrated loudness in LUFS according to YouTube standards (default: -14.0).",
+            "type": "NUMBER"
+          },
+          "video_file": {
+            "description": "Optional: Path to a raw video file. If supplied, the mixed audio is multiplexed with this video using stream copy (-c:v copy) without re-encoding video frames.",
+            "type": "STRING"
+          },
+          "voice_file": {
+            "description": "Path to the primary speech/voiceover audio or video file (e.g. 'narration.wav', 'mic.mp3', 'clip.mp4').",
+            "type": "STRING"
+          }
+        },
+        "tags": [
+          "youtube_audio_mixer",
+          "multimedia",
+          "audio",
+          "flowork",
+          "modular",
+          "nano_plug"
+        ],
+        "ui": {
+          "css": "style.css",
+          "theme": "cyber_matrix",
+          "zero_corner": true
+        },
+        "version": "1.0.0"
+      },
+      "name": "youtube_audio_mixer",
+      "shard": "index/yo/ut/youtube_audio_mixer.json",
+      "source_path": "tools/yo/youtube_audio_mixer",
+      "updated_at": "2026-10-15 22:11:41"
     }
   ],
-  "updated_at": "2026-10-11T22:32:53.068Z"
+  "total_tools": 127,
+  "updated_at": "2026-10-15 22:11:45"
 }
