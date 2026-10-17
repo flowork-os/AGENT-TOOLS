@@ -1,0 +1,14 @@
+{
+  "category": "utility",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "manage_task",
+      "name": "manage_task",
+      "category": "utility",
+      "version": "2.19.7",
+      "description": "Server blade daemon rack with 4-slot task telemetry bus (ACTION, TASK ID, STATE, STREAM) and live background task output.",
+      "shard": "index/ma/na/manage_task.json"
+    }
+  ]
+}
