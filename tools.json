@@ -1306,17 +1306,17 @@
       "updated_at": "2026-10-15 22:11:41"
     },
     {
-      "id": "define_subagent",
-      "name": "define_subagent",
+      "id": "send_message",
+      "name": "send_message",
       "version": "1.0.0",
       "author": "@awenkaudico",
-      "description": "Curved zero-corner DNA cortex orb and capability pills for defining specialized subagents.",
+      "description": "Curved zero-corner agent node orbs and stadium message capsule for inter-agent IPC communication.",
       "category": "utility",
-      "shard": "index/de/fi/define_subagent.json",
-      "source_path": "tools/de/define_subagent",
-      "updated_at": "2026-10-17T16:29:40.412Z"
+      "shard": "index/se/nd/send_message.json",
+      "source_path": "tools/se/send_message",
+      "updated_at": "2026-10-17T16:29:44.001Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-17T16:29:40.412Z"
+  "updated_at": "2026-10-17T16:29:44.001Z"
 }
