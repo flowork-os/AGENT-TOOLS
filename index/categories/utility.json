@@ -11,12 +11,12 @@
       "shard": "index/se/nd/send_message.json"
     },
     {
-      "id": "manage_task",
-      "name": "manage_task",
+      "id": "define_subagent",
+      "name": "define_subagent",
       "category": "utility",
-      "version": "2.19.7",
-      "description": "Server blade daemon rack with 4-slot task telemetry bus (ACTION, TASK ID, STATE, STREAM) and live background task output.",
-      "shard": "index/ma/na/manage_task.json"
+      "version": "1.0.0",
+      "description": "Curved zero-corner DNA cortex orb and capability pills for defining specialized subagents.",
+      "shard": "index/de/fi/define_subagent.json"
     }
   ]
 }
