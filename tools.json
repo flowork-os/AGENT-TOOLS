@@ -1317,17 +1317,17 @@
       "updated_at": "2026-10-17T16:29:44.001Z"
     },
     {
-      "id": "define_subagent",
-      "name": "define_subagent",
+      "id": "skill_control",
+      "name": "skill_control",
       "version": "1.0.0",
-      "author": "@awenkaudico",
-      "description": "Curved zero-corner DNA cortex orb and capability pills for defining specialized subagents.",
-      "category": "utility",
-      "shard": "index/de/fi/define_subagent.json",
-      "source_path": "tools/de/define_subagent",
-      "updated_at": "2026-10-17T18:25:14.772Z"
+      "author": "Flowork OS Sovereign Architect",
+      "description": "Frameless transparent runtime SOP skill mounting HUD, tactical skill engagement card, and on-demand runbook controller.",
+      "category": "runtime",
+      "shard": "index/sk/il/skill_control.json",
+      "source_path": "tools/sk/skill_control",
+      "updated_at": "2026-10-17T18:25:17.908Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-17T18:25:14.772Z"
+  "updated_at": "2026-10-17T18:25:17.908Z"
 }

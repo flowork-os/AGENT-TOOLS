@@ -1,0 +1,14 @@
+{
+  "category": "runtime",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "skill_control",
+      "name": "skill_control",
+      "category": "runtime",
+      "version": "1.0.0",
+      "description": "Frameless transparent runtime SOP skill mounting HUD, tactical skill engagement card, and on-demand runbook controller.",
+      "shard": "index/sk/il/skill_control.json"
+    }
+  ]
+}
