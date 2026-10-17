@@ -1414,8 +1414,19 @@
       "shard": "index/pl/ug/plugin_control.json",
       "source_path": "tools/pl/plugin_control",
       "updated_at": "2026-10-17T22:53:00.907Z"
+    },
+    {
+      "id": "manage_task",
+      "name": "manage_task",
+      "version": "2.19.7",
+      "author": "@awenkaudico",
+      "description": "Server blade daemon rack with 4-slot task telemetry bus (ACTION, TASK ID, STATE, STREAM) and live background task output.",
+      "category": "utility",
+      "shard": "index/ma/na/manage_task.json",
+      "source_path": "tools/ma/manage_task",
+      "updated_at": "2026-10-17T23:13:17.133Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-17T22:53:00.907Z"
+  "updated_at": "2026-10-17T23:13:17.133Z"
 }
