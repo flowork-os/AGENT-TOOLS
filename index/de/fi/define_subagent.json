@@ -1,0 +1,11 @@
+{
+  "id": "define_subagent",
+  "name": "define_subagent",
+  "version": "1.0.0",
+  "author": "@awenkaudico",
+  "description": "Curved zero-corner DNA cortex orb and capability pills for defining specialized subagents.",
+  "category": "utility",
+  "shard": "index/de/fi/define_subagent.json",
+  "source_path": "tools/de/define_subagent",
+  "updated_at": "2026-10-17T16:29:40.412Z"
+}
