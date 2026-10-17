@@ -1,0 +1,11 @@
+{
+  "id": "ask_question",
+  "name": "ask_question",
+  "version": "1.0.0",
+  "author": "@awenkaudico",
+  "description": "Curved zero-corner decision dome and stadium choice pills for structured multiple-choice user questions.",
+  "category": "utility",
+  "shard": "index/as/k_/ask_question.json",
+  "source_path": "tools/as/ask_question",
+  "updated_at": "2026-10-17T22:16:26.949Z"
+}

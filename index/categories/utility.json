@@ -1,6 +1,6 @@
 {
   "category": "utility",
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "id": "send_message",
@@ -33,6 +33,14 @@
       "version": "2.19.7",
       "description": "Octagonal chrono-reactor pod with spinning temporal dial, 5-field cron/timer matrix, and live schedule telemetry.",
       "shard": "index/sc/he/schedule.json"
+    },
+    {
+      "id": "ask_question",
+      "name": "ask_question",
+      "category": "utility",
+      "version": "1.0.0",
+      "description": "Curved zero-corner decision dome and stadium choice pills for structured multiple-choice user questions.",
+      "shard": "index/as/k_/ask_question.json"
     }
   ]
 }
