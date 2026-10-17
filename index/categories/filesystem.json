@@ -1,0 +1,14 @@
+{
+  "category": "filesystem",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "file_ops",
+      "name": "file_ops",
+      "category": "filesystem",
+      "version": "1.0.0",
+      "description": "Frameless modular file operations suite featuring holographic file scanning, code forging, streaming synthesis, and visual diffs for Flowork Canvas UI.",
+      "shard": "index/fi/le/file_ops.json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "file_ops",
+  "name": "file_ops",
+  "version": "1.0.0",
+  "author": "Flowork OS Sovereign Architect",
+  "description": "Frameless modular file operations suite featuring holographic file scanning, code forging, streaming synthesis, and visual diffs for Flowork Canvas UI.",
+  "category": "filesystem",
+  "shard": "index/fi/le/file_ops.json",
+  "source_path": "tools/fi/file_ops",
+  "updated_at": "2026-10-17T20:28:23.513Z"
+}
