@@ -1,6 +1,6 @@
 {
   "category": "utility",
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "id": "send_message",
@@ -25,6 +25,14 @@
       "version": "2.19.7",
       "description": "Server blade daemon rack with 4-slot task telemetry bus (ACTION, TASK ID, STATE, STREAM) and live background task output.",
       "shard": "index/ma/na/manage_task.json"
+    },
+    {
+      "id": "schedule",
+      "name": "schedule",
+      "category": "utility",
+      "version": "2.19.7",
+      "description": "Octagonal chrono-reactor pod with spinning temporal dial, 5-field cron/timer matrix, and live schedule telemetry.",
+      "shard": "index/sc/he/schedule.json"
     }
   ]
 }

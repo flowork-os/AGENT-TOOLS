@@ -1,0 +1,11 @@
+{
+  "id": "schedule",
+  "name": "schedule",
+  "version": "2.19.7",
+  "author": "@awenkaudico",
+  "description": "Octagonal chrono-reactor pod with spinning temporal dial, 5-field cron/timer matrix, and live schedule telemetry.",
+  "category": "utility",
+  "shard": "index/sc/he/schedule.json",
+  "source_path": "tools/sc/schedule",
+  "updated_at": "2026-10-17T20:51:37.536Z"
+}
