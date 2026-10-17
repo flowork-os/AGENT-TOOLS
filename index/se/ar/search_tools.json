@@ -1,0 +1,11 @@
+{
+  "id": "search_tools",
+  "name": "search_tools",
+  "version": "1.0.0",
+  "author": "Flowork OS Sovereign Architect",
+  "description": "Frameless sonar arc and high-speed horizontal chip roulette for search_tools dynamic registry discovery.",
+  "category": "registry",
+  "shard": "index/se/ar/search_tools.json",
+  "source_path": "tools/se/search_tools",
+  "updated_at": "2026-10-17T21:42:46.404Z"
+}

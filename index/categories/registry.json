@@ -1,0 +1,14 @@
+{
+  "category": "registry",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "search_tools",
+      "name": "search_tools",
+      "category": "registry",
+      "version": "1.0.0",
+      "description": "Frameless sonar arc and high-speed horizontal chip roulette for search_tools dynamic registry discovery.",
+      "shard": "index/se/ar/search_tools.json"
+    }
+  ]
+}
