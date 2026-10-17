@@ -1,0 +1,66 @@
+{
+  "name": "fl_dissect_mql",
+  "category": "reverse_engineering_native",
+  "description": "[Flowork RE: dissect-mql] Dissect logic, metadata, parameters, and security properties of MetaTrader compiled EX4/EX5 files",
+  "command": "node tools/fl_dissect_mql/main.mjs",
+  "entry": "main.mjs",
+  "author": "Flowork Sovereign Core",
+  "version": "1.0.0",
+  "keywords": [
+    "fl_dissect_mql",
+    "metatrader",
+    "mql4",
+    "mql5",
+    "ex4",
+    "ex5",
+    "expert_advisor",
+    "indicator",
+    "binary_analysis",
+    "reverse_engineering",
+    "static_analysis",
+    "trading_logic",
+    "entropy_analysis",
+    "parameter_extraction",
+    "bytecode",
+    "forex",
+    "algorithmic_trading",
+    "metadata",
+    "disassembler",
+    "decompilation"
+  ],
+  "tags": [
+    "fl_dissect_mql",
+    "flowork_re",
+    "metatrader",
+    "mql",
+    "reverse_engineering",
+    "nano_plug"
+  ],
+  "ui": {
+    "css": "style.css",
+    "zero_corner": true,
+    "theme": "cyber_matrix"
+  },
+  "parameters": {
+    "target_path": {
+      "description": "Absolute or relative path to the target .ex4 or .ex5 file.",
+      "type": "STRING"
+    },
+    "extract_mode": {
+      "description": "Analysis depth: 'full' (default), 'metadata_only', 'strings_only', 'entropy_map'.",
+      "type": "STRING"
+    },
+    "options": {
+      "description": "Optional JSON object for extra analysis flags.",
+      "type": "STRING"
+    },
+    "keywords": {
+      "description": "Mandatory technical keywords in English.",
+      "type": "STRING"
+    },
+    "reason": {
+      "description": "MANDATORY ON EVERY TOOL CALL: Clear technical rationale.",
+      "type": "STRING"
+    }
+  }
+}

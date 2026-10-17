@@ -1,6 +1,6 @@
 {
   "category": "reverse_engineering_native",
-  "total_items": 42,
+  "total_items": 43,
   "items": [
     {
       "id": "fl_address_to_file_offset",
@@ -337,6 +337,14 @@
       "version": "1.0.0",
       "description": "[Flowork RE: xrefs] List bounded references to an analyzed address",
       "shard": "index/fl/_x/fl_xrefs.json"
+    },
+    {
+      "id": "fl_dissect_mql",
+      "name": "fl_dissect_mql",
+      "category": "reverse_engineering_native",
+      "version": "1.0.0",
+      "description": "[Flowork RE: dissect-mql] Dissect logic, metadata, parameters, and security properties of MetaTrader compiled EX4/EX5 files",
+      "shard": "index/fl/_d/fl_dissect_mql.json"
     }
   ]
 }
