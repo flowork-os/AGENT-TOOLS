@@ -1328,17 +1328,17 @@
       "updated_at": "2026-10-17T18:25:17.908Z"
     },
     {
-      "id": "manage_task",
-      "name": "manage_task",
-      "version": "2.19.7",
+      "id": "define_subagent",
+      "name": "define_subagent",
+      "version": "1.0.0",
       "author": "@awenkaudico",
-      "description": "Server blade daemon rack with 4-slot task telemetry bus (ACTION, TASK ID, STATE, STREAM) and live background task output.",
+      "description": "Curved zero-corner DNA cortex orb and capability pills for defining specialized subagents.",
       "category": "utility",
-      "shard": "index/ma/na/manage_task.json",
-      "source_path": "tools/ma/manage_task",
-      "updated_at": "2026-10-17T18:35:13.585Z"
+      "shard": "index/de/fi/define_subagent.json",
+      "source_path": "tools/de/define_subagent",
+      "updated_at": "2026-10-17T18:35:17.325Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-17T18:35:13.585Z"
+  "updated_at": "2026-10-17T18:35:17.325Z"
 }
