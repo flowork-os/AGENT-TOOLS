@@ -1,6 +1,6 @@
 {
   "category": "network",
-  "total_items": 1,
+  "total_items": 2,
   "items": [
     {
       "id": "dns_lookup",
@@ -9,6 +9,14 @@
       "version": "1.0.0",
       "description": "Perform DNS A, AAAA, MX, and TXT record lookups natively",
       "shard": "index/dn/s_/dns_lookup.json"
+    },
+    {
+      "id": "read_url_content",
+      "name": "read_url_content",
+      "category": "network",
+      "version": "1.0.0",
+      "description": "Angled parallelogram cyber data tunnel streaming HTTP TLS headers, byte size, and extracted Markdown lines for read_url_content.",
+      "shard": "index/re/ad/read_url_content.json"
     }
   ]
 }

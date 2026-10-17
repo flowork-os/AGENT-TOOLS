@@ -1,0 +1,11 @@
+{
+  "id": "read_url_content",
+  "name": "read_url_content",
+  "version": "1.0.0",
+  "author": "Flowork OS Sovereign Architect",
+  "description": "Angled parallelogram cyber data tunnel streaming HTTP TLS headers, byte size, and extracted Markdown lines for read_url_content.",
+  "category": "network",
+  "shard": "index/re/ad/read_url_content.json",
+  "source_path": "tools/re/read_url_content",
+  "updated_at": "2026-10-17T19:59:19.024Z"
+}
