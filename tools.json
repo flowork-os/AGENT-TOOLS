@@ -1405,17 +1405,17 @@
       "updated_at": "2026-10-17T22:16:26.949Z"
     },
     {
-      "id": "manage_task",
-      "name": "manage_task",
-      "version": "2.19.7",
+      "id": "plugin_control",
+      "name": "plugin_control",
+      "version": "2.19.8",
       "author": "@awenkaudico",
-      "description": "Server blade daemon rack with 4-slot task telemetry bus (ACTION, TASK ID, STATE, STREAM) and live background task output.",
+      "description": "Notched cartridge bay HUD for managing Canvas UI plugins (list, open, close, search_remote, install) with real-time IPC and catalog telemetry.",
       "category": "utility",
-      "shard": "index/ma/na/manage_task.json",
-      "source_path": "tools/ma/manage_task",
-      "updated_at": "2026-10-17T22:52:57.032Z"
+      "shard": "index/pl/ug/plugin_control.json",
+      "source_path": "tools/pl/plugin_control",
+      "updated_at": "2026-10-17T22:53:00.907Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-17T22:52:57.032Z"
+  "updated_at": "2026-10-17T22:53:00.907Z"
 }

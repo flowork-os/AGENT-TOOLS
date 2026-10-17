@@ -1,0 +1,11 @@
+{
+  "id": "plugin_control",
+  "name": "plugin_control",
+  "version": "2.19.8",
+  "author": "@awenkaudico",
+  "description": "Notched cartridge bay HUD for managing Canvas UI plugins (list, open, close, search_remote, install) with real-time IPC and catalog telemetry.",
+  "category": "utility",
+  "shard": "index/pl/ug/plugin_control.json",
+  "source_path": "tools/pl/plugin_control",
+  "updated_at": "2026-10-17T22:53:00.907Z"
+}
