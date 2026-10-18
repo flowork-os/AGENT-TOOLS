@@ -1,6 +1,6 @@
 {
   "category": "sovereign_core",
-  "total_items": 1,
+  "total_items": 2,
   "items": [
     {
       "id": "trigger_control",
@@ -9,6 +9,14 @@
       "version": "1.0.0",
       "description": "Kendali dan kurasi siklus hidup Adaptive & External Triggers Flowork OS (external_triger/). Aksi: 'create' (scaffold trigger baru mode active/passive lengkap dengan trigger.md, manifest, dan SOP SKILL.md dengan 20 kata kunci Bahasa Inggris), 'search' (cari trigger lokal), 'list' (daftar trigger lokal), 'search_remote' (cari katalog trigger di repositori resmi flowork-os/triger via CDN/Gateway), 'install' (unduh dan pasang trigger resmi dari flowork-os/triger), 'audit_preflight' (audit kepatuhan 4 Sacred Gates & UNCE), 'publish' (publikasikan trigger ke flowork-os/triger dengan arsitektur subfolder sharding via plugin.floworkos.com atau direct push).",
       "shard": "index/tr/ig/trigger_control.json"
+    },
+    {
+      "id": "group_control",
+      "name": "group_control",
+      "category": "sovereign_core",
+      "version": "1.0.0",
+      "description": "Manajemen dynamic Multi-Agent Swarm Squad Group Room (WhatsApp-style group). Mengontrol pembentukan kelompok agen lintas ranah (software, trading, marketing, dll), penambahan anggota relevan oleh Manager Default, penghapusan anggota, dan pemeriksaan daftar anggota aktif. Grup dimulai dengan 1 anggota (default manager) dan anggota lain direkrut secara selektif.",
+      "shard": "index/gr/ou/group_control.json"
     }
   ]
 }
