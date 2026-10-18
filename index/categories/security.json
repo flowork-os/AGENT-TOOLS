@@ -1,6 +1,6 @@
 {
   "category": "security",
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "id": "audit_security",
@@ -25,6 +25,14 @@
       "version": "1.0.0",
       "description": "Comprehensive web security and defense posture audit: vulnerability analysis, HSTS/CSP/CORS headers, sensitive file leak detection (/.env, /.git), DOM client-side secrets hunter (API keys), DoH DNS Matrix, Certificate Transparency subdomains, and WHOIS/RDAP reconnaissance.",
       "shard": "index/we/b_/web_security_audit.json"
+    },
+    {
+      "id": "flow_lock",
+      "name": "flow_lock",
+      "category": "security",
+      "version": "1.0.0",
+      "description": "Frameless octagonal cryo-vault with clamping cyber-shackle and live SHA-256 line-range telemetry for flow_lock.",
+      "shard": "index/fl/ow/flow_lock.json"
     }
   ]
 }
