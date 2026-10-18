@@ -1,6 +1,6 @@
 {
   "category": "utility",
-  "total_items": 6,
+  "total_items": 7,
   "items": [
     {
       "id": "send_message",
@@ -49,6 +49,14 @@
       "version": "2.19.8",
       "description": "Notched cartridge bay HUD for managing Canvas UI plugins (list, open, close, search_remote, install) with real-time IPC and catalog telemetry.",
       "shard": "index/pl/ug/plugin_control.json"
+    },
+    {
+      "id": "manage_subagents",
+      "name": "manage_subagents",
+      "category": "utility",
+      "version": "2.0.0",
+      "description": "Curved zero-corner constellation radar orb and subagent lifecycle pills for swarm management.",
+      "shard": "index/ma/na/manage_subagents.json"
     }
   ]
 }
