@@ -1438,17 +1438,17 @@
       "updated_at": "2026-10-18T12:19:29.352Z"
     },
     {
-      "id": "flow_lock",
-      "name": "flow_lock",
+      "id": "brain_control",
+      "name": "brain_control",
       "version": "1.0.0",
       "author": "Flowork OS Sovereign Architect",
-      "description": "Frameless octagonal cryo-vault with clamping cyber-shackle and live SHA-256 line-range telemetry for flow_lock.",
-      "category": "security",
-      "shard": "index/fl/ow/flow_lock.json",
-      "source_path": "tools/fl/flow_lock",
-      "updated_at": "2026-10-18T13:18:04.993Z"
+      "description": "Frameless transparent neural memory synapse recall HUD and .fl_brain atomic solution vault controller.",
+      "category": "cognitive",
+      "shard": "index/br/ai/brain_control.json",
+      "source_path": "tools/br/brain_control",
+      "updated_at": "2026-10-18T13:18:08.910Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-18T13:18:04.993Z"
+  "updated_at": "2026-10-18T13:18:08.910Z"
 }

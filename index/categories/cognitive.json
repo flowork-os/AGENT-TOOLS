@@ -1,0 +1,14 @@
+{
+  "category": "cognitive",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "brain_control",
+      "name": "brain_control",
+      "category": "cognitive",
+      "version": "1.0.0",
+      "description": "Frameless transparent neural memory synapse recall HUD and .fl_brain atomic solution vault controller.",
+      "shard": "index/br/ai/brain_control.json"
+    }
+  ]
+}
