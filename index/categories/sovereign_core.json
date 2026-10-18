@@ -1,0 +1,14 @@
+{
+  "category": "sovereign_core",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "group_control",
+      "name": "group_control",
+      "category": "sovereign_core",
+      "version": "1.0.0",
+      "description": "Manajemen dynamic Multi-Agent Swarm Squad Group Room (WhatsApp-style group). Mengontrol pembentukan kelompok agen lintas ranah (software, trading, marketing, dll), penambahan anggota relevan oleh Manager Default, penghapusan anggota, dan pemeriksaan daftar anggota aktif. Grup dimulai dengan 1 anggota (default manager) dan anggota lain direkrut secara selektif.",
+      "shard": "index/gr/ou/group_control.json"
+    }
+  ]
+}

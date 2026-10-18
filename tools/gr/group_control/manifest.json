@@ -1,0 +1,37 @@
+{
+  "name": "group_control",
+  "title": "Flowork Group Control",
+  "description": "Manajemen dynamic Multi-Agent Swarm Squad Group Room (WhatsApp-style group). Mengontrol pembentukan kelompok agen lintas ranah (software, trading, marketing, dll), penambahan anggota relevan oleh Manager Default, penghapusan anggota, dan pemeriksaan daftar anggota aktif. Grup dimulai dengan 1 anggota (default manager) dan anggota lain direkrut secara selektif.",
+  "version": "1.0.0",
+  "category": "sovereign_core",
+  "author": "Flowork Sovereign Core",
+  "co_author": "Flowork OS <agent@floworkos.com>",
+  "command": "node tools/group_control/main.mjs",
+  "entry": "main.mjs",
+  "style": "style.css",
+  "parameters": {
+    "action": {
+      "type": "STRING",
+      "description": "Aksi kontrol grup: 'create_group' (buat ruang grup baru dengan 1 anggota awal: default), 'add_members' (rekrut dan tambahkan anggota spesialis relevan ke dalam grup), 'remove_members' (keluarkan anggota dari grup), 'list_members' (lihat anggota grup aktif), 'list_groups' (lihat seluruh ruang grup)."
+    },
+    "session_id": {
+      "type": "STRING",
+      "description": "ID sesi grup target (contoh: 'group-uuid' atau session ID aktif)."
+    },
+    "name": {
+      "type": "STRING",
+      "description": "Nama ruang grup (contoh: 'Tim Coding', 'Tim Trading Saham', 'Tim Marketing'). Digunakan saat create_group."
+    },
+    "domain": {
+      "type": "STRING",
+      "description": "Domain atau kategori kerja grup (contoh: 'technology', 'finance', 'marketing', 'design', dll)."
+    },
+    "members": {
+      "type": "ARRAY",
+      "items": {
+        "type": "STRING"
+      },
+      "description": "Daftar ID agent yang akan ditambahkan atau dihapus (contoh: ['coder-specialist', 'qa-engineer'])."
+    }
+  }
+}

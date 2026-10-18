@@ -1447,8 +1447,19 @@
       "shard": "index/br/ai/brain_control.json",
       "source_path": "tools/br/brain_control",
       "updated_at": "2026-10-18T13:18:08.910Z"
+    },
+    {
+      "id": "group_control",
+      "name": "group_control",
+      "version": "1.0.0",
+      "author": "Flowork Sovereign Core",
+      "description": "Manajemen dynamic Multi-Agent Swarm Squad Group Room (WhatsApp-style group). Mengontrol pembentukan kelompok agen lintas ranah (software, trading, marketing, dll), penambahan anggota relevan oleh Manager Default, penghapusan anggota, dan pemeriksaan daftar anggota aktif. Grup dimulai dengan 1 anggota (default manager) dan anggota lain direkrut secara selektif.",
+      "category": "sovereign_core",
+      "shard": "index/gr/ou/group_control.json",
+      "source_path": "tools/gr/group_control",
+      "updated_at": "2026-10-18T15:04:45.225Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-18T13:18:08.910Z"
+  "updated_at": "2026-10-18T15:04:45.225Z"
 }
