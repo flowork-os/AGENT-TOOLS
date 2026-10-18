@@ -11,12 +11,12 @@
       "shard": "index/tr/ig/trigger_control.json"
     },
     {
-      "id": "group_control",
-      "name": "group_control",
+      "id": "team_dispatch",
+      "name": "team_dispatch",
       "category": "sovereign_core",
       "version": "1.0.0",
-      "description": "Manajemen dynamic Multi-Agent Swarm Squad Group Room (WhatsApp-style group). Mengontrol pembentukan kelompok agen lintas ranah (software, trading, marketing, dll), penambahan anggota relevan oleh Manager Default, penghapusan anggota, dan pemeriksaan daftar anggota aktif. Grup dimulai dengan 1 anggota (default manager) dan anggota lain direkrut secara selektif.",
-      "shard": "index/gr/ou/group_control.json"
+      "description": "Protokol komando dan kolaborasi antar-rekan tim agen Flowork OS (Sovereign Swarm Protocol). Menginjeksi prompt estafet secara transparan ke sesi chat aktif menggunakan FLOWORK_CHAT_ID (UUIDv4) melalui Sovereign Switchboard Router. Dilengkapi Circuit Breaker (maksimal 3 turn chat inter-agent & anti-osilasi defek), Anti-Forgery identity binding, account_id affinity, dan Attestation Gate bukti Exit Code 0.",
+      "shard": "index/te/am/team_dispatch.json"
     }
   ]
 }

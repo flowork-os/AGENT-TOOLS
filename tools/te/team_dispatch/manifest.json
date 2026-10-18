@@ -1,0 +1,68 @@
+{
+  "name": "team_dispatch",
+  "title": "Flowork Team Dispatch",
+  "description": "Protokol komando dan kolaborasi antar-rekan tim agen Flowork OS (Sovereign Swarm Protocol). Menginjeksi prompt estafet secara transparan ke sesi chat aktif menggunakan FLOWORK_CHAT_ID (UUIDv4) melalui Sovereign Switchboard Router. Dilengkapi Circuit Breaker (maksimal 3 turn chat inter-agent & anti-osilasi defek), Anti-Forgery identity binding, account_id affinity, dan Attestation Gate bukti Exit Code 0.",
+  "version": "1.0.0",
+  "category": "sovereign_core",
+  "author": "Flowork Sovereign Core",
+  "co_author": "Flowork OS <agent@floworkos.com>",
+  "command": "node tools/team_dispatch/main.mjs",
+  "entry": "main.mjs",
+  "style": "style.css",
+  "parameters": {
+    "action": {
+      "type": "STRING",
+      "description": "Tipe aksi komando rantai tugas: 'HANDOFF' (estafet tugas ke rekan tim spesialis berikutnya), 'REQUEST_AUDIT' (mengajukan hasil pekerjaan ke rekan tim auditor/QA), 'REVISE' (mengirimkan temuan defek/revisi kembali ke spesialis terkait), 'APPROVE' (menyetujui hasil pekerjaan setelah lolos audit mutlak), 'FAN_OUT' atau 'SCATTER' (menyebarkan tugas secara paralel ke rekan-rekan tim di dalam grup)."
+    },
+    "to_category": {
+      "type": "STRING",
+      "description": "Kategori profesi rekan tim target (contoh: 'CAT-005' / 'technology', 'CAT-011' / 'design', 'CAT-003' / 'legal', 'CAT-015' / 'core', atau salah satu dari 25 kategori profesi resmi)."
+    },
+    "to_role": {
+      "type": "STRING",
+      "description": "Peran atau keahlian rekan tim yang dituju (contoh: 'Senior Systems Architect', 'Security Auditor', 'UI Designer', 'Lead Engineer')."
+    },
+    "to_agent": {
+      "type": "STRING",
+      "description": "ID agent spesifik opsional jika menargetkan persona terpasang tertentu (contoh: 'coder-specialist', 'qa-engineer')."
+    },
+    "dispatches": {
+      "type": "ARRAY",
+      "description": "Daftar target dispatch untuk aksi 'FAN_OUT' / 'SCATTER'. Setiap objek memuat: to_agent, to_category, summary, payload.",
+      "items": {
+        "type": "OBJECT"
+      }
+    },
+    "task_id": {
+      "type": "STRING",
+      "description": "ID unik tiket/korelasi tugas (contoh: 'TASK-SWARM-20261012-001' atau slug tugas)."
+    },
+    "chat_id": {
+      "type": "STRING",
+      "description": "ID obrolan aktif sesuai standar Flowork OS FLOWORK_CHAT_ID (format 36-karakter lowercase UUIDv4). Jika kosong atau tidak valid, kernel otomatis membuatkan UUIDv4 FLOWORK_CHAT_ID resmi."
+    },
+    "account_id": {
+      "type": "STRING",
+      "description": "ID binding akun pengguna yang aktif (contoh: 'combo', 'default', atau provider akun aktif). Default: 'combo'."
+    },
+    "summary": {
+      "type": "STRING",
+      "description": "Ringkasan teknis 1 kalimat lugas mengenai status, progres, atau instruksi langkah ini."
+    },
+    "payload": {
+      "type": "STRING",
+      "description": "Instruksi teknis rinci, batasan, spesifikasi tugas, atau temuan bug/audit yang harus dikerjakan oleh rekan tim target."
+    },
+    "artifacts": {
+      "type": "ARRAY",
+      "items": {
+        "type": "STRING"
+      },
+      "description": "Daftar berkas kode, artefak, atau diff yang dihasilkan atau perlu diperiksa."
+    },
+    "status_proof": {
+      "type": "STRING",
+      "description": "Bukti empiris eksekusi terminal (Exit Code 0), log unit test, atau bukti ketahanan yang membuktikan kualitas pekerjaan."
+    }
+  }
+}

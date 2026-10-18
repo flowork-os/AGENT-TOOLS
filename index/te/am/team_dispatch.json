@@ -1,0 +1,11 @@
+{
+  "id": "team_dispatch",
+  "name": "team_dispatch",
+  "version": "1.0.0",
+  "author": "Flowork Sovereign Core",
+  "description": "Protokol komando dan kolaborasi antar-rekan tim agen Flowork OS (Sovereign Swarm Protocol). Menginjeksi prompt estafet secara transparan ke sesi chat aktif menggunakan FLOWORK_CHAT_ID (UUIDv4) melalui Sovereign Switchboard Router. Dilengkapi Circuit Breaker (maksimal 3 turn chat inter-agent & anti-osilasi defek), Anti-Forgery identity binding, account_id affinity, dan Attestation Gate bukti Exit Code 0.",
+  "category": "sovereign_core",
+  "shard": "index/te/am/team_dispatch.json",
+  "source_path": "tools/te/team_dispatch",
+  "updated_at": "2026-10-18T15:23:42.563Z"
+}
