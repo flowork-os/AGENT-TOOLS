@@ -1,0 +1,80 @@
+{
+  "name": "trigger_control",
+  "title": "Flowork Trigger Control",
+  "description": "Kendali dan kurasi siklus hidup Adaptive & External Triggers Flowork OS (external_triger/). Aksi: 'create' (scaffold trigger baru mode active/passive lengkap dengan trigger.md, manifest, dan SOP SKILL.md dengan 20 kata kunci Bahasa Inggris), 'search' (cari trigger lokal), 'list' (daftar trigger lokal), 'search_remote' (cari katalog trigger di repositori resmi flowork-os/triger via CDN/Gateway), 'install' (unduh dan pasang trigger resmi dari flowork-os/triger), 'audit_preflight' (audit kepatuhan 4 Sacred Gates & UNCE), 'publish' (publikasikan trigger ke flowork-os/triger dengan arsitektur subfolder sharding via plugin.floworkos.com atau direct push).",
+  "version": "1.0.0",
+  "category": "sovereign_core",
+  "author": "Flowork Sovereign Core",
+  "co_author": "Flowork OS <agent@floworkos.com>",
+  "command": "node tools/trigger_control/main.mjs",
+  "entry": "main.mjs",
+  "style": "style.css",
+  "parameters": {
+    "action": {
+      "description": "Aksi kontrol: 'create', 'search', 'list', 'search_remote', 'install', 'audit_preflight', 'publish'.",
+      "type": "STRING"
+    },
+    "category_id": {
+      "description": "Kategori profesi Flowork OS resmi (contoh: 'CAT-005', 'CAT-006', 'CAT-014'). Default: 'CAT-005'.",
+      "type": "STRING"
+    },
+    "conditions": {
+      "description": "Kamus evaluasi UNCE (Universal Normalized Condition Evaluator) untuk pemicu, contoh: {\"price\": \">= 100000\"}.",
+      "type": "OBJECT"
+    },
+    "description": {
+      "description": "Deskripsi singkat fungsi dan tujuan trigger dalam Bahasa Inggris (opsional saat action='create').",
+      "type": "STRING"
+    },
+    "dispatch_target": {
+      "description": "Target dispatch opsional saat trigger aktif: chat_id, group_id, agent_id.",
+      "type": "OBJECT"
+    },
+    "keywords": {
+      "description": "Daftar kata kunci Bahasa Inggris saat action='create' (otomatis diperkaya menjadi tepat 20 kata kunci Bahasa Inggris).",
+      "items": {
+        "type": "STRING"
+      },
+      "type": "ARRAY"
+    },
+    "limit": {
+      "description": "Batas maksimal jumlah trigger yang dikembalikan (default: 10).",
+      "type": "INTEGER"
+    },
+    "name": {
+      "description": "Nama tampilan manusiawi untuk trigger baru (opsional saat action='create').",
+      "type": "STRING"
+    },
+    "notes": {
+      "description": "Catatan rilis saat mempublikasikan trigger baru (opsional saat action='publish').",
+      "type": "STRING"
+    },
+    "overwrite": {
+      "description": "Set true untuk menimpa jika trigger_id sudah ada di direktori lokal (opsional saat action='create', default: false).",
+      "type": "BOOLEAN"
+    },
+    "query": {
+      "description": "Kata kunci pencarian saat action='search' atau 'search_remote'.",
+      "type": "STRING"
+    },
+    "reason": {
+      "description": "MANDATORY ON EVERY TOOL CALL: Clear, concise technical rationale explaining WHY you are calling this tool right now and what specific action it performs (displayed live to the user on every tool HUD and used on the first call to recall up to 3 memories from .fl_brain).",
+      "type": "STRING"
+    },
+    "scopes": {
+      "description": "Daftar cakupan scope eksekusi trigger: 'default_solo', 'default_group', 'specialist_solo', 'specialist_group', 'universal_all', 'canvas_active'.",
+      "items": {
+        "type": "STRING"
+      },
+      "type": "ARRAY"
+    },
+    "trigger_id": {
+      "description": "ID unik trigger (contoh: 'btc_whale_alert', 'iot_weather_ambience', 'eth_gas_tracker'). Wajib saat create, audit_preflight, publish, install.",
+      "type": "STRING"
+    },
+    "trigger_type": {
+      "description": "Tipe trigger saat action='create': 'active' (event wake-up dengan suntik prompt) atau 'passive' (in-turn ambient prompt injection). Default: 'passive'.",
+      "type": "STRING"
+    }
+  }
+}
