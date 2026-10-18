@@ -1436,8 +1436,19 @@
       "shard": "index/ma/na/manage_subagents.json",
       "source_path": "tools/ma/manage_subagents",
       "updated_at": "2026-10-18T12:19:29.352Z"
+    },
+    {
+      "id": "flow_lock",
+      "name": "flow_lock",
+      "version": "1.0.0",
+      "author": "Flowork OS Sovereign Architect",
+      "description": "Frameless octagonal cryo-vault with clamping cyber-shackle and live SHA-256 line-range telemetry for flow_lock.",
+      "category": "security",
+      "shard": "index/fl/ow/flow_lock.json",
+      "source_path": "tools/fl/flow_lock",
+      "updated_at": "2026-10-18T13:18:04.993Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-18T12:19:29.352Z"
+  "updated_at": "2026-10-18T13:18:04.993Z"
 }
