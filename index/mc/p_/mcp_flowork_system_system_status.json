@@ -1,0 +1,11 @@
+{
+  "id": "mcp_flowork_system_system_status",
+  "name": "mcp_flowork_system_system_status",
+  "version": "1.0.0",
+  "author": "MCP Server (flowork-system)",
+  "description": "Retrieves sovereign host telemetry, CPU architecture, memory metrics, and OS kernel version.",
+  "category": "mcp_integration",
+  "shard": "index/mc/p_/mcp_flowork_system_system_status.json",
+  "source_path": "tools/mc/mcp_flowork_system_system_status",
+  "updated_at": "2026-10-24T03:05:21.181Z"
+}

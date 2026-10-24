@@ -1471,17 +1471,17 @@
       "updated_at": "2026-10-18T15:23:42.563Z"
     },
     {
-      "id": "code_graph",
-      "name": "code_graph",
+      "id": "mcp_flowork_system_system_status",
+      "name": "mcp_flowork_system_system_status",
       "version": "1.0.0",
-      "author": "Flowork Sovereign Core",
-      "description": "Sovereign Token-Budgeted Code Graph & Repository Map engine. Analyzes project structure, AST symbols, PageRank hierarchy, and blast radius within strict token ceiling.",
-      "category": "developer",
-      "shard": "index/co/de/code_graph.json",
-      "source_path": "tools/co/code_graph",
-      "updated_at": "2026-10-24T03:05:16.627Z"
+      "author": "MCP Server (flowork-system)",
+      "description": "Retrieves sovereign host telemetry, CPU architecture, memory metrics, and OS kernel version.",
+      "category": "mcp_integration",
+      "shard": "index/mc/p_/mcp_flowork_system_system_status.json",
+      "source_path": "tools/mc/mcp_flowork_system_system_status",
+      "updated_at": "2026-10-24T03:05:21.181Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-24T03:05:16.627Z"
+  "updated_at": "2026-10-24T03:05:21.181Z"
 }
