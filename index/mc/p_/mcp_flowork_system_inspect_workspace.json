@@ -1,0 +1,11 @@
+{
+  "id": "mcp_flowork_system_inspect_workspace",
+  "name": "mcp_flowork_system_inspect_workspace",
+  "version": "1.0.0",
+  "author": "MCP Server (flowork-system)",
+  "description": "Lists files and folders inside the active Flowork workspace directory.",
+  "category": "mcp_integration",
+  "shard": "index/mc/p_/mcp_flowork_system_inspect_workspace.json",
+  "source_path": "tools/mc/mcp_flowork_system_inspect_workspace",
+  "updated_at": "2026-10-24T03:05:25.320Z"
+}

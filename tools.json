@@ -1471,17 +1471,17 @@
       "updated_at": "2026-10-18T15:23:42.563Z"
     },
     {
-      "id": "mcp_flowork_system_system_status",
-      "name": "mcp_flowork_system_system_status",
+      "id": "mcp_flowork_system_inspect_workspace",
+      "name": "mcp_flowork_system_inspect_workspace",
       "version": "1.0.0",
       "author": "MCP Server (flowork-system)",
-      "description": "Retrieves sovereign host telemetry, CPU architecture, memory metrics, and OS kernel version.",
+      "description": "Lists files and folders inside the active Flowork workspace directory.",
       "category": "mcp_integration",
-      "shard": "index/mc/p_/mcp_flowork_system_system_status.json",
-      "source_path": "tools/mc/mcp_flowork_system_system_status",
-      "updated_at": "2026-10-24T03:05:21.181Z"
+      "shard": "index/mc/p_/mcp_flowork_system_inspect_workspace.json",
+      "source_path": "tools/mc/mcp_flowork_system_inspect_workspace",
+      "updated_at": "2026-10-24T03:05:25.320Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-24T03:05:21.181Z"
+  "updated_at": "2026-10-24T03:05:25.320Z"
 }

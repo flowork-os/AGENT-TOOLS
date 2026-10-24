@@ -3,12 +3,12 @@
   "total_items": 1,
   "items": [
     {
-      "id": "mcp_flowork_system_system_status",
-      "name": "mcp_flowork_system_system_status",
+      "id": "mcp_flowork_system_inspect_workspace",
+      "name": "mcp_flowork_system_inspect_workspace",
       "category": "mcp_integration",
       "version": "1.0.0",
-      "description": "Retrieves sovereign host telemetry, CPU architecture, memory metrics, and OS kernel version.",
-      "shard": "index/mc/p_/mcp_flowork_system_system_status.json"
+      "description": "Lists files and folders inside the active Flowork workspace directory.",
+      "shard": "index/mc/p_/mcp_flowork_system_inspect_workspace.json"
     }
   ]
 }
