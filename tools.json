@@ -1469,8 +1469,19 @@
       "shard": "index/te/am/team_dispatch.json",
       "source_path": "tools/te/team_dispatch",
       "updated_at": "2026-10-18T15:23:42.563Z"
+    },
+    {
+      "id": "code_graph",
+      "name": "code_graph",
+      "version": "1.0.0",
+      "author": "Flowork Sovereign Core",
+      "description": "Sovereign Token-Budgeted Code Graph & Repository Map engine. Analyzes project structure, AST symbols, PageRank hierarchy, and blast radius within strict token ceiling.",
+      "category": "developer",
+      "shard": "index/co/de/code_graph.json",
+      "source_path": "tools/co/code_graph",
+      "updated_at": "2026-10-24T03:05:16.627Z"
     }
   ],
   "total_tools": 127,
-  "updated_at": "2026-10-18T15:23:42.563Z"
+  "updated_at": "2026-10-24T03:05:16.627Z"
 }

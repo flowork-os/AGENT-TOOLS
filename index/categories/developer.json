@@ -1,0 +1,14 @@
+{
+  "category": "developer",
+  "total_items": 1,
+  "items": [
+    {
+      "id": "code_graph",
+      "name": "code_graph",
+      "category": "developer",
+      "version": "1.0.0",
+      "description": "Sovereign Token-Budgeted Code Graph & Repository Map engine. Analyzes project structure, AST symbols, PageRank hierarchy, and blast radius within strict token ceiling.",
+      "shard": "index/co/de/code_graph.json"
+    }
+  ]
+}
